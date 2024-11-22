@@ -1,0 +1,218 @@
+.footer-main-container {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 2.5%;
+
+  .footer-first-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .footer-row {
+      width: 60%;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .company-logo {
+        height: 100%;
+        width: auto;
+        padding: 0.5% 2.5%;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .company-description {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        margin: 20px 0;
+      }
+      .social-icon-container {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        align-self: flex-end;
+        .social-icon {
+          padding: 10px;
+          height: 40px;
+          width: 40px;
+          margin: 1px;
+          border: 1px solid white;
+          border-radius: 50%;
+
+          svg {
+            height: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .footer-second-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px dashed var(--primaryColor);
+    border-right: 1px dashed var(--primaryColor);
+
+    .footer-content {
+      width: 50%;
+    }
+  }
+  .footer-third-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2.5%;
+  }
+}
+
+.footer-content-container {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .footer-content-tag {
+    font-size: var(--heading1);
+  }
+  .footer-content {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    .footer-content-row {
+      width: 100%;
+      height: 50px;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+  }
+}
+
+.contact-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact-sub-container2 {
+  height: 100%;
+  width: 80%;
+}
+.contact-row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2px 0;
+  .table-contact-data {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 3% 3%;
+    font-size: 18px;
+    color: white;
+
+    a {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      font-size: 18px;
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.contact-sub-container1 {
+  border-right: 2px solid white;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  .social-media-icon {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+  }
+}
+.social-media-icon svg {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-about-tag {
+  font-size: var(--heading1);
+}
+
+@media only screen and (max-width: 480px) {
+  .footer-main-container {
+    height: unset !important;
+    flex-direction: column;
+    padding: 2.5%;
+  }
+  .footer-first-container {
+    width: 100% !important;
+    padding: 2.5%;
+  }
+  .footer-second-container {
+    width: 100% !important;
+    border-left: none !important;
+    border-right: none !important;
+    padding: 2.5%;
+  }
+  .footer-third-container {
+    width: 100% !important;
+    border-top: 1px dashed rgb(151, 145, 145);
+    border-bottom: 1px dashed rgb(151, 145, 145);
+    padding: 2.5%;
+  }
+  .social-icon-container {
+    align-self: unset !important;
+  }
+  .footer-main-container .footer-second-container .footer-content {
+    width: 95%;
+    padding: 2.5%;
+  }
+  .footer-about-tag {
+    text-align: center;
+  }
+  .footer-content-container .footer-content {
+    width: 95% !important;
+    padding: 2.5%;
+  }
+  .footer-content-container .footer-content-tag {
+    text-align: center;
+  }
+  .contact-sub-container1 {
+    height: unset;
+  }
+}
