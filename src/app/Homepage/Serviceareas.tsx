@@ -15,18 +15,16 @@ function Serviceareas() {
             </div>
             <div className="serviceareas-first-border"></div>
             <div className="serviceareas-content">
-              Explore the world of bo-mar Industries through our project map, a
-              testament to our unique blend of functionality and artistry in
-              fabrication. This map not only showcases the wide range of our
-              projects but also highlights our commitment to exceptional detail
-              and quality, regardless of geography. From the intricate
-              architectural structures in bustling cities to the sophisticated
-              industrial components in remote areas, our project map is a
-              testament to our national footprint and versatility. It
-              demonstrates how bo-mar Industries has successfully brought its
-              distinctive blend of engineering precision and artistic vision to
-              clients all over the United States, making every project a
-              landmark of innovation and design excellence.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
             </div>
             <div className="serviceareas-btn">
               <div className="icon">

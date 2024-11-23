@@ -44,7 +44,10 @@ a {
   margin-bottom: 15px;
   background-color: var(--primaryColor);
 }
-
+.space{
+  height: 50px;
+  width: 100%;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

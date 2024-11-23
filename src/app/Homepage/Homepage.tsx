@@ -42,10 +42,8 @@ export default function Homepage() {
         <AboutusContainer />
         <OurworkContainer />
       </div>
-      <div className="main">
-        <OurbrandContainer />
-        <OurawardsContainer />
-      </div>
+      <OurawardsContainer />
+      <OurbrandContainer />
       <Ourservicecontainer />
       <Serviceareas />
       <Testimonials />

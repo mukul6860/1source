@@ -1,3 +1,138 @@
+// header nav bar start
+.header-main-container {
+  height: 120px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.header-content-container {
+  width: 100%;
+  padding: 0 2.5%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  background-color: black;
+
+  .content-container {
+    height: inherit;
+    width: 20%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    border-right: 1px solid brown;
+    gap: 10px;
+  }
+}
+
+.header-container {
+  width: 100%;
+  padding: 0 2.5%;
+  background-color: white;
+  height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+  .nav-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .nav-logo {
+      height: 100%;
+      width: auto;
+      padding: 0.5% 2.5%;
+
+      img {
+        height: 100%;
+        width: auto;
+      }
+    }
+
+    .nav-menu-container {
+      width: 60%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      position: relative;
+
+      .nav-menu {
+        color: black;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .nav-btn {
+        padding: 10px;
+        border-radius: 10px;
+        background-color: var(--primaryColor);
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+
+      .dropbtn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 16px;
+        color: black;
+        text-decoration: none;
+      }
+
+      .nav-menu.dropdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content .btn {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 0.1px groove grey;
+        cursor: pointer;
+      }
+
+      .dropdown-content .btn:hover {
+        background-color: rgba(128, 128, 128, 0.363);
+      }
+    }
+  }
+}
+
+// header nav bar end
 .main {
   display: flex;
   flex-direction: column;
@@ -190,7 +325,7 @@
       margin-left: 30px;
       overflow: hidden;
       position: relative;
-      scale: 1;
+      scale: 1.1;
       scroll-snap-align: center;
       top: 0;
       transition: all 0.5s;
@@ -208,7 +343,7 @@
     }
     .ourwork-card:hover {
       filter: grayscale(10%);
-      background-position: left;
+      scale: 1;
     }
     .ourwork-card:hover .ourwork-card-content {
       background-color: unset;
@@ -296,9 +431,13 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
-  .ourbrand-tag {
-    font-size: var(--heading1);
-    color: black;
+  .ourbrand-tag-container {
+    padding: 0 2.5%;
+    width: 100%;
+    .ourbrand-tag {
+      font-size: var(--heading1);
+      color: black;
+    }
   }
   .ourbrand-image-wrap {
     width: 100%;
@@ -317,11 +456,70 @@
 }
 // ourbrand end
 // ourawards starts
-
-.ourawards-container {
+.ourawards-tag-container {
+  padding: 0 2.5%;
+}
+.ourawards-tag {
+  font-size: var(--heading1);
+  color: black;
+}
+.ourawards-main-container {
   height: auto;
   width: 100%;
-  background-color: white;
+
+  .ourawards-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+    padding: 2.5%;
+    .ourawards-wraper {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      .ourawards-card {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2.5%;
+        .ourawards-award-container {
+          height: 100px;
+          width: 100%;
+          img {
+            height: 100%;
+            width: 100%;
+          }
+        }
+        .ourawards-image-container {
+          .bbb {
+            height: 50px;
+            width: 150px;
+          }
+        }
+        .ourawards-tag {
+          font-size: var(--content);
+          color: black;
+          font-weight: 600;
+          text-align: center;
+        }
+        .ourawards-content {
+          font-size: var(--content);
+          color: black;
+        }
+      }
+    }
+  }
 }
 // ourawards End
 // serviceareas starts

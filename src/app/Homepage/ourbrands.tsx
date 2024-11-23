@@ -11,8 +11,10 @@ function OurbrandContainer() {
   return (
     <>
       <div className="ourbrand-container">
-        <div className="ourbrand-tag">Our Brands</div>
-        <div className="underline"></div>
+        <div className="ourbrand-tag-container">
+          <div className="ourbrand-tag">Our Brands</div>
+          <div className="underline"></div>
+        </div>
         <div className="ourbrand-image-wrap">
           <div className="ourbrand-image">
             <Image src={signtext} alt="signtext" />
@@ -31,6 +33,7 @@ function OurbrandContainer() {
           </div>
         </div>
       </div>
+      <div className="space"></div>
     </>
   );
 }
