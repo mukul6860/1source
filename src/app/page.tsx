@@ -72,7 +72,6 @@ export default function Home() {
         </div>
         <div className="content-container">26600 Heyn Dr, Novi, MI 48374</div>
       </div>
-
       <div className="header-container">
         <div className="nav-container">
           <div className="nav-logo">

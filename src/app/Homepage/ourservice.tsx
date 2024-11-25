@@ -35,10 +35,10 @@ function Ourservicecontainer() {
             </div>
             <div className="Ourservices-card-content">
               <div className="Ourservices-card-tag">Print</div>
-              {/* <div className="Ourservices-card-description">
-                We have everything you're looking for to support and promote
-                your brand..
-              </div> */}
+              <div className="Ourservices-card-description">
+                We have everything you are looking for to support and promote
+                your brand.
+              </div>
               <ul>
                 <li> Brochures & Flyers</li>
                 <li>Postcards & Direct Mail Fulfillment</li>
