@@ -4,8 +4,8 @@ import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
-import dimage from "../../../public/Assets/carddummy.webp";
 import "./page.scss";
+import dimage from "../../../public/Assets/carddummy.webp";
 
 function BiChevronDown() {
   return (
@@ -59,6 +59,7 @@ function GrMail() {
 }
 export default function page() {
   const router = useRouter();
+
   return (
     <>
       <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
@@ -137,60 +138,42 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="portfolio-banner-container">
-          <div className="portfolio-banner-content-container">
-            <div className="portfolio-banner-tag">Our Portfolio</div>
+        <div className="map-banner-container">
+          <div className="map-banner-content-container">
+            <div className="map-banner-tag">Project Map</div>
             <div className="underline"></div>
-            <div className="portfolio-banner-description">
-              Discover the canvas of innovation at bo-mar, where each project is
-              a masterpiece blending functionality with artistic flair. Here,
-              you’ll see how our dedication to detail and design transforms
-              visions into tangible, awe-inspiring realities.
+            <div className="map-banner-description">
+              Embark on a visual journey with bo-mar Industries’ project map,
+              where each pin drops you into a world of innovative engineering
+              and artistic fabrication. Discover how our nationwide footprint
+              has left lasting impressions, one project at a time.
             </div>
           </div>
         </div>
-        <div className="portfolio-card-wraper">
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
+        <div className="map-container">
+          <div className="hide-label"></div>
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=10xeisva7tXF4a5itbq9HL5ilxfYyESw&ehbc=2E312F&noprof=1"
+            width="100%"
+            height="100%"
+          ></iframe>
+        </div>
+        <div className="morework-tag-container">
+          <div className="morework-tag">Even More of Our Work</div>
+          <div className="underline"></div>
+        </div>
+        <div className="morework-card-container">
+          <div className="morework-card">
+            <Image src={dimage} alt="morework" />
           </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
+          <div className="morework-card">
+            <Image src={dimage} alt="morework" />
           </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
+          <div className="morework-card">
+            <Image src={dimage} alt="morework" />
           </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
+          <div className="morework-card">
+            <Image src={dimage} alt="morework" />
           </div>
         </div>
         <Footer />

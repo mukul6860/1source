@@ -4,8 +4,8 @@ import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
-import dimage from "../../../public/Assets/carddummy.webp";
 import "./page.scss";
+import dimage from "../../../public/Assets/carddummy.webp";
 
 function BiChevronDown() {
   return (
@@ -59,6 +59,7 @@ function GrMail() {
 }
 export default function page() {
   const router = useRouter();
+
   return (
     <>
       <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
@@ -137,11 +138,11 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="portfolio-banner-container">
-          <div className="portfolio-banner-content-container">
-            <div className="portfolio-banner-tag">Our Portfolio</div>
+        <div className="ourhistory-banner-container">
+          <div className="ourhistory-banner-content-container">
+            <div className="ourhistory-banner-tag">Who We Are</div>
             <div className="underline"></div>
-            <div className="portfolio-banner-description">
+            <div className="ourhistory-banner-description">
               Discover the canvas of innovation at bo-mar, where each project is
               a masterpiece blending functionality with artistic flair. Here,
               you’ll see how our dedication to detail and design transforms
@@ -149,50 +150,47 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="portfolio-card-wraper">
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
+        <div className="ourhistory-main-container">
+          <div className="ourhistory-content-container">
+            <div className="ourhistory-tag">Our History</div>
+            <div className="underline"></div>
+            <div className="ourhistory-content">
+              Founded in 1995 It’s true, we’ve always been ambitious. We started
+              as a small venture with a big idea. to revolutionize the printing
+              industry! At first, our product offering was modest: we had a
+              couple of printers, a screen press, and a handful of like-minded
+              hard workers. But we knew, even then, that we would need to grow
+              to achieve our shared vision. So we rolled our sleeves up even
+              higher and we worked, driven by our passion for innovation and
+              excellence. Expanding Services After years of 24-hour press runs,
+              loads of elbow grease (and no small amount of printer grease
+              too!), countless impromptu problem-solving huddles, and
+              caffeine-fueled late-night strategy sessions, we finally found
+              ourselves in a position to partner up with another sign company
+              and broaden our service offerings. That move proved to be a
+              resounding success, so we did it again, and then again. And in
+              2010, we embraced the digital age by adding digital marketing and
+              large-format digital printing to our portfolio. This strategic
+              expansion not only enhanced our capabilities but also allowed us
+              to better serve our diverse clientele. Industry Leader Today, our
+              family of companies has banded together under the 1Source name.
+              Together, we stand at the forefront of printing technology. Our
+              unwavering commitment to delivering outstanding print, sign, and
+              digital solutions is the cornerstone of our success. We
+              continuously invest in the latest advancements, ensuring that we
+              consistently deliver exceptional results that exceed our clients’
+              expectations. At 1Source, we don’t just print; we craft
+              excellence. Join us on this journey as we continue to push the
+              boundaries of what’s possible.
+            </div>
           </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <Image src={dimage} alt="" />
+          <div className="ourhistory-image-container">
+            <div className="image-wraper">
+              <Image src={dimage} alt="ourhistory content image" />
+            </div>
           </div>
         </div>
+        <div className="space"></div>
         <Footer />
       </div>
     </>

@@ -85,7 +85,7 @@ export default function Home() {
                 <BiChevronDown />
               </div>
               <div className="dropdown-content">
-                <a className="btn" href="#">
+                <a className="btn" onClick={() => router.push("/ourhistory")}>
                   History
                 </a>
                 <a className="btn" href="#">
@@ -125,7 +125,7 @@ export default function Home() {
                 <a className="btn" onClick={() => router.push("/portfolio")}>
                   Our Portfolio
                 </a>
-                <a className="btn" href="#">
+                <a className="btn" onClick={() => router.push("/map")}>
                   Map
                 </a>
               </div>
