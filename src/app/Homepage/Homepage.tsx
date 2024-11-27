@@ -19,15 +19,15 @@ export default function Homepage() {
 
           <div className="heroContent">
             <div className="hero-content-container">
-              <h1>Welcome to Our Website</h1>
-              <h1>Welcome to Our Website</h1>
+              <h1>“Your One Source for</h1>
+              <h1>Print, Sign, & Digital”</h1>
               <p>
                 Your journey begins here Your journey begins here Your journey
                 begins here Your journey begins here Your journey begins here
                 Your journey begins here
               </p>
               <a href="#explore" className="btn">
-                Explore Now
+                Explore Our Services
               </a>
             </div>
             <div className="hero-card-container">

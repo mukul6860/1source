@@ -101,18 +101,30 @@ export default function page() {
               {/* Our Capabilities Dropdown */}
               <div className="dropdown">
                 <div className="nav-menu dropdown">
-                  Our Capabilities
+                  Our Services
                   <BiChevronDown />
                 </div>
                 <div className="dropdown-content">
                   <a className="btn" href="#">
-                    Link 1
+                    Digital Marketing
                   </a>
                   <a className="btn" href="#">
-                    Link 2
+                    Commercial Printing
                   </a>
                   <a className="btn" href="#">
-                    Link 3
+                    Large Format Printing
+                  </a>
+                  <a className="btn" href="#">
+                    Interior Signs
+                  </a>
+                  <a className="btn" href="#">
+                    Exterior Signs
+                  </a>
+                  <a className="btn" href="#">
+                    Permit & Installation
+                  </a>
+                  <a className="btn" href="#">
+                    Custom Environments
                   </a>
                 </div>
               </div>
@@ -139,7 +151,7 @@ export default function page() {
         </div>
         <div className="portfolio-banner-container">
           <div className="portfolio-banner-content-container">
-            <div className="portfolio-banner-tag">Our Portfolio</div>
+            <div className="portfolio-banner-tag">Our Work in Action</div>
             <div className="underline"></div>
             <div className="portfolio-banner-description">
               Discover the canvas of innovation at bo-mar, where each project is
@@ -151,45 +163,101 @@ export default function page() {
         </div>
         <div className="portfolio-card-wraper">
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
           <div className="portfolio-cards">
+            <div className="portfolio-card-content-wraper">
+              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-card-content">content</div>
+            </div>
             <Image src={dimage} alt="" />
           </div>
         </div>

@@ -102,18 +102,30 @@ export default function page() {
               {/* Our Capabilities Dropdown */}
               <div className="dropdown">
                 <div className="nav-menu dropdown">
-                  Our Capabilities
+                  Our Services
                   <BiChevronDown />
                 </div>
                 <div className="dropdown-content">
                   <a className="btn" href="#">
-                    Link 1
+                    Digital Marketing
                   </a>
                   <a className="btn" href="#">
-                    Link 2
+                    Commercial Printing
                   </a>
                   <a className="btn" href="#">
-                    Link 3
+                    Large Format Printing
+                  </a>
+                  <a className="btn" href="#">
+                    Interior Signs
+                  </a>
+                  <a className="btn" href="#">
+                    Exterior Signs
+                  </a>
+                  <a className="btn" href="#">
+                    Permit & Installation
+                  </a>
+                  <a className="btn" href="#">
+                    Custom Environments
                   </a>
                 </div>
               </div>
