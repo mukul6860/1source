@@ -77,7 +77,9 @@ export default function page() {
         <div className="header-container">
           <div className="nav-container">
             <div className="nav-logo">
-              <Image src={logo1} alt="Company Logo" />
+              <a href="./home">
+                <Image src={logo1} alt="Company Logo" />
+              </a>
             </div>
 
             <div className="nav-menu-container">
@@ -145,8 +147,18 @@ export default function page() {
                 </div>
               </div>
 
-              <div className="nav-menu">Contact</div>
-              <div className="nav-btn">Get Quote</div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/contactus")}
+              >
+                Contact
+              </div>
+              <div
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
+                Get Quote
+              </div>
             </div>
           </div>
         </div>

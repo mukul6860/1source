@@ -11,6 +11,7 @@ import logo1 from "../../../public/Assets/1source.jpg";
 import Testimonials from "../Homepage/testimonials";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+import Footer from "../footer/footer";
 
 function BiChevronDown() {
   return (
@@ -152,8 +153,18 @@ export default function Homepage() {
                 </div>
               </div>
 
-              <div className="nav-menu">Contact</div>
-              <div className="nav-btn">Get Quote</div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/contactus")}
+              >
+                Contact
+              </div>
+              <div
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
+                Get Quote
+              </div>
             </div>
           </div>
         </div>
@@ -177,9 +188,9 @@ export default function Homepage() {
                 </a>
               </div>
               <div className="hero-card-container">
-                <div className="hero-card">d</div>
-                <div className="hero-card">d</div>
-                <div className="hero-card">d</div>
+                <div className="hero-card"></div>
+                <div className="hero-card"></div>
+                <div className="hero-card"></div>
               </div>
             </div>
           </div>
@@ -193,6 +204,7 @@ export default function Homepage() {
         <Ourservicecontainer />
         <Serviceareas />
         <Testimonials />
+        <Footer />
       </div>
     </>
   );

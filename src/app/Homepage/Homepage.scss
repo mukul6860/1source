@@ -221,11 +221,13 @@
   width: 100%;
   display: flex;
   align-items: center;
+  padding: 2.5%;
+  gap: 20px;
   justify-content: center;
   .about-image-container {
     width: 50%;
     height: 400px;
-    padding: 2.5%;
+    position: relative;
     img {
       height: 100%;
       width: 100%;
@@ -292,6 +294,16 @@
       }
     }
   }
+}
+.about-image-container::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: brown;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  z-index: -1;
 }
 
 // aboutUS end
@@ -596,6 +608,7 @@
   background-image: url(../../../public/Assets/watermark.png);
   background-size: 200px 200px;
   opacity: 0.1;
+  background-attachment: fixed;
 }
 // serviceareas end
 // testimonials start
@@ -699,7 +712,6 @@
         bottom: 60px;
         left: 0;
         display: block;
-        z-index: 3333;
         height: 12px;
       }
 

@@ -1,10 +1,10 @@
 "use client";
+import React, { useState } from "react";
 import Footer from "../footer/footer";
 import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
-import dimage from "../../../public/Assets/carddummy.webp";
 import "./page.scss";
 
 function BiChevronDown() {
@@ -58,7 +58,31 @@ function GrMail() {
   );
 }
 export default function page() {
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [company, setCompany] = useState("");
+  const [number, setNumber] = useState("");
+  const [description, setDescription] = useState("");
+  const [file, setFile] = useState(null);
+  const handleSubmit = (event: any) => {
+    event.preventDefault();
+    console.log("Form submitted with data:", {
+      firstName,
+      lastName,
+      email,
+      company,
+      number,
+      description,
+      file,
+    });
+  };
+
+  const handleFileChange = (event: any) => {
+    setFile(event.target.files[0]);
+  };
   const router = useRouter();
+
   return (
     <>
       <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
@@ -161,118 +185,113 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="portfolio-banner-container">
-          <div className="portfolio-banner-content-container">
-            <div className="portfolio-banner-tag">Our Work in Action</div>
+        <div className="getquote-banner-container">
+          <div className="getquote-banner-content-container">
+            <div className="getquote-banner-tag">Send Request for Quote</div>
             <div className="underline"></div>
-            <div className="portfolio-banner-description">
-              Discover the canvas of innovation at bo-mar, where each project is
-              a masterpiece blending functionality with artistic flair. Here,
-              you’ll see how our dedication to detail and design transforms
-              visions into tangible, awe-inspiring realities.
+            <div className="getquote-banner-description">
+              Embark on a visual journey with bo-mar Industries’ project map,
+              where each pin drops you into a world of innovative engineering
+              and artistic fabrication. Discover how our nationwide footprint
+              has left lasting impressions, one project at a time.
             </div>
           </div>
         </div>
-        <div className="portfolio-card-wraper">
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
-            <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
-              <div className="portfolio-card-content">content</div>
-            </div>
-            <Image src={dimage} alt="" />
+        <div className="getquote-main-container">
+          <div className="getquote-sub-container">
+            <form onSubmit={handleSubmit} className="form">
+              <div className={`form-group fiftywidth`}>
+                <label htmlFor="firstName">Fist Name</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  value={firstName}
+                  onChange={(e) => setFirstName(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+              <div className={`form-group fiftywidth`}>
+                <label htmlFor="lastName">Last Name</label>
+                <input
+                  type="text"
+                  id="lastName"
+                  value={lastName}
+                  onChange={(e) => setLastName(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+              <div className={`form-group fiftywidth`}>
+                <label htmlFor="company">Company</label>
+                <input
+                  type="text"
+                  id="company"
+                  value={company}
+                  onChange={(e) => setCompany(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+              <div className={`form-group fiftywidth`}>
+                <label htmlFor="number">Phone Number</label>
+                <input
+                  type="tel"
+                  id="number"
+                  value={number}
+                  onChange={(e) => setNumber(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="description">Description</label>
+                <textarea
+                  id="description"
+                  value={description}
+                  onChange={(e) => setDescription(e.target.value)}
+                  className="form-control"
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="file">Upload File</label>
+                <input
+                  type="file"
+                  id="file"
+                  onChange={handleFileChange}
+                  className="form-control"
+                />
+              </div>
+              <div className="button-group">
+                <button type="submit" className="submit-button">
+                  Submit
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setFirstName("");
+                    setLastName("");
+                    setEmail("");
+                    setCompany("");
+                    setNumber("");
+                    setDescription("");
+                    setFile(null);
+                  }}
+                  className="reset-button"
+                >
+                  Reset
+                </button>
+              </div>
+            </form>
           </div>
         </div>
+
         <Footer />
       </div>
     </>

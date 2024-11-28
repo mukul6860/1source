@@ -31,9 +31,9 @@ export default function Homepage() {
               </a>
             </div>
             <div className="hero-card-container">
-              <div className="hero-card">d</div>
-              <div className="hero-card">d</div>
-              <div className="hero-card">d</div>
+              <div className="hero-card"></div>
+              <div className="hero-card"></div>
+              <div className="hero-card"></div>
             </div>
           </div>
         </div>
