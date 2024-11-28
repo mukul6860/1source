@@ -75,7 +75,7 @@ export default function Home() {
       <div className="header-container">
         <div className="nav-container">
           <div className="nav-logo">
-            <a href="./home">
+            <a onClick={() => router.push("/home")}>
               <Image src={logo1} alt="Company Logo" />
             </a>
           </div>
@@ -90,11 +90,17 @@ export default function Home() {
                 <a className="btn" onClick={() => router.push("/ourhistory")}>
                   History
                 </a>
-                <a className="btn" href="#">
-                  Our Team
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
+                  1Code Experience
                 </a>
-                <a className="btn" href="#">
-                  Careers
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
+                  Matterport Virtual Experiences
                 </a>
               </div>
             </div>
@@ -106,25 +112,46 @@ export default function Home() {
                 <BiChevronDown />
               </div>
               <div className="dropdown-content">
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Digital Marketing
                 </a>
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Commercial Printing
                 </a>
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Large Format Printing
                 </a>
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Interior Signs
                 </a>
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Exterior Signs
                 </a>
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Permit & Installation
                 </a>
-                <a className="btn" href="#">
+                <a
+                  className="btn"
+                  onClick={() => router.push("/1codeexperiance")}
+                >
                   Custom Environments
                 </a>
               </div>

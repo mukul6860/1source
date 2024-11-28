@@ -1,17 +1,11 @@
 "use client";
-import React from "react";
-import "../Homepage/Homepage.scss";
-import AboutusContainer from "../Homepage/aboutus";
-import OurworkContainer from "../Homepage/ourwork";
-import Ourservicecontainer from "../Homepage/ourservice";
-import OurbrandContainer from "../Homepage/ourbrands";
-import OurawardsContainer from "../Homepage/ourawards";
-import Serviceareas from "../Homepage/Serviceareas";
+import Footer from "../footer/footer";
 import logo1 from "../../../public/Assets/1source.jpg";
-import Testimonials from "../Homepage/testimonials";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Footer from "../footer/footer";
+import "../Homepage/Homepage.scss";
+import "./page.scss";
+import underdevimg from "../../../public/Assets/uc.png";
 
 function BiChevronDown() {
   return (
@@ -63,7 +57,7 @@ function GrMail() {
     </svg>
   );
 }
-export default function Homepage() {
+export default function page() {
   const router = useRouter();
 
   return (
@@ -195,42 +189,23 @@ export default function Homepage() {
             </div>
           </div>
         </div>
-        <div className="hero-container">
-          <div className="heroBanner">
-            <video autoPlay muted loop className="heroVideo">
-              <source src="/Assets/bgv.mp4" type="video/mp4" />
-            </video>
-
-            <div className="heroContent">
-              <div className="hero-content-container">
-                <h1>“Your One Source for</h1>
-                <h1>Print, Sign, & Digital”</h1>
-                <p>
-                  Your journey begins here Your journey begins here Your journey
-                  begins here Your journey begins here Your journey begins here
-                  Your journey begins here
-                </p>
-                <a href="#explore" className="btn">
-                  Explore Our Services
-                </a>
-              </div>
-              <div className="hero-card-container">
-                <div className="hero-card"></div>
-                <div className="hero-card"></div>
-                <div className="hero-card"></div>
-              </div>
+        <div className="underdev-main-container">
+          <div className="underdev-image-container">
+            <div className="underdev-image-wrap">
+              <Image src={underdevimg} alt="underdev image" />
+            </div>
+          </div>
+          <div className="underdev-sub-container">
+            <div className="underdev-tag-container">
+              <div className="underdev-tag">WebPage is Under Cunstruction</div>
+              <div className="underline"></div>
+              <div className="underdev-subtag">We will update soon....</div>
+            </div>
+            <div className="underdev-btn" onClick={() => router.push("/home")}>
+              Go To Home Page
             </div>
           </div>
         </div>
-        <div className="main">
-          <AboutusContainer />
-          <OurworkContainer />
-        </div>
-        <OurawardsContainer />
-        <OurbrandContainer />
-        <Ourservicecontainer />
-        <Serviceareas />
-        <Testimonials />
         <Footer />
       </div>
     </>
