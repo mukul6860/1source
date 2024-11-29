@@ -157,7 +157,6 @@ function footer() {
             <div className="footer-about-tag">About</div>
             <div className="footer-content">
               <div className="footer-content-row">Who We Are</div>
-              <div className="footer-content-row">Our Capabilties</div>
               <div className="footer-content-row">Projects</div>
               <div className="footer-content-row">Latest News</div>
               <div className="footer-content-row">ContactUs</div>

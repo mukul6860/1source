@@ -75,7 +75,7 @@ export default function Home() {
       <div className="header-container">
         <div className="nav-container">
           <div className="nav-logo">
-            <a onClick={() => router.push("/home")}>
+            <a onClick={() => router.push("/")}>
               <Image src={logo1} alt="Company Logo" />
             </a>
           </div>
@@ -130,16 +130,10 @@ export default function Home() {
                 >
                   Large Format Printing
                 </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
+                <a className="btn" onClick={() => router.push("/Interiorsign")}>
                   Interior Signs
                 </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
+                <a className="btn" onClick={() => router.push("/exteriorsign")}>
                   Exterior Signs
                 </a>
                 <a
@@ -148,10 +142,7 @@ export default function Home() {
                 >
                   Permit & Installation
                 </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
+                <a className="btn" onClick={() => router.push("/customsign")}>
                   Custom Environments
                 </a>
               </div>

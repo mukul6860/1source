@@ -100,7 +100,7 @@ export default function page() {
         <div className="header-container">
           <div className="nav-container">
             <div className="nav-logo">
-              <a onClick={() => router.push("/home")}>
+              <a onClick={() => router.push("/")}>
                 <Image src={logo1} alt="Company Logo" />
               </a>
             </div>
@@ -157,7 +157,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/Interiorsign")}
                   >
                     Interior Signs
                   </a>
