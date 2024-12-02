@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import underdevimg from "../../../public/Assets/uc.png";
 
 function BiChevronDown() {
   return (
@@ -134,7 +133,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/Interiorsign")}
+                    onClick={() => router.push("/1codeexperiance")}
                   >
                     Interior Signs
                   </a>
@@ -171,6 +170,9 @@ export default function page() {
                   <a className="btn" onClick={() => router.push("/map")}>
                     Map
                   </a>
+                  <a className="btn" onClick={() => router.push("/review")}>
+                    Customer Reviews
+                  </a>
                 </div>
               </div>
 
@@ -189,22 +191,28 @@ export default function page() {
             </div>
           </div>
         </div>
-        <div className="underdev-main-container">
-          <div className="underdev-image-container">
-            <div className="underdev-image-wrap">
-              <Image src={underdevimg} alt="underdev image" />
+        <div className="review-banner-container">
+          <div className="review-banner-content-container">
+            <div className="review-banner-tag">Coustomer Reviews</div>
+            <div className="underline"></div>
+            <div className="review-banner-description">
+              Discover the canvas of innovation at bo-mar, where each project is
+              a masterpiece blending functionality with artistic flair. Here,
+              you’ll see how our dedication to detail and design transforms
+              visions into tangible, awe-inspiring realities.
             </div>
           </div>
-          <div className="underdev-sub-container">
-            <div className="underdev-tag-container">
-              <div className="underdev-tag">WebPage is Under Cunstruction</div>
-              <div className="underline"></div>
-              <div className="underdev-subtag">We will update soon....</div>
-            </div>
-            <div className="underdev-btn" onClick={() => router.push("/")}>
-              Go To Home Page
-            </div>
+        </div>
+        <div className="review-main-container">
+          <div className="review-tag-container">
+            <div className="review-tag">Customer Review</div>
+            <div className="underline"></div>
           </div>
+          <iframe
+            src="https://widgets.sociablekit.com/google-reviews/iframe/25494400"
+            width="100%"
+            height="1000"
+          ></iframe>
         </div>
         <Footer />
       </div>
