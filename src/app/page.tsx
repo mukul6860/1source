@@ -163,6 +163,9 @@ export default function Home() {
                 <a className="btn" onClick={() => router.push("/review")}>
                   Customer Reviews
                 </a>
+                <a className="btn" onClick={() => router.push("/blogs")}>
+                  Blog's
+                </a>
               </div>
             </div>
 

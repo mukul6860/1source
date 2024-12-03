@@ -194,6 +194,12 @@ export default function page() {
                   <a className="btn" onClick={() => router.push("/map")}>
                     Map
                   </a>
+                  <a className="btn" onClick={() => router.push("/review")}>
+                    Customer Reviews
+                  </a>
+                  <a className="btn" onClick={() => router.push("/blogs")}>
+                    Blog's
+                  </a>
                 </div>
               </div>
 

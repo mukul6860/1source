@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: start;
+  background-attachment: fixed;
   ::after {
     content: "";
     background-color: rgba(0, 0, 0, 0.158);
