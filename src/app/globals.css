@@ -18,14 +18,16 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  color: white;
 }
 
 body {
-  color: var(--foreground);
+  /* color: var(--foreground); */
   background: white;
   font-family: var(--poppins);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 * {

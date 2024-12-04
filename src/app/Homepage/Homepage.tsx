@@ -7,6 +7,7 @@ import OurbrandContainer from "./ourbrands";
 import OurawardsContainer from "./ourawards";
 import Serviceareas from "./Serviceareas";
 import Testimonials from "./testimonials";
+// import CardSlider from "./CardSlider";
 
 export default function Homepage() {
   return (
@@ -41,6 +42,7 @@ export default function Homepage() {
       <div className="main">
         <AboutusContainer />
         <OurworkContainer />
+        {/* <CardSlider /> */}
       </div>
       <OurawardsContainer />
       <OurbrandContainer />

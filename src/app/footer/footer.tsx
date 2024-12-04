@@ -1,201 +1,107 @@
 import React from "react";
 import "./footer.scss";
 import Image from "next/image";
-import Logo from "../../../public/Assets/1source.jpg";
-function FiFacebook() {
-  return (
-    <svg
-      stroke="white"
-      fill="none"
-      strokeWidth={1}
-      viewBox="0 0 24 24"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      height="1em"
-      width="1em"
-    >
-      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-    </svg>
-  );
-}
+import logo from "../../../public/Assets/1source.jpg";
 
-function FiInstagram() {
+function FaFacebookF() {
   return (
     <svg
-      stroke="white"
-      fill="none"
-      strokeWidth={1}
-      viewBox="0 0 24 24"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      height="1em"
-      width="1em"
-    >
-      <rect x={1} y={1} width={20} height={20} rx={5} ry={5} />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1={17.5} y1={6.5} x2={17.5} y2={6.5} />
-    </svg>
-  );
-}
-
-function FiTwitter() {
-  return (
-    <svg
-      stroke="white"
-      fill="none"
-      strokeWidth={1}
-      viewBox="0 0 24 24"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      height="1em"
-      width="1em"
-    >
-      <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
-    </svg>
-  );
-}
-
-function FiLinkedin() {
-  return (
-    <svg
-      stroke="white"
-      fill="none"
-      strokeWidth={1}
-      viewBox="0 0 24 24"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      height="1em"
-      width="1em"
-    >
-      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-      <rect x={2} y={9} width={4} height={12} />
-      <circle cx={4} cy={4} r={2} />
-    </svg>
-  );
-}
-function GrMail() {
-  return (
-    <svg
-      stroke="white"
-      fill="white"
+      stroke="currentColor"
+      fill="currentColor"
       strokeWidth={0}
-      viewBox="0 0 24 24"
+      viewBox="0 0 320 512"
       height="1em"
       width="1em"
     >
-      <path
-        fillRule="evenodd"
-        d="M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
-      />
+      <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
     </svg>
   );
 }
 
-function ImPhone() {
+function FaTwitter() {
   return (
     <svg
-      stroke="white"
-      fill="white"
+      stroke="currentColor"
+      fill="currentColor"
       strokeWidth={0}
-      viewBox="0 0 16 16"
+      viewBox="0 0 512 512"
       height="1em"
       width="1em"
     >
-      <path d="M11 10c-1 1-1 2-2 2s-2-1-3-2-2-2-2-3 1-1 2-2-2-4-3-4-3 3-3 3c0 2 2.055 6.055 4 8s6 4 8 4c0 0 3-2 3-3s-3-4-4-3z" />
+      <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
     </svg>
   );
 }
 
-function AiFillHome() {
+function AiFillInstagram() {
   return (
     <svg
-      stroke="white"
-      fill="white"
+      stroke="currentColor"
+      fill="currentColor"
       strokeWidth={0}
       viewBox="0 0 1024 1024"
       height="1em"
       width="1em"
     >
-      <path d="M946.5 505L534.6 93.4a31.93 31.93 0 0 0-45.2 0L77.5 505c-12 12-18.8 28.3-18.8 45.3 0 35.3 28.7 64 64 64h43.4V908c0 17.7 14.3 32 32 32H448V716h112v224h265.9c17.7 0 32-14.3 32-32V614.3h43.4c17 0 33.3-6.7 45.3-18.8 24.9-25 24.9-65.5-.1-90.5z" />
+      <path d="M512 378.7c-73.4 0-133.3 59.9-133.3 133.3S438.6 645.3 512 645.3 645.3 585.4 645.3 512 585.4 378.7 512 378.7zM911.8 512c0-55.2.5-109.9-2.6-165-3.1-64-17.7-120.8-64.5-167.6-46.9-46.9-103.6-61.4-167.6-64.5-55.2-3.1-109.9-2.6-165-2.6-55.2 0-109.9-.5-165 2.6-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6 46.9 46.9 103.6 61.4 167.6 64.5 55.2 3.1 109.9 2.6 165 2.6 55.2 0 109.9.5 165-2.6 64-3.1 120.8-17.7 167.6-64.5 46.9-46.9 61.4-103.6 64.5-167.6 3.2-55.1 2.6-109.8 2.6-165zM512 717.1c-113.5 0-205.1-91.6-205.1-205.1S398.5 306.9 512 306.9 717.1 398.5 717.1 512 625.5 717.1 512 717.1zm213.5-370.7c-26.5 0-47.9-21.4-47.9-47.9s21.4-47.9 47.9-47.9 47.9 21.4 47.9 47.9a47.84 47.84 0 0 1-47.9 47.9z" />
     </svg>
   );
 }
+
+function FaLinkedin() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      strokeWidth={0}
+      viewBox="0 0 448 512"
+      height="1em"
+      width="1em"
+    >
+      <path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+    </svg>
+  );
+}
+
 function footer() {
   return (
     <>
-      <div className="footer-main-container" id="contact">
-        <div className="footer-first-container">
-          <div className="footer-row">
-            <div className="company-logo">
-              <Image src={Logo} alt="" />
-            </div>
+      <div className="footer-main-container">
+        <div className="footer-logo-container">
+          <div className="logo-container">
+            <Image src={logo} alt="footer logo" />
           </div>
-          <div className="footer-row">
-            {/* <div className="company-description">
-              Conubia at torquent vivamus bibendum semper nibh.
-            </div> */}
-          </div>
-          <div className="footer-row">
-            <div className="social-icon-container">
-              <div className="social-icon ">
-                <FiFacebook />
-              </div>
-              <div className="social-icon ">
-                <FiInstagram />
-              </div>
-              <div className="social-icon ">
-                <FiTwitter />
-              </div>
-              <div className="social-icon ">
-                <FiLinkedin />
-              </div>
-            </div>
+          <div className="logo-description">
+            The bitterness of poor quality remains long after the sweetness of
+            low price is forgotten.
           </div>
         </div>
-        <div className="footer-second-container">
-          <div className="footer-content-container">
-            <div className="footer-about-tag">About</div>
-            <div className="footer-content">
-              <div className="footer-content-row">Who We Are</div>
-              <div className="footer-content-row">Projects</div>
-              <div className="footer-content-row">Latest News</div>
-              <div className="footer-content-row">ContactUs</div>
-            </div>
+        <div className="footer-content-container">
+          <div className="footer-content-wraper">
+            <div className="footer-pages">Who we are</div>
+            <div className="footer-pages">Our services</div>
+            <div className="footer-pages">Projects</div>
+            <div className="footer-pages">Blog's</div>
+            <div className="footer-pages">Portfolio</div>
           </div>
-        </div>
-        <div className="footer-third-container">
-          <div className="footer-content-container">
-            <div className="footer-content-tag">Contact Us</div>
-            <div className="footer-content">
-              <div className="contact-container">
-                <div className="contact-sub-container1">
-                  <div className="social-media-icon">
-                    <ImPhone />
-                  </div>
-                  <div className="social-media-icon">
-                    <AiFillHome />
-                  </div>
-                  <div className="social-media-icon">
-                    <GrMail />
-                  </div>
-                </div>
-                <div className="contact-sub-container2">
-                  <div className="contact-row">
-                    <div className="table-contact-data">248-735-9999</div>
-                  </div>
-                  <div className="contact-row">
-                    <div className="table-contact-data">
-                      26600 Heyn Dr, Novi, MI 48374
-                    </div>
-                  </div>
-                  <div className="contact-row">
-                    <div className="table-contact-data">
-                      <a href="mailto:info@the1source.com">
-                        info@the1source.com
-                      </a>
-                    </div>
-                  </div>
-                </div>
+          <div className="footer-social-logo">
+            <div className="footer-logo-container">
+              <div className="footer-icon-box">
+                <FaFacebookF />
+              </div>
+              <div className="footer-icon-box">
+                <FaTwitter />
+              </div>
+              <div className="footer-icon-box">
+                <AiFillInstagram />
+              </div>
+              <div className="footer-icon-box">
+                <FaLinkedin />
+              </div>
+            </div>
+            <div className="copyright-content-container">
+              <div className="copyright-content">
+                © Copyright 2024 | bo-mar Industries | All Rights Reserved
               </div>
             </div>
           </div>
