@@ -1,4 +1,5 @@
 "use client";
+import React, { useState, useEffect } from "react";
 import Homepage from "./Homepage/Homepage";
 import Footer from "./footer/footer";
 import logo1 from "../../public/Assets/1source.jpg";
@@ -56,17 +57,18 @@ function GrMail() {
     </svg>
   );
 }
+
 export default function Home() {
   const router = useRouter();
 
   return (
-    <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
+    <div className="main-container">
       <div className="header-content-container">
         <div className="content-container">
           <IoMdCall />
           248-735-9999
         </div>
-        <div className="content-container">
+        <div className="content-container border-right-left">
           <GrMail />
           info@the1source.com
         </div>
@@ -81,31 +83,46 @@ export default function Home() {
           </div>
 
           <div className="nav-menu-container">
-            <div className="dropdown">
-              <div className="nav-menu dropdown">
-                Who We Are
-                <BiChevronDown />
-              </div>
-              <div className="dropdown-content">
-                <a className="btn" onClick={() => router.push("/ourhistory")}>
-                  History
-                </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
-                  1Code Experience
-                </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
-                  Matterport Virtual Experiences
-                </a>
-              </div>
+            {/* <div
+              className="nav-menu btn"
+              onClick={() => router.push("/ourhistory")}
+            >
+              History
+            </div> */}
+            <div
+              className="nav-menu btn"
+              onClick={() => router.push("/1codeexperiance")}
+            >
+              1Code Experience
+            </div>
+            <div
+              className="nav-menu btn"
+              onClick={() => router.push("/1codeexperiance")}
+            >
+              Matterport Virtual Experiences
+            </div>
+            <div
+              className="nav-menu btn"
+              onClick={() => router.push("/1codeexperiance")}
+            >
+              Upload Center
+            </div>
+            <div
+              className="nav-menu btn"
+              onClick={() => router.push("/review")}
+            >
+              Customer Reviews
+            </div>
+            <div
+              className="nav-menu btn"
+              onClick={() => router.push("/1codeexperiance")}
+            >
+              Virtual Consultation Booking
+            </div>
+            <div className="nav-menu btn" onClick={() => router.push("/blogs")}>
+              Insights & Resources
             </div>
 
-            {/* Our Capabilities Dropdown */}
             <div className="dropdown">
               <div className="nav-menu dropdown">
                 Our Services
@@ -160,27 +177,15 @@ export default function Home() {
                 <a className="btn" onClick={() => router.push("/map")}>
                   Map
                 </a>
-                <a className="btn" onClick={() => router.push("/review")}>
-                  Customer Reviews
-                </a>
-                <a className="btn" onClick={() => router.push("/blogs")}>
-                  Blog's
-                </a>
               </div>
             </div>
 
-            <div
+            {/* <div
               className="nav-menu btn"
               onClick={() => router.push("/contactus")}
             >
               Contact
-            </div>
-            <div
-              className="nav-btn btn"
-              onClick={() => router.push("/getquote")}
-            >
-              Get Quote
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

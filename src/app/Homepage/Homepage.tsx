@@ -1,4 +1,5 @@
 import React from "react";
+import { useRouter } from "next/navigation";
 import "./Homepage.scss";
 import AboutusContainer from "./aboutus";
 import OurworkContainer from "./ourwork";
@@ -10,6 +11,7 @@ import Testimonials from "./testimonials";
 // import CardSlider from "./CardSlider";
 
 export default function Homepage() {
+  const router = useRouter();
   return (
     <>
       <div className="hero-container">
@@ -23,12 +25,15 @@ export default function Homepage() {
               <h1>“Your One Source for</h1>
               <h1>Print, Sign, & Digital”</h1>
               <p>
-                Your journey begins here Your journey begins here Your journey
-                begins here Your journey begins here Your journey begins here
-                Your journey begins here
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industrys standard dummy text
+                ever since the 1500s
               </p>
-              <a href="#explore" className="btn">
+              <a className="btn" onClick={() => router.push("/")}>
                 Explore Our Services
+              </a>
+              <a className="btn" onClick={() => router.push("/getquote")}>
+                Get Quotes
               </a>
             </div>
             <div className="hero-card-container">

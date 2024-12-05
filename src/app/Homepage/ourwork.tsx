@@ -1,6 +1,6 @@
 "use client";
 import { useRef, useState, useEffect } from "react";
-import "./Homepage.scss";
+// import "./Homepage.scss";
 
 function AiOutlineRightCircle() {
   return (
@@ -34,20 +34,36 @@ function AiOutlineLeftCircle() {
   );
 }
 
-function ourwork() {
+function OurWork() {
   const scrollContainerRef = useRef<any>(null);
-  const [showLeftArrow, setShowLeftArrow] = useState(false);
-  const [showRightArrow, setShowRightArrow] = useState(true);
 
-  const handleScroll = () => {
+  // Automatically scroll the cards
+  const scrollAutomatically = () => {
     if (scrollContainerRef.current) {
       const { scrollLeft, scrollWidth, clientWidth } =
         scrollContainerRef.current;
-      setShowLeftArrow(scrollLeft > 5);
-      setShowRightArrow(scrollLeft < scrollWidth - clientWidth - 5);
+      const scrollAmount = 300;
+      const newScrollLeft =
+        scrollLeft + scrollAmount > scrollWidth - clientWidth
+          ? 0
+          : scrollLeft + scrollAmount;
+      scrollContainerRef.current.scrollTo({
+        left: newScrollLeft,
+        behavior: "smooth",
+      });
     }
   };
 
+  // Start automatic scrolling when component mounts
+  useEffect(() => {
+    const interval = setInterval(scrollAutomatically, 3000); // Scroll every 3 seconds
+
+    return () => {
+      clearInterval(interval); // Clear the interval when the component unmounts
+    };
+  }, []);
+
+  // Function to scroll manually
   const scroll = (direction: any) => {
     if (scrollContainerRef.current) {
       const scrollAmount = 300;
@@ -62,35 +78,20 @@ function ourwork() {
     }
   };
 
-  useEffect(() => {
-    const container: any = scrollContainerRef.current;
-    if (container) {
-      handleScroll();
-      container.addEventListener("scroll", handleScroll);
-    }
-    return () => {
-      if (container) {
-        container.removeEventListener("scroll", handleScroll);
-      }
-    };
-  }, []);
-
   return (
     <>
       <div className="ourwork-container">
         <div className="ourwork-tag">What We Offer</div>
         <div className="underline"></div>
         <div className="ourwork-scroll-wrapper">
-          {showLeftArrow && (
+          <div className="ourwork-card-container" ref={scrollContainerRef}>
             <button
-              className="scroll-arrow left-arrow"
+              className="scroll-arrow-left"
               onClick={() => scroll("left")}
               aria-label="Scroll left"
             >
               <AiOutlineLeftCircle />
             </button>
-          )}
-          <div className="ourwork-card-container" ref={scrollContainerRef}>
             <div className="ourwork-card">
               <div className="ourwork-card-content">Interior Signage</div>
             </div>
@@ -117,16 +118,14 @@ function ourwork() {
             <div className="ourwork-card">
               <div className="ourwork-card-content">Service</div>
             </div>
-          </div>
-          {showRightArrow && (
             <button
-              className="scroll-arrow right-arrow"
+              className="scroll-arrow-right"
               onClick={() => scroll("right")}
               aria-label="Scroll right"
             >
               <AiOutlineRightCircle />
             </button>
-          )}
+          </div>
         </div>
       </div>
       <div className="space"></div>
@@ -134,4 +133,4 @@ function ourwork() {
   );
 }
 
-export default ourwork;
+export default OurWork;
