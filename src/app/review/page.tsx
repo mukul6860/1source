@@ -67,7 +67,7 @@ export default function page() {
             <IoMdCall />
             248-735-9999
           </div>
-          <div className="content-container">
+          <div className="content-container border-right-left">
             <GrMail />
             info@the1source.com
           </div>
@@ -82,31 +82,49 @@ export default function page() {
             </div>
 
             <div className="nav-menu-container">
-              <div className="dropdown">
-                <div className="nav-menu dropdown">
-                  Who We Are
-                  <BiChevronDown />
-                </div>
-                <div className="dropdown-content">
-                  <a className="btn" onClick={() => router.push("/ourhistory")}>
-                    History
-                  </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
-                    1Code Experience
-                  </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
-                    Matterport Virtual Experiences
-                  </a>
-                </div>
+              {/* <div
+              className="nav-menu btn"
+              onClick={() => router.push("/ourhistory")}
+            >
+              History
+            </div> */}
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/1codeexperiance")}
+              >
+                1Code Experience
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/1codeexperiance")}
+              >
+                Matterport Virtual Experiences
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/1codeexperiance")}
+              >
+                Upload Center
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/review")}
+              >
+                Customer Reviews
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/1codeexperiance")}
+              >
+                Virtual Consultation Booking
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/blogs")}
+              >
+                Insights & Resources
               </div>
 
-              {/* Our Capabilities Dropdown */}
               <div className="dropdown">
                 <div className="nav-menu dropdown">
                   Our Services
@@ -133,13 +151,13 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/Interiorsign")}
                   >
                     Interior Signs
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/exteriorsign")}
                   >
                     Exterior Signs
                   </a>
@@ -149,10 +167,7 @@ export default function page() {
                   >
                     Permit & Installation
                   </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
+                  <a className="btn" onClick={() => router.push("/customsign")}>
                     Custom Environments
                   </a>
                 </div>
@@ -170,27 +185,15 @@ export default function page() {
                   <a className="btn" onClick={() => router.push("/map")}>
                     Map
                   </a>
-                  <a className="btn" onClick={() => router.push("/review")}>
-                    Customer Reviews
-                  </a>
-                  <a className="btn" onClick={() => router.push("/blogs")}>
-                    Blog's
-                  </a>
                 </div>
               </div>
 
-              <div
-                className="nav-menu btn"
-                onClick={() => router.push("/contactus")}
-              >
-                Contact
-              </div>
-              <div
-                className="nav-btn btn"
-                onClick={() => router.push("/getquote")}
-              >
-                Get Quote
-              </div>
+              {/* <div
+              className="nav-menu btn"
+              onClick={() => router.push("/contactus")}
+            >
+              Contact
+            </div> */}
             </div>
           </div>
         </div>

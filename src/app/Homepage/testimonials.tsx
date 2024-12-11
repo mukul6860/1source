@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "./Homepage.scss";
 import Image from "next/image";
-import img1 from "../../../public/Assets/download.jpg";
+import img1 from "../../../public/Assets/products/testimonial.jpg";
 
 function Testimonials() {
   const [currentSlide, setCurrentSlide] = useState(0);

@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 import "./Homepage.scss";
-import img1 from "../../../public/Assets/download.jpg";
+import img1 from "../../../public/Assets/products/digital.jpg";
+import img2 from "../../../public/Assets/products/print.jpg";
+import img3 from "../../../public/Assets/products/sign.jpg";
 
 function Ourservicecontainer() {
   return (
@@ -31,7 +33,7 @@ function Ourservicecontainer() {
           </div>
           <div className="Ourservices-card">
             <div className="Ourservices-card-image">
-              <Image src={img1} alt="serivce card 2" />
+              <Image src={img2} alt="serivce card 2" />
             </div>
             <div className="Ourservices-card-content">
               <div className="Ourservices-card-tag">Print</div>
@@ -50,7 +52,7 @@ function Ourservicecontainer() {
           </div>
           <div className="Ourservices-card">
             <div className="Ourservices-card-image">
-              <Image src={img1} alt="serivce card 3" />
+              <Image src={img3} alt="serivce card 3" />
             </div>
             <div className="Ourservices-card-content">
               <div className="Ourservices-card-tag">Sign</div>
