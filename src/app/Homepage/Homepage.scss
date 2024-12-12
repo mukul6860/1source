@@ -93,6 +93,7 @@
       justify-content: space-evenly;
       position: relative;
       gap: 10px;
+      padding: 0 5%;
 
       .nav-menu {
         font-size: 12px;
@@ -1338,3 +1339,120 @@
   }
 }
 // testimonials end
+
+// project details start
+.project-details-container {
+  height: auto;
+  width: 100%;
+  padding: 2.5%;
+  display: flex;
+  // align-items: center;
+  justify-content: space-evenly;
+  .project-details-wraper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 50px;
+    padding: 2.5%;
+    .project-image-container {
+      width: 50%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+    }
+    .project-heading-container {
+      width: 100%;
+      height: 400px;
+      .heading {
+        font-size: var(--heading2);
+        color: black;
+        text-align: left;
+        padding-bottom: 5px;
+      }
+      .subheading {
+        font-size: var(--content);
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 5px;
+        color: black;
+      }
+      .event-details-venue {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        color: black;
+      }
+    }
+  }
+  .project-content-wraper {
+    width: 30%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+    justify-content: start;
+
+    .project-name-container {
+      font-size: var(--heading2);
+      width: 100%;
+      display: flex;
+      align-items: start;
+      justify-content: start;
+      gap: 20px;
+      flex-direction: column;
+
+      .project-details-row {
+        display: flex;
+        flex-direction: column;
+        padding: 2.5%;
+        gap: 10px;
+        .detail-tag-container {
+          font-size: var(--heading2);
+          font-weight: 600;
+          height: 50px;
+          letter-spacing: 3px;
+          border-bottom: 5px solid white;
+        }
+        .detail-tag {
+          font-size: var(--content);
+          font-weight: 600;
+          letter-spacing: 3px;
+        }
+        .detail-info {
+          font-size: var(--content);
+        }
+      }
+    }
+  }
+
+  @media (max-width: 720px) {
+    .project-details-wraper {
+      flex-direction: column;
+      padding: 20px;
+      .project-image-container {
+        width: 100%;
+        margin-top: 200px;
+      }
+      .project-heading-container {
+        width: 100%;
+        height: unset;
+      }
+    }
+  }
+}
+
+// project details end

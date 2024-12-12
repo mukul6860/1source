@@ -6,6 +6,7 @@ import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import dimage from "../../../public/Assets/carddummy.webp";
 import "./page.scss";
+import Link from "next/link";
 
 function BiChevronDown() {
   return (
@@ -210,13 +211,13 @@ export default function page() {
           </div>
         </div>
         <div className="portfolio-card-wraper">
-          <div className="portfolio-cards">
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">tags</div>
+              <div className="portfolio-cards-tag">first project</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
+          </Link>
           <div className="portfolio-cards">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
