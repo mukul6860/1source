@@ -218,97 +218,97 @@ export default function page() {
             </div>
             <Image src={dimage} alt="" />
           </Link>
-          <div className="portfolio-cards">
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
-          <div className="portfolio-cards">
+          </Link>
+          <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">
               <div className="portfolio-cards-tag">tags</div>
               <div className="portfolio-card-content">content</div>
             </div>
             <Image src={dimage} alt="" />
-          </div>
+          </Link>
         </div>
         <Footer />
       </div>

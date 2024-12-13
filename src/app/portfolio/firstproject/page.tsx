@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import "../../Homepage/Homepage.scss";
 import Footer from "../../footer/footer";
 import projectimg1 from "../../../../public/Assets/download.webp";
+import Gallery from "../../gallery/page";
 
 function BiChevronDown() {
   return (
@@ -57,6 +58,29 @@ function GrMail() {
     </svg>
   );
 }
+
+function CgChevronDoubleRight() {
+  return (
+    <svg
+      stroke="brown"
+      fill="none"
+      strokeWidth={0}
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+    >
+      <path
+        d="M5.63605 7.75735L7.05026 6.34314L12.7071 12L7.05029 17.6568L5.63608 16.2426L9.87869 12L5.63605 7.75735Z"
+        fill="brown"
+      />
+      <path
+        d="M12.7071 6.34314L11.2929 7.75735L15.5356 12L11.2929 16.2426L12.7072 17.6568L18.364 12L12.7071 6.34314Z"
+        fill="brown"
+      />
+    </svg>
+  );
+}
+
 function page() {
   const router = useRouter();
   const [scrolled, setScrolled] = useState(false);
@@ -244,28 +268,44 @@ function page() {
                 <div className="detail-tag-container">Project Details</div>
               </div>
               <div className="project-details-row">
-                <div className="detail-tag">Project Name</div>
+                <div className="detail-tag">
+                  <CgChevronDoubleRight />
+                  Project Name
+                </div>
                 <div className="detail-info">First Project</div>
               </div>
               <div className="project-details-row">
-                <div className="detail-tag">Project Category</div>
+                <div className="detail-tag">
+                  <CgChevronDoubleRight />
+                  Project Category
+                </div>
                 <div className="detail-info">First Project</div>
               </div>
               <div className="project-details-row">
-                <div className="detail-tag">Location</div>
+                <div className="detail-tag">
+                  <CgChevronDoubleRight />
+                  Location
+                </div>
                 <div className="detail-info">First Project</div>
               </div>
               <div className="project-details-row">
-                <div className="detail-tag">Owner</div>
+                <div className="detail-tag">
+                  <CgChevronDoubleRight />
+                  Owner
+                </div>
                 <div className="detail-info">First Project</div>
               </div>
               <div className="project-details-row">
-                <div className="detail-tag">Contracter</div>
+                <div className="detail-tag">
+                  <CgChevronDoubleRight />
+                  Contracter
+                </div>
                 <div className="detail-info">First Project</div>
               </div>
             </div>
           </div>
         </div>
+        <Gallery />
         <Footer />
       </div>
     </>

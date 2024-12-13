@@ -1398,7 +1398,6 @@
   }
   .project-content-wraper {
     width: 30%;
-    height: 100vh;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -1417,9 +1416,12 @@
 
       .project-details-row {
         display: flex;
+        align-items: start;
+        justify-content: start;
         flex-direction: column;
         padding: 2.5%;
         gap: 10px;
+        width: 100%;
         .detail-tag-container {
           font-size: var(--heading2);
           font-weight: 600;
@@ -1431,9 +1433,18 @@
           font-size: var(--content);
           font-weight: 600;
           letter-spacing: 3px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          svg {
+            height: 30px;
+            width: 30px;
+          }
         }
         .detail-info {
           font-size: var(--content);
+          // padding: 0 0 0 30%;
         }
       }
     }
