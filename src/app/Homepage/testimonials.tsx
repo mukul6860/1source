@@ -110,7 +110,6 @@ function Testimonials() {
           </div>
         </div>
       </div>
-      <div className="space"></div>
     </>
   );
 }

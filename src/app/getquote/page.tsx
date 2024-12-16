@@ -116,18 +116,6 @@ export default function page() {
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
-                1Code Experience
-              </div>
-              <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Matterport Virtual Experiences
-              </div>
-              <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
                 Upload Center
               </div>
               <div
@@ -193,6 +181,18 @@ export default function page() {
                   </a>
                   <a className="btn" onClick={() => router.push("/customsign")}>
                     Custom Environments
+                  </a>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
+                    1Code Experience
+                  </a>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
+                    Matterport Virtual Experiences
                   </a>
                 </div>
               </div>

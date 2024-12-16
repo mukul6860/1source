@@ -5,8 +5,8 @@ import { useRef, useState, useEffect } from "react";
 function AiOutlineRightCircle() {
   return (
     <svg
-      stroke="currentColor"
-      fill="currentColor"
+      stroke="white"
+      fill="white"
       strokeWidth={0}
       viewBox="0 0 1024 1024"
       height="1em"
@@ -21,8 +21,8 @@ function AiOutlineRightCircle() {
 function AiOutlineLeftCircle() {
   return (
     <svg
-      stroke="currentColor"
-      fill="currentColor"
+      stroke="white"
+      fill="white"
       strokeWidth={0}
       viewBox="0 0 1024 1024"
       height="1em"
@@ -38,30 +38,30 @@ function OurWork() {
   const scrollContainerRef = useRef<any>(null);
 
   // Automatically scroll the cards
-  const scrollAutomatically = () => {
-    if (scrollContainerRef.current) {
-      const { scrollLeft, scrollWidth, clientWidth } =
-        scrollContainerRef.current;
-      const scrollAmount = 300;
-      const newScrollLeft =
-        scrollLeft + scrollAmount > scrollWidth - clientWidth
-          ? 0
-          : scrollLeft + scrollAmount;
-      scrollContainerRef.current.scrollTo({
-        left: newScrollLeft,
-        behavior: "smooth",
-      });
-    }
-  };
+  // const scrollAutomatically = () => {
+  //   if (scrollContainerRef.current) {
+  //     const { scrollLeft, scrollWidth, clientWidth } =
+  //       scrollContainerRef.current;
+  //     const scrollAmount = 300;
+  //     const newScrollLeft =
+  //       scrollLeft + scrollAmount > scrollWidth - clientWidth
+  //         ? 0
+  //         : scrollLeft + scrollAmount;
+  //     scrollContainerRef.current.scrollTo({
+  //       left: newScrollLeft,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
 
-  // Start automatic scrolling when component mounts
-  useEffect(() => {
-    const interval = setInterval(scrollAutomatically, 3000); // Scroll every 3 seconds
+  // // Start automatic scrolling when component mounts
+  // useEffect(() => {
+  //   const interval = setInterval(scrollAutomatically, 7000); // Scroll every 3 seconds
 
-    return () => {
-      clearInterval(interval); // Clear the interval when the component unmounts
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(interval); // Clear the interval when the component unmounts
+  //   };
+  // }, []);
 
   // Function to scroll manually
   const scroll = (direction: any) => {
@@ -128,7 +128,6 @@ function OurWork() {
           </div>
         </div>
       </div>
-      <div className="space"></div>
     </>
   );
 }
