@@ -45,6 +45,7 @@ export default function Homepage() {
         </div>
       </div>
       <div className="main">
+        <div className="space"></div>
         <AboutusContainer />
         <OurworkContainer />
         {/* <CardSlider /> */}

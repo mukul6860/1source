@@ -128,6 +128,7 @@ function OurWork() {
           </div>
         </div>
       </div>
+      <div className="space"></div>
     </>
   );
 }
