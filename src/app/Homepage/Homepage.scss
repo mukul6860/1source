@@ -704,9 +704,11 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        border-bottom: 1px solid white;
         cursor: pointer;
         z-index: 9;
+        span {
+          border-bottom: 1px solid white;
+        }
         .icon {
           height: 50px;
           width: 50px;
@@ -751,13 +753,16 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    border-bottom: 1px solid black;
+    span {
+      border-bottom: 2px solid black;
+    }
     cursor: pointer;
     z-index: 9;
     position: absolute;
     top: 35%;
     right: 20%;
     color: black;
+
     .icon {
       height: 50px;
       width: 50px;
