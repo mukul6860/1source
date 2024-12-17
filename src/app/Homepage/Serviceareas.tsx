@@ -26,12 +26,12 @@ function Serviceareas() {
               publishing software like Aldus PageMaker including versions of
               Lorem Ipsum.
             </div>
-            <div className="serviceareas-btn">
+            <a className="serviceareas-btn" href="/map">
               <div className="icon">
                 <Image src={icon} alt="service area icon" />
               </div>
               See Our Project Map
-            </div>
+            </a>
           </div>
         </div>
       </div>

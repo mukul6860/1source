@@ -90,13 +90,13 @@
       height: 100%;
       display: flex;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: end;
       position: relative;
-      gap: 10px;
-      padding: 0 5%;
+      gap: 30px;
+      padding: 0 2.5%;
 
       .nav-menu {
-        font-size: 14px;
+        font-size: 16px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -340,12 +340,14 @@
 // aboutUS end
 // our work starts (what we offer)
 .ourwork-container {
+  width: 100%;
+
   .ourwork-tag {
     font-size: var(--heading1);
     color: black;
   }
   .ourwork-card-container {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding: 2.5% 0;
     display: inline-flex;
@@ -364,7 +366,7 @@
       justify-content: center;
       position: sticky;
       right: 0px;
-      background-color: rgba(0, 0, 0, 0.76);
+      background-color: rgb(0 0 0 / 51%);
       border: none;
       svg {
         height: 20px;
@@ -379,7 +381,7 @@
       position: sticky;
       left: 0;
       z-index: 99;
-      background-color: rgba(0, 0, 0, 0.76);
+      background-color: rgb(0 0 0 / 51%);
       border: none;
       svg {
         height: 20px;
@@ -485,10 +487,10 @@
   width: 100%;
   height: auto;
   padding: 2.5%;
-  background-color: black;
   .Ourservices-tag {
     font-size: var(--heading1);
     margin: 2.5% 0;
+    color: black;
   }
   .Ourservices-card-wraper {
     width: 100%;
@@ -496,10 +498,9 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
-    flex-direction: column;
     .Ourservices-card {
       width: 70%;
-      height: 100%;
+      height: 590px;
       background-color: white;
       display: flex;
       align-items: center;
@@ -507,6 +508,8 @@
       justify-content: center;
       z-index: 9;
       border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      flex-direction: column;
       .Ourservices-card-image {
         height: 260px;
         width: 100%;
@@ -544,20 +547,8 @@
       }
     }
   }
-  .Ourservices-card-wraper :nth-child(2) {
-    flex-direction: row-reverse;
-  }
 }
-.Ourservices-container::before {
-  content: "";
-  position: absolute;
-  height: 1152px;
-  width: 95%;
-  background-color: rgb(0, 0, 0);
-  background-image: url(../../../public/Assets/watermark.png);
-  background-size: 200px 200px;
-  opacity: 0.1;
-}
+
 // our services ends(what we offer)
 // ourbrand starts
 .ourbrand-container {
@@ -752,6 +743,35 @@
   display: flex;
   align-items: end;
   justify-content: center;
+  position: relative;
+  .Customer-Review-btn {
+    font-size: var(--heading2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    z-index: 9;
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    color: black;
+    .icon {
+      height: 50px;
+      width: 50px;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      background-color: black;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
   .testimonial-container {
     width: 100%;
     height: 50%;

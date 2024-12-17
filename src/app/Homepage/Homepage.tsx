@@ -47,12 +47,12 @@ export default function Homepage() {
       <div className="main">
         <div className="space"></div>
         <AboutusContainer />
+        <Ourservicecontainer />
         <OurworkContainer />
         {/* <CardSlider /> */}
       </div>
       <OurawardsContainer />
       <OurbrandContainer />
-      <Ourservicecontainer />
       <Serviceareas />
       <Testimonials />
     </>

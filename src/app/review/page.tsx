@@ -96,12 +96,6 @@ export default function page() {
               </div>
               <div
                 className="nav-menu btn"
-                onClick={() => router.push("/review")}
-              >
-                Customer Reviews
-              </div>
-              <div
-                className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Virtual Consultation Booking

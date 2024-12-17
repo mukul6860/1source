@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import "./Homepage.scss";
 import Image from "next/image";
 import img1 from "../../../public/Assets/products/testimonial.jpg";
+import icon from "../../../public/Assets/watermark.png";
 
 function Testimonials() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -55,6 +56,13 @@ function Testimonials() {
   return (
     <>
       <div className="testimonial-main-container">
+        <a className="Customer-Review-btn" href="/review">
+          <div className="icon">
+            <Image src={icon} alt="service area icon" />
+          </div>
+          Customer Review
+        </a>
+
         <div className="testimonial-container">
           <div className="testimonial-image-container">
             <div className="card-shadow">
@@ -96,9 +104,6 @@ function Testimonials() {
                           index === currentSlide ? "active" : "inactive"
                         }`}
                       >
-                        {/* <div className="img">
-                          <img src={testimonial.img} alt={testimonial.name} />
-                        </div> */}
                         <h2>- {testimonial.name}</h2>
                         <p>{testimonial.text}</p>
                       </div>
