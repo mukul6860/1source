@@ -47,22 +47,22 @@ function OurawardsContainer() {
             </div>
           </div>
           <div className="ourawards-wraper">
-            <div className="ourawards-card">
+            <div className="ourawards-card flex-center">
               <div className="ourawards-image-container">
                 <Image src={iso} alt="iso" />
               </div>
             </div>
-            <div className="ourawards-card">
+            <div className="ourawards-card flex-center">
               <div className="ourawards-image-container">
                 <Image src={fsc} alt="fsc" />
               </div>
             </div>
-            <div className="ourawards-card">
+            <div className="ourawards-card flex-center">
               <div className="ourawards-image-container">
                 <Image src={nmsdc} alt="nmsdc" />
               </div>
             </div>
-            <div className="ourawards-card">
+            <div className="ourawards-card flex-center">
               <div className="ourawards-image-container">
                 <Image className="bbb" src={bbb} alt="bbb" />
               </div>
