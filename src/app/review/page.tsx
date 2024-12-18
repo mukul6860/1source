@@ -94,7 +94,7 @@ export default function page() {
               >
                 Upload Center
               </div>
-              <div
+              {/* <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
@@ -105,7 +105,7 @@ export default function page() {
                 onClick={() => router.push("/blogs")}
               >
                 Insights & Resources
-              </div>
+              </div> */}
 
               <div className="dropdown">
                 <div className="nav-menu dropdown">
@@ -181,7 +181,9 @@ export default function page() {
                   </a>
                 </div>
               </div>
-
+              <a className="nav-btn" onClick={() => router.push("/getquote")}>
+                Request Quotes
+              </a>
               {/* <div
               className="nav-menu btn"
               onClick={() => router.push("/contactus")}

@@ -78,11 +78,15 @@ function footer() {
         </div>
         <div className="footer-content-container">
           <div className="footer-content-wraper">
-            <div className="footer-pages">Who we are</div>
-            <div className="footer-pages">Our services</div>
-            <div className="footer-pages">Projects</div>
-            <div className="footer-pages">Blog's</div>
-            <div className="footer-pages">Portfolio</div>
+            <a className="footer-pages" href="/ourhistory">
+              Who we are
+            </a>
+            <a className="footer-pages" href="/portfolio">
+              Projects
+            </a>
+            <a className="footer-pages" href="/blogs">
+              Insight and resources
+            </a>
           </div>
           <div className="footer-social-logo">
             <div className="footer-logo-container">

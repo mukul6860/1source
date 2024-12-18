@@ -23,7 +23,7 @@ export default function Homepage() {
           <div className="heroContent">
             <div className="hero-content-container">
               <h1>“Your One Source for</h1>
-              <h1>Print, Sign, & Digital”</h1>
+              <h1>Digital, Print & Sign ”</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industrys standard dummy text

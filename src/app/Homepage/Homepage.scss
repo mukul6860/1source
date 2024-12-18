@@ -104,10 +104,10 @@
       }
 
       .nav-btn {
-        // padding: 10px;
+        padding: 10px;
         border-radius: 10px;
         background-color: var(--primaryColor);
-        font-size: 12px;
+        font-size: 14px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -348,57 +348,17 @@
   }
   .ourwork-card-container {
     width: 100%;
-    height: auto;
-    padding: 2.5% 0;
-    display: inline-flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    gap: 40px;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    position: relative;
-
-    .scroll-arrow-right {
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: sticky;
-      right: 0px;
-      background-color: rgb(0 0 0 / 51%);
-      border: none;
-      svg {
-        height: 20px;
-        width: 20px;
-      }
-    }
-    .scroll-arrow-left {
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: sticky;
-      left: 0;
-      z-index: 99;
-      background-color: rgb(0 0 0 / 51%);
-      border: none;
-      svg {
-        height: 20px;
-        width: 20px;
-        color: white;
-      }
-    }
+    padding: 2.5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
     .ourwork-card {
       height: 250px;
-      min-width: 25%;
+      width: 250px;
       border-radius: 10px;
       left: -66px;
       overflow: hidden;
-      position: relative;
       scale: 1.1;
-      scroll-snap-align: center;
-      top: 0;
       transition: all 0.5s;
 
       .ourwork-card-content {
@@ -434,49 +394,49 @@
 }
 .bg1 {
   background-image: url(../../../public/Assets/products/interiorsignage.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg2 {
   background-image: url(../../../public/Assets/products/exteriorsignage.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg3 {
   background-image: url(../../../public/Assets/products/vehiclewrap.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg4 {
   background-image: url(../../../public/Assets/products/customesign.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg5 {
   background-image: url(../../../public/Assets/products/dimentionalletter.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg6 {
   background-image: url(../../../public/Assets/products/litandunlitsigns.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg7 {
   background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
 .bg8 {
   background-image: url(../../../public/Assets/products/service.jpg);
-  background-position: right;
+  background-position: center;
   filter: grayscale(100%);
   background-size: cover;
 }
@@ -597,7 +557,6 @@
   .ourawards-container {
     width: 100%;
     height: 60vh;
-    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -620,6 +579,7 @@
         align-items: center;
         padding: 2.5%;
         z-index: 9;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         .ourawards-award-container {
           height: 70px;
           width: 100%;
@@ -629,6 +589,8 @@
           }
         }
         .ourawards-image-container {
+          height: 70px;
+          width: 100%;
           .bbb {
             height: 40px;
             width: 120px;
@@ -648,16 +610,7 @@
     }
   }
 }
-.ourawards-container::before {
-  content: "";
-  position: absolute;
-  height: 60vh;
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  background-image: url(../../../public/Assets/watermark.png);
-  background-size: 200px 200px;
-  opacity: 0.1;
-}
+
 .flex-center {
   justify-content: center;
 }

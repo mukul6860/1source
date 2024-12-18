@@ -11,7 +11,7 @@ function AboutusContainer() {
         </div>
         <div className="about-content-main-container">
           <div className="about-content-container">
-            <div className="about-tag">Who we are</div>
+            <div className="about-tag">About us</div>
             <div className="underline"></div>
             <div className="about-content">
               Founded in 1995 It’s true, we’ve always been ambitious. We started
@@ -25,7 +25,6 @@ function AboutusContainer() {
             </div>
           </div>
           <div className="about-card-container">
-            <div className="about-card-tag">More About Us</div>
             <div className="about-card-wrap">
               <div className="about-card">
                 <div className="card-shadow"></div>

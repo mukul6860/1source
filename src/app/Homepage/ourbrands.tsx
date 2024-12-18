@@ -22,15 +22,15 @@ function OurbrandContainer() {
           <div className="ourbrand-image">
             <Image src={kgs} alt="kgs" />
           </div>
-          <div className="ourbrand-image">
+          <a className="ourbrand-image" href="https://michigancustomsigns.com/">
             <Image src={michigan} alt="michigan" />
-          </div>
-          <div className="ourbrand-image">
+          </a>
+          <a className="ourbrand-image" href="https://printnology.net/">
             <Image src={printology} alt="printology" />
-          </div>
-          <div className="ourbrand-image">
+          </a>
+          <a className="ourbrand-image" href="https://screenworks.graphics/">
             <Image src={screenwork} alt="screenwork" />
-          </div>
+          </a>
         </div>
       </div>
       <div className="space"></div>
