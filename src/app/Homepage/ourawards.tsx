@@ -15,9 +15,6 @@ function OurawardsContainer() {
           <div className="ourawards-tag">Our Awards and Certifications</div>
           <div className="underline"></div>
         </div>
-        <div className="space"></div>
-        <div className="space"></div>
-        <div className="space"></div>
         <div className="ourawards-container">
           <div className="ourawards-wraper">
             <div className="ourawards-card">
@@ -73,7 +70,6 @@ function OurawardsContainer() {
           </div>
         </div>
       </div>
-      <div className="space"></div>
     </>
   );
 }

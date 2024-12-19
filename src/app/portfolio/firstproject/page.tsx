@@ -226,7 +226,7 @@ function page() {
                 Insights & Resources
               </div>
               <a className="nav-btn" onClick={() => router.push("/getquote")}>
-                Request Quotes
+                Request quote
               </a>
               {/* <div
               className="nav-menu btn"

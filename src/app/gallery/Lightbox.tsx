@@ -28,7 +28,7 @@ const Lightbox: React.FC<LightboxProps> = ({
       <button className="close-btn" onClick={closeLightbox}>
         ✖
       </button>
-      <button className="nav-btn prev-btn" onClick={showPrev}>
+      <button className="arrow-btn prev-btn" onClick={showPrev}>
         ◀
       </button>
       <img
@@ -36,7 +36,7 @@ const Lightbox: React.FC<LightboxProps> = ({
         alt={`Slide ${index + 1}`}
         className="lightbox-image"
       />
-      <button className="nav-btn next-btn" onClick={showNext}>
+      <button className="arrow-btn next-btn" onClick={showNext}>
         ▶
       </button>
     </div>

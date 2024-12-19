@@ -17,7 +17,8 @@
   border-radius: 10px;
 }
 
-.close-btn.nav-btn {
+.close-btn,
+.arrow-btn {
   position: absolute;
   background: none;
   border: none;
@@ -33,9 +34,9 @@
 }
 
 .prev-btn {
-  left: 20px;
+  left: 10%;
 }
 
 .next-btn {
-  right: 20px;
+  right: 10%;
 }

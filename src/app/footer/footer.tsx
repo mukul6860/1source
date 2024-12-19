@@ -79,7 +79,7 @@ function footer() {
         <div className="footer-content-container">
           <div className="footer-content-wraper">
             <a className="footer-pages" href="/ourhistory">
-              Who we are
+              About us
             </a>
             <a className="footer-pages" href="/portfolio">
               Projects
@@ -90,18 +90,27 @@ function footer() {
           </div>
           <div className="footer-social-logo">
             <div className="footer-logo-container">
-              <div className="footer-icon-box">
+              <a
+                className="footer-icon-box"
+                href="https://www.facebook.com/profile.php?id=61564601977455"
+              >
                 <FaFacebookF />
-              </div>
-              <div className="footer-icon-box">
+              </a>
+              {/* <div className="footer-icon-box">
                 <FaTwitter />
-              </div>
-              <div className="footer-icon-box">
+              </div> */}
+              <a
+                className="footer-icon-box"
+                href="https://www.instagram.com/the1source/?igsh=MWVyeTlkcnRjeDg2cQ%3D%3D"
+              >
                 <AiFillInstagram />
-              </div>
-              <div className="footer-icon-box">
+              </a>
+              <a
+                className="footer-icon-box"
+                href="https://www.linkedin.com/company/theonesource/"
+              >
                 <FaLinkedin />
-              </div>
+              </a>
             </div>
             <div className="copyright-content-container">
               <div className="copyright-content">
