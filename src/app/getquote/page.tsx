@@ -123,12 +123,6 @@ export default function page() {
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Virtual Consultation Booking
-              </div>
-              <div
-                className="nav-menu btn"
-                onClick={() => router.push("/blogs")}
-              >
-                Insights & Resources
               </div> */}
 
               <div className="dropdown">
@@ -204,6 +198,12 @@ export default function page() {
                     Map
                   </a>
                 </div>
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/blogs")}
+              >
+                Insights & Resources
               </div>
               <a className="nav-btn" onClick={() => router.push("/getquote")}>
                 Request Quotes

@@ -33,7 +33,7 @@ export default function Homepage() {
                 Explore Our Services
               </a>
               <a className="btn" onClick={() => router.push("/getquote")}>
-                Get Quotes
+                Get a quote
               </a>
             </div>
             <div className="hero-card-container">

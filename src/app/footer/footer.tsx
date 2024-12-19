@@ -105,7 +105,7 @@ function footer() {
             </div>
             <div className="copyright-content-container">
               <div className="copyright-content">
-                © Copyright 2024 | bo-mar Industries | All Rights Reserved
+                © Copyright 2024 | 1Source | All Rights Reserved
               </div>
             </div>
           </div>

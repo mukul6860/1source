@@ -564,25 +564,27 @@
     padding: 2.5%;
     .ourawards-wraper {
       width: 50%;
+      height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 10px;
       flex-wrap: wrap;
       .ourawards-card {
-        height: 170px;
-        width: 140px;
+        height: 200px;
+        width: 205px;
         border-radius: 10px;
         background-color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         padding: 2.5%;
         z-index: 9;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         .ourawards-award-container {
           height: 70px;
-          width: 100%;
+          width: 80%;
           img {
             height: 100%;
             width: 100%;
@@ -591,9 +593,12 @@
         .ourawards-image-container {
           height: 70px;
           width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           .bbb {
-            height: 40px;
-            width: 120px;
+            height: 55px;
+            width: 150px;
           }
         }
         .ourawards-tag {

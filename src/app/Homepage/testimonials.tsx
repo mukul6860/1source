@@ -60,7 +60,7 @@ function Testimonials() {
           <div className="icon">
             <Image src={icon} alt="service area icon" />
           </div>
-          <span>Customer Review</span>
+          <span>Customer reviews</span>
         </a>
 
         <div className="testimonial-container">

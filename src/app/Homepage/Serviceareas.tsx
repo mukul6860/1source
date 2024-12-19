@@ -30,7 +30,7 @@ function Serviceareas() {
               <div className="icon">
                 <Image src={icon} alt="service area icon" />
               </div>
-              <span>See Our Project Map</span>
+              <span>See our projects</span>
             </a>
           </div>
         </div>

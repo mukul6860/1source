@@ -117,7 +117,7 @@ function page() {
           </div>
           <div className="content-container">26600 Heyn Dr, Novi, MI 48374</div>
         </div>
-        <div className={`header-container ${scrolled ? "scrolled" : ""}`}>
+        <div className="header-container">
           <div className="nav-container">
             <div className="nav-logo">
               <a onClick={() => router.push("/")}>
@@ -132,7 +132,6 @@ function page() {
             >
               History
             </div> */}
-
               <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
@@ -144,12 +143,6 @@ function page() {
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Virtual Consultation Booking
-              </div>
-              <div
-                className="nav-menu btn"
-                onClick={() => router.push("/blogs")}
-              >
-                Insights & Resources
               </div> */}
 
               <div className="dropdown">
@@ -225,6 +218,12 @@ function page() {
                     Map
                   </a>
                 </div>
+              </div>
+              <div
+                className="nav-menu btn"
+                onClick={() => router.push("/blogs")}
+              >
+                Insights & Resources
               </div>
               <a className="nav-btn" onClick={() => router.push("/getquote")}>
                 Request Quotes

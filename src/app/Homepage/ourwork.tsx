@@ -34,7 +34,7 @@ function OurWork() {
               </div>
             </div>
             <div className="ourwork-card bg8">
-              <div className="ourwork-card-content">Service</div>
+              <div className="ourwork-card-content">Services</div>
             </div>
           </div>
         </div>
