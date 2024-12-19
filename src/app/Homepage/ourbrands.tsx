@@ -14,7 +14,7 @@ function OurbrandContainer() {
       <div className="space"></div>
       <div className="ourbrand-container">
         <div className="ourbrand-tag-container">
-          <div className="ourbrand-tag">Our Brands</div>
+          <div className="ourbrand-tag">Our brands</div>
           <div className="underline"></div>
         </div>
         <div className="ourbrand-image-wrap">

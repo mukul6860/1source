@@ -12,7 +12,7 @@ function OurawardsContainer() {
     <>
       <div className="ourawards-main-container">
         <div className="ourawards-tag-container">
-          <div className="ourawards-tag">Our Awards and Certifications</div>
+          <div className="ourawards-tag">Our awards and certifications</div>
           <div className="underline"></div>
         </div>
         <div className="ourawards-container">

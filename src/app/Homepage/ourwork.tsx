@@ -6,27 +6,27 @@ function OurWork() {
   return (
     <>
       <div className="ourwork-container">
-        <div className="ourwork-tag">What We Offer</div>
+        <div className="ourwork-tag">What we offer</div>
         <div className="underline"></div>
         <div className="ourwork-scroll-wrapper">
           <div className="ourwork-card-container">
             <div className="ourwork-card bg1">
-              <div className="ourwork-card-content">Interior Signage</div>
+              <div className="ourwork-card-content">Interior signage</div>
             </div>
             <div className="ourwork-card bg2">
-              <div className="ourwork-card-content">Exterior Signage</div>
+              <div className="ourwork-card-content">Exterior signage</div>
             </div>
             <div className="ourwork-card bg3">
-              <div className="ourwork-card-content">Vehicle Wraps</div>
+              <div className="ourwork-card-content">Vehicle wraps</div>
             </div>
             <div className="ourwork-card bg4">
-              <div className="ourwork-card-content">Custom Signs</div>
+              <div className="ourwork-card-content">Custom signs</div>
             </div>
             <div className="ourwork-card bg5">
-              <div className="ourwork-card-content">Dimensional Letters</div>
+              <div className="ourwork-card-content">Dimensional letters</div>
             </div>
             <div className="ourwork-card bg6">
-              <div className="ourwork-card-content">Lit and Unlit Signs</div>
+              <div className="ourwork-card-content">Lit and unlit signs</div>
             </div>
             <div className="ourwork-card bg7">
               <div className="ourwork-card-content">
