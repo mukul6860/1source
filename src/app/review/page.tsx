@@ -92,7 +92,7 @@ export default function page() {
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
-                Upload Center
+                Upload center
               </div>
               {/* <div
                 className="nav-menu btn"
@@ -103,7 +103,7 @@ export default function page() {
 
               <div className="dropdown">
                 <div className="nav-menu dropdown">
-                  Our Services
+                  Our services
                   <BiChevronDown />
                 </div>
                 <div className="dropdown-content">
@@ -111,52 +111,52 @@ export default function page() {
                     className="btn"
                     onClick={() => router.push("/1codeexperiance")}
                   >
-                    Digital Marketing
+                    Digital marketing
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/1codeexperiance")}
                   >
-                    Commercial Printing
+                    Commercial printing
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/1codeexperiance")}
                   >
-                    Large Format Printing
+                    Large format printing
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/Interiorsign")}
                   >
-                    Interior Signs
+                    Interior signs
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/exteriorsign")}
                   >
-                    Exterior Signs
+                    Exterior signs
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/1codeexperiance")}
                   >
-                    Permit & Installation
+                    Permit & installation
                   </a>
                   <a className="btn" onClick={() => router.push("/customsign")}>
-                    Custom Environments
+                    Custom environments
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/1codeexperiance")}
                   >
-                    1Code Experience
+                    1Code experience
                   </a>
                   <a
                     className="btn"
                     onClick={() => router.push("/1codeexperiance")}
                   >
-                    Matterport Virtual Experiences
+                    Matterport virtual experiences
                   </a>
                 </div>
               </div>
@@ -168,7 +168,7 @@ export default function page() {
                 </div>
                 <div className="dropdown-content">
                   <a className="btn" onClick={() => router.push("/portfolio")}>
-                    Our Portfolio
+                    Our portfolio
                   </a>
                   <a className="btn" onClick={() => router.push("/map")}>
                     Map
@@ -179,7 +179,7 @@ export default function page() {
                 className="nav-menu btn"
                 onClick={() => router.push("/blogs")}
               >
-                Insights & Resources
+                Insights & resources
               </div>
               <a className="nav-btn" onClick={() => router.push("/getquote")}>
                 Request quote

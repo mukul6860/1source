@@ -41,11 +41,10 @@ a {
   text-decoration: none;
 }
 .underline {
-  width: 50%;
+  width: 30%;
   height: 5px;
   margin-bottom: 15px;
   background-color: var(--primaryColor);
-  display: none;
 }
 .space{
   height: 50px;
