@@ -72,8 +72,8 @@ function footer() {
             <Image src={logo} alt="footer logo" />
           </div>
           <div className="logo-description">
-            The bitterness of poor quality remains long after the sweetness of
-            low price is forgotten.
+            Crafting timeless solutions with precision and excellence, where
+            every detail reflects our commitment to quality and innovation.
           </div>
         </div>
         <div className="footer-content-container">

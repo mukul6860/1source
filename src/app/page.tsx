@@ -60,7 +60,10 @@ function GrMail() {
 
 export default function Home() {
   const router = useRouter();
-
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div className="main-container">
       <div className="header-content-container">
@@ -72,7 +75,9 @@ export default function Home() {
           <GrMail />
           info@the1source.com
         </div>
-        <div className="content-container">26600 Heyn Dr, Novi, MI 48374</div>
+        <div className="content-container none">
+          26600 Heyn Dr, Novi, MI 48374
+        </div>
       </div>
       <div className="header-container">
         <div className="nav-container">
@@ -81,7 +86,15 @@ export default function Home() {
               <Image src={logo1} alt="Company Logo" />
             </a>
           </div>
-
+          <div
+            id="nav-icon4"
+            className={isOpen ? "open" : ""}
+            onClick={toggleClass}
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <div className="nav-menu-container">
             {/* <div
               className="nav-menu btn"

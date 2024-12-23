@@ -301,9 +301,6 @@ export default function page() {
                 />
               </div>
               <div className="button-group">
-                <button type="submit" className="submit-button">
-                  Submit
-                </button>
                 <button
                   type="button"
                   onClick={() => {
@@ -318,6 +315,9 @@ export default function page() {
                   className="reset-button"
                 >
                   Reset
+                </button>
+                <button type="submit" className="submit-button">
+                  Submit
                 </button>
               </div>
             </form>

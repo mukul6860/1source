@@ -25,9 +25,9 @@ export default function Homepage() {
               <h1>“Your one source for</h1>
               <h1>digital, print & sign ”</h1>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s
+                Delivering innovative solutions with unmatched quality across
+                six specialized brands—providing everything you need for your
+                business, from signage to printing and digital services
               </p>
               <a className="btn" onClick={() => router.push("/")}>
                 Explore Our Services

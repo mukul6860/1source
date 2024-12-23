@@ -1,6 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import aboutimg from "../../../public/Assets/about.jpg";
+import kgs from "../../../public/Assets/logos/kgs.jpg";
+import michigan from "../../../public/Assets/logos/michigan.jpg";
+import prinlogy from "../../../public/Assets/logos/printology.jpg";
+import sw from "../../../public/Assets/logos/screenwork.jpg";
+import signtext from "../../../public/Assets/logos/signtext.jpg";
+import onesource from "../../../public/Assets/1source1.jpg";
 
 function AboutusContainer() {
   return (
@@ -14,34 +20,59 @@ function AboutusContainer() {
             <div className="about-tag">About us</div>
             <div className="underline"></div>
             <div className="about-content">
-              Founded in 1995 It’s true, we’ve always been ambitious. We started
-              as a small venture with a big idea. to revolutionize the printing
-              industry! At first, our product offering was modest: we had a
-              couple of printers, a screen press, and a handful of like-minded
-              hard workers. But we knew, even then, that we would need to grow
-              to achieve our shared vision. So we rolled our sleeves up even
-              higher and we worked, driven by our passion for innovation and
-              excellence.
+              Established in 1985, we are a distinguished Digital, Print, and
+              Sign company based in Michigan, renowned for delivering
+              exceptional solutions with a legacy of excellence. With six
+              premier brands—Michigan Custom Signs, ScreenWorks, Printnology,
+              Signtext, King Graphics System, and 1Source—we offer a
+              comprehensive range of cutting-edge services, from digital
+              printing to sophisticated signage and graphics. Each brand
+              reflects our unwavering commitment to quality, craftsmanship, and
+              innovation, allowing us to serve a diverse clientele with the
+              utmost professionalism and creativity. Our enduring success is
+              built on a foundation of trust, sophistication, and unparalleled
+              customer satisfaction.
             </div>
           </div>
+          <div className="space"></div>
+          <div className="about-tag">Our brands</div>
+          <div className="underline"></div>
           <div className="about-card-container">
             <div className="about-card-wrap">
               <div className="about-card">
+                <div className="about-card-image">
+                  <Image src={prinlogy} alt="prinlogy" />
+                </div>
                 <div className="card-shadow"></div>
               </div>
               <div className="about-card">
+                <div className="about-card-image">
+                  <Image src={signtext} alt="signtext" />
+                </div>
                 <div className="card-shadow"></div>
               </div>
               <div className="about-card">
+                <div className="about-card-image">
+                  <Image src={michigan} alt="michigan" />
+                </div>
                 <div className="card-shadow"></div>
               </div>
               <div className="about-card">
+                <div className="about-card-image">
+                  <Image src={sw} alt="sw" />
+                </div>
                 <div className="card-shadow"></div>
               </div>
               <div className="about-card">
+                <div className="about-card-image">
+                  <Image src={kgs} alt="kgs" />
+                </div>
                 <div className="card-shadow"></div>
               </div>
               <div className="about-card">
+                <div className="about-card-image">
+                  <Image src={onesource} alt="onesource" />
+                </div>
                 <div className="card-shadow"></div>
               </div>
             </div>
