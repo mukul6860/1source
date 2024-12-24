@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Homepage from "./Homepage/Homepage";
 import Footer from "./footer/footer";
 import logo1 from "../../public/Assets/1source.jpg";
@@ -61,9 +61,11 @@ function GrMail() {
 export default function Home() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div className="main-container">
       <div className="header-content-container">
@@ -95,32 +97,20 @@ export default function Home() {
             <span></span>
             <span></span>
           </div>
-          <div className="nav-menu-container">
-            {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/ourhistory")}
-            >
-              History
-            </div> */}
+          <div className={`nav-menu-container ${isOpen ? "open" : ""}`}>
             <div
               className="nav-menu btn"
               onClick={() => router.push("/1codeexperiance")}
             >
               Upload center
             </div>
-            {/* <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Virtual Consultation Booking
-              </div> */}
 
             <div className="dropdown">
               <div className="nav-menu dropdown">
                 Our services
                 <BiChevronDown />
               </div>
-              <div className="dropdown-content">
+              <div className={`dropdown-content ${isOpen ? "open" : ""}`}>
                 <a
                   className="btn"
                   onClick={() => router.push("/1codeexperiance")}
@@ -174,7 +164,7 @@ export default function Home() {
                 Projects
                 <BiChevronDown />
               </div>
-              <div className="dropdown-content">
+              <div className={`dropdown-content ${isOpen ? "open" : ""}`}>
                 <a className="btn" onClick={() => router.push("/portfolio")}>
                   Our portfolio
                 </a>
@@ -189,12 +179,6 @@ export default function Home() {
             <a className="nav-btn" onClick={() => router.push("/getquote")}>
               Request quote
             </a>
-            {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/contactus")}
-            >
-              Contact
-            </div> */}
           </div>
         </div>
       </div>

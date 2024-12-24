@@ -89,7 +89,7 @@ function footer() {
             </a>
           </div>
           <div className="footer-social-logo">
-            <div className="footer-logo-container">
+            <div className="footer-social-logo-container">
               <a
                 className="footer-icon-box"
                 href="https://www.facebook.com/profile.php?id=61564601977455"

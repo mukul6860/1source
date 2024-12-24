@@ -5,6 +5,7 @@
   --heading1: 3rem;
   --heading2: 1.5rem;
   --content: 1rem;
+  --headingMobile1: 2rem;
 }
 
 @media (prefers-color-scheme: dark) {

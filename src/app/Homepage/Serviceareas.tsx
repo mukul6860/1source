@@ -6,6 +6,8 @@ import icon from "../../../public/Assets/watermark.png";
 function Serviceareas() {
   return (
     <>
+      <div className="space"></div>
+      <div className="space"></div>
       <div className="serviceareas-container">
         <div className="serviceareas-sections"></div>
         <div className="serviceareas-sections">

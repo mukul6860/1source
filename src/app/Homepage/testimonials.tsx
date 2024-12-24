@@ -55,6 +55,9 @@ function Testimonials() {
 
   return (
     <>
+      <div className="space"></div>
+      <div className="space"></div>
+      <div className="space"></div>
       <div className="testimonial-main-container">
         <a className="Customer-Review-btn" href="/review">
           <div className="icon">
@@ -115,6 +118,8 @@ function Testimonials() {
           </div>
         </div>
       </div>
+      <div className="space"></div>
+      <div className="space"></div>
     </>
   );
 }

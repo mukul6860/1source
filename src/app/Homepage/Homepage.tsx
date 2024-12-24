@@ -38,7 +38,7 @@ export default function Homepage() {
             </div>
             <div className="hero-card-container">
               <div className="hero-card"></div>
-              <div className="hero-card"></div>
+              <div className="hero-card gray"></div>
               <div className="hero-card"></div>
             </div>
           </div>
