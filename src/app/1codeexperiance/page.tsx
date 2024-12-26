@@ -82,7 +82,7 @@ export default function page() {
 
   return (
     <>
-      <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
+      <div style={{ position: "relative", height: "100vh" }}>
         <div className="header-content-container">
           <div className="content-container">
             <IoMdCall />
@@ -92,7 +92,9 @@ export default function page() {
             <GrMail />
             info@the1source.com
           </div>
-          <div className="content-container">26600 Heyn Dr, Novi, MI 48374</div>
+          <div className="content-container none">
+            26600 Heyn Dr, Novi, MI 48374
+          </div>
         </div>
         <div className={`header-container ${scrolled ? "scrolled" : ""}`}>
           <div className="nav-container">
@@ -224,6 +226,7 @@ export default function page() {
             <div className="underdev-tag-container">
               <div className="underdev-tag">WebPage is Under Cunstruction</div>
               <div className="underline"></div>
+              <div className="space"></div>
               <div className="underdev-subtag">We will update soon....</div>
             </div>
             <div className="underdev-btn" onClick={() => router.push("/")}>

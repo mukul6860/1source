@@ -197,12 +197,12 @@
         height: 50%;
 
         h1 {
-          font-size: var(--heading1);
+          font-size: 40px;
         }
 
         p {
           font-size: var(--content);
-          margin-bottom: 50px;
+          margin: 30px 0;
         }
 
         .btn {
@@ -212,7 +212,7 @@
           text-decoration: none;
           border-radius: 5px;
           font-size: 1rem;
-          margin: 10px;
+          margin: 30px 10px;
         }
 
         .btn:hover {
@@ -227,12 +227,19 @@
         display: flex;
         align-items: end;
         justify-content: end;
-        gap: 10px;
+        padding-right: 100px;
         .hero-card {
-          height: 100%;
+          height: 80%;
           background-color: black;
           width: 20%;
           border-top: 5px solid var(--primaryColor);
+          transition: all 0.5s;
+        }
+        .hero-card:hover {
+          transform: translateY(-10px);
+        }
+        .gray {
+          background-color: gray;
         }
       }
     }
@@ -263,11 +270,17 @@
     }
     .about-image-container {
       width: 50%;
-      height: 400px;
+      height: 380px;
       position: relative;
-      img {
-        height: 100%;
+      .heroVideo {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
+        object-fit: fill;
+        z-index: -1;
+        border: none;
       }
     }
     .about-content-main-container {
@@ -288,10 +301,15 @@
           font-size: var(--heading1);
           color: black;
         }
+
         .about-content {
           font-size: var(--content);
           color: black;
         }
+      }
+      .ourbrand-tag {
+        font-size: var(--heading2);
+        color: black;
       }
     }
     .about-card-container {
@@ -309,7 +327,7 @@
       .about-card-wrap {
         display: grid;
         grid-template-columns: auto auto auto;
-        height: 250px;
+        height: 190px;
         width: 100%;
         .about-card {
           position: relative;
@@ -458,7 +476,6 @@
     padding: 2.5%;
     .Ourservices-tag {
       font-size: var(--heading1);
-      margin: 2.5% 0;
       color: black;
     }
     .Ourservices-card-wraper {
@@ -467,6 +484,7 @@
       align-items: center;
       justify-content: center;
       gap: 30px;
+      margin-top: 5%;
       .Ourservices-card {
         width: 70%;
         height: 590px;
@@ -532,7 +550,7 @@
       padding: 0 2.5%;
       width: 100%;
       .ourbrand-tag {
-        font-size: var(--heading1);
+        font-size: var(--heading2);
         color: black;
       }
     }
@@ -573,7 +591,7 @@
       gap: 10px;
       padding: 2.5%;
       .ourawards-wraper {
-        width: 50%;
+        width: 600px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1533,9 +1551,7 @@
         }
       }
     }
-    .none {
-      display: none;
-    }
+
     .border-right-left {
       border-left: 1px solid brown;
     }
@@ -1558,6 +1574,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s ease;
     background-color: black;
+
     #nav-icon4 {
       width: 50px;
       height: 20px;
@@ -1655,25 +1672,32 @@
           width: 100%;
         }
       }
-
+      .open-nav {
+        width: 200px;
+        display: block !important;
+        background-color: black;
+      }
+      .open {
+        display: block !important;
+      }
       .nav-menu-container {
-        width: 80%;
-        height: 100%;
         display: flex;
         align-items: center;
         justify-content: end;
-        position: relative;
+        position: absolute;
+        right: 0;
+        top: 60px;
         gap: 30px;
         padding: 0 3.5%;
         display: none;
 
         .nav-menu {
+          height: 45px;
           font-size: 16px;
           display: flex;
           align-items: center;
-          justify-content: space-evenly;
+          justify-content: start;
           cursor: pointer;
-          display: none;
         }
 
         .nav-btn {
@@ -1691,7 +1715,6 @@
 
         .dropbtn {
           display: inline-block;
-          text-align: center;
           padding: 14px 16px;
           color: black;
           text-decoration: none;
@@ -1700,30 +1723,20 @@
         .nav-menu.dropdown {
           display: flex;
           align-items: center;
-          justify-content: center;
-          display: none;
-        }
-
-        .dropdown:hover .dropdown-content {
-          display: block;
+          justify-content: start;
         }
 
         .dropdown-content {
-          position: absolute;
-          top: 10px;
-          right: 0px;
           background-color: black;
           border-radius: 5px;
           min-width: 160px;
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           z-index: 1;
+          display: none;
         }
-        .open {
-          height: 500px;
-          width: 300px;
-        }
+
         .dropdown-content .btn {
-          color: black;
+          color: white;
           padding: 12px 16px;
           text-decoration: none;
           display: block;
@@ -1738,6 +1751,10 @@
       }
     }
   }
+  .none {
+    display: none !important;
+  }
+
   // hero banner content start
   .main {
     display: flex;
@@ -1768,10 +1785,9 @@
       z-index: 1;
       .hero-content-container {
         width: 100%;
-        gap: 10px;
         height: 50%;
         padding: 5%;
-        gap: 10px;
+
         h1 {
           font-size: var(--headingMobile1);
         }
@@ -1839,13 +1855,20 @@
       font-size: var(--headingMobile1);
       color: black;
     }
+
     .about-image-container {
       width: 100%;
       height: 300px;
       position: relative;
-      img {
-        height: 100%;
+      .heroVideo {
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
+        object-fit: fill;
+        z-index: -1;
+        border: none;
       }
     }
     .about-content-main-container {
@@ -2952,5 +2975,116 @@
     opacity: 0.1;
   }
   // testimonials end
-  // @media screen and (min-device-width: 480px) {
+  // project details start
+  .project-details-container {
+    height: auto;
+    width: 100%;
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    .project-details-wraper {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      gap: 50px;
+      padding: 2.5%;
+      .project-image-container {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        img {
+          height: 100%;
+          width: 100%;
+          border-radius: 10px;
+        }
+      }
+      .project-heading-container {
+        width: 100%;
+        height: 500px;
+        .heading {
+          font-size: var(--heading2);
+          color: black;
+          text-align: left;
+          padding-bottom: 5px;
+        }
+        .subheading {
+          font-size: var(--content);
+          line-height: 26px;
+          margin-bottom: 5px;
+          color: black;
+          text-align: justify;
+        }
+        .event-details-venue {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 10px;
+          color: black;
+        }
+      }
+    }
+    .project-content-wraper {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      background-color: black;
+      flex-direction: column;
+      justify-content: start;
+
+      .project-name-container {
+        font-size: var(--heading2);
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        gap: 20px;
+        flex-direction: column;
+
+        .project-details-row {
+          display: flex;
+          align-items: start;
+          justify-content: start;
+          flex-direction: column;
+          padding: 2.5%;
+          gap: 10px;
+          width: 100%;
+          .detail-tag-container {
+            font-size: var(--heading2);
+            font-weight: 600;
+            height: 50px;
+            letter-spacing: 3px;
+            border-bottom: 5px solid white;
+          }
+          .detail-tag {
+            font-size: var(--content);
+            font-weight: 600;
+            letter-spacing: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            svg {
+              height: 30px;
+              width: 30px;
+            }
+          }
+          .detail-info {
+            font-size: var(--content);
+          }
+        }
+      }
+    }
+  }
 }
+
+// project details end
+// @media screen and (min-device-width: 480px) {

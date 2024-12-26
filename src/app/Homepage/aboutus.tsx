@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import aboutimg from "../../../public/Assets/about.jpg";
+import "./Homepage.scss";
 import kgs from "../../../public/Assets/logos/kgs.jpg";
 import michigan from "../../../public/Assets/logos/michigan.jpg";
 import prinlogy from "../../../public/Assets/logos/printology.jpg";
@@ -13,7 +13,9 @@ function AboutusContainer() {
     <div>
       <div className="about-container">
         <div className="about-image-container">
-          <Image src={aboutimg} alt="about image" />
+          <video autoPlay muted loop className="heroVideo">
+            <source src="/Assets/aboutvideo.mp4" type="video/mp4" />
+          </video>
         </div>
         <div className="about-content-main-container">
           <div className="about-content-container">
@@ -35,7 +37,7 @@ function AboutusContainer() {
             </div>
           </div>
           <div className="space"></div>
-          <div className="about-tag">Our brands</div>
+          <div className="ourbrand-tag">Our brands</div>
           <div className="underline"></div>
           <div className="about-card-container">
             <div className="about-card-wrap">

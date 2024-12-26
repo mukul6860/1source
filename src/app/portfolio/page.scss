@@ -1,78 +1,157 @@
-.portfolio-banner-container {
-  position: relative;
-  height: 400px;
-  width: 100%;
-  background-image: url(../../../public/Assets/page/portfoliopage.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  background-attachment: fixed;
-  ::after {
-    content: "";
-    background-color: rgba(0, 0, 0, 0.3);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-  }
-  .portfolio-banner-content-container {
-    width: 50%;
-    height: 100%;
-    padding: 2.5%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 99;
-    .portfolio-banner-tag {
-      font-size: var(--heading1);
-    }
-    .portfolio-banner-description {
-      font-size: var(--content);
-    }
-  }
-}
-.portfolio-card-wraper {
-  height: auto;
-  padding: 2.5%;
-  width: 100%;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
-  .portfolio-cards {
-    height: 300px;
+@media screen and (min-width: 1240px) {
+  .portfolio-banner-container {
     position: relative;
-    img {
+    height: 400px;
+    width: 100%;
+    background-image: url(../../../public/Assets/page/portfoliopage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-attachment: fixed;
+    ::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      width: 100%;
       height: 100%;
-      width: 100%;
-    }
-    .portfolio-card-content-wraper {
-      height: 0%;
-      width: 100%;
-      overflow: hidden;
       position: absolute;
-      bottom: 0;
+      top: 0;
       left: 0;
-      background-color: rgba(0, 0, 0, 0.575);
+      z-index: -1;
+    }
+    .portfolio-banner-content-container {
+      width: 50%;
+      height: 100%;
+      padding: 2.5%;
       display: flex;
-      align-items: center;
+      align-items: start;
       justify-content: center;
       flex-direction: column;
-      transition: all 0.5s;
-      .portfolio-cards-tag {
-        font-size: var(--heading2);
+      z-index: 99;
+      .portfolio-banner-tag {
+        font-size: var(--heading1);
       }
-      .portfolio-card-content {
+      .portfolio-banner-description {
         font-size: var(--content);
       }
     }
   }
+  .portfolio-card-wraper {
+    height: auto;
+    padding: 2.5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    .portfolio-cards {
+      height: 300px;
+      position: relative;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .portfolio-card-content-wraper {
+        height: 0%;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.575);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.5s;
+        .portfolio-cards-tag {
+          font-size: var(--heading2);
+        }
+        .portfolio-card-content {
+          font-size: var(--content);
+        }
+      }
+    }
+  }
+  .portfolio-cards:hover .portfolio-card-content-wraper {
+    height: 100%;
+  }
 }
-.portfolio-cards:hover .portfolio-card-content-wraper {
-  height: 100%;
+@media screen and (max-width: 780px) {
+  .portfolio-banner-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url(../../../public/Assets/page/customsignpage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-attachment: fixed;
+    ::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .portfolio-banner-content-container {
+      width: 100%;
+      height: 100%;
+      padding: 2.5%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 99;
+      .portfolio-banner-tag {
+        font-size: var(--headingMobile1);
+      }
+      .portfolio-banner-description {
+        font-size: var(--content);
+      }
+    }
+  }
+  .portfolio-card-wraper {
+    height: auto;
+    padding: 2.5%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    .portfolio-cards {
+      height: 150px;
+      position: relative;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .portfolio-card-content-wraper {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.575);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: all 0.5s;
+        .portfolio-cards-tag {
+          font-size: var(--heading2);
+        }
+        .portfolio-card-content {
+          font-size: var(--content);
+        }
+      }
+    }
+  }
 }

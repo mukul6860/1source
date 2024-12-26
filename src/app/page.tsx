@@ -61,11 +61,19 @@ function GrMail() {
 export default function Home() {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
 
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
 
+  const ProjectDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+  const servicetDropdown = () => {
+    setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
+  };
   return (
     <div className="main-container">
       <div className="header-content-container">
@@ -97,7 +105,7 @@ export default function Home() {
             <span></span>
             <span></span>
           </div>
-          <div className={`nav-menu-container ${isOpen ? "open" : ""}`}>
+          <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
             <div
               className="nav-menu btn"
               onClick={() => router.push("/1codeexperiance")}
@@ -106,11 +114,15 @@ export default function Home() {
             </div>
 
             <div className="dropdown">
-              <div className="nav-menu dropdown">
+              <div className="nav-menu dropdown" onClick={servicetDropdown}>
                 Our services
                 <BiChevronDown />
               </div>
-              <div className={`dropdown-content ${isOpen ? "open" : ""}`}>
+              <div
+                className={`dropdown-content ${
+                  isSeriviceDropdownOpen ? "open" : ""
+                }`}
+              >
                 <a
                   className="btn"
                   onClick={() => router.push("/1codeexperiance")}
@@ -159,12 +171,14 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="dropdown">
-              <div className="nav-menu dropdown">
+            <div className="dropdown btn">
+              <div className="nav-menu dropdown" onClick={ProjectDropdown}>
                 Projects
                 <BiChevronDown />
               </div>
-              <div className={`dropdown-content ${isOpen ? "open" : ""}`}>
+              <div
+                className={`dropdown-content ${isDropdownOpen ? "open" : ""}`}
+              >
                 <a className="btn" onClick={() => router.push("/portfolio")}>
                   Our portfolio
                 </a>
@@ -176,7 +190,7 @@ export default function Home() {
             <div className="nav-menu btn" onClick={() => router.push("/blogs")}>
               Insights & resources
             </div>
-            <a className="nav-btn" onClick={() => router.push("/getquote")}>
+            <a className="nav-btn btn" onClick={() => router.push("/getquote")}>
               Request quote
             </a>
           </div>

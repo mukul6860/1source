@@ -115,7 +115,9 @@ function page() {
             <GrMail />
             info@the1source.com
           </div>
-          <div className="content-container">26600 Heyn Dr, Novi, MI 48374</div>
+          <div className="content-container none">
+            26600 Heyn Dr, Novi, MI 48374
+          </div>
         </div>
         <div className="header-container">
           <div className="nav-container">
