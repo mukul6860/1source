@@ -7,6 +7,7 @@ import prinlogy from "../../../public/Assets/logos/printology.jpg";
 import sw from "../../../public/Assets/logos/screenwork.jpg";
 import signtext from "../../../public/Assets/logos/signtext.jpg";
 import onesource from "../../../public/Assets/1source1.jpg";
+import icon from "../../../public/Assets/watermark.png";
 
 function AboutusContainer() {
   return (
@@ -37,45 +38,43 @@ function AboutusContainer() {
             </div>
           </div>
           <div className="space"></div>
-          <div className="ourbrand-tag">Our brands</div>
-          <div className="underline"></div>
+          <div className="ourbrand-btn">
+            <div className="ourbrand-icon">
+              <Image src={icon} alt="ourbrand icon" />
+            </div>
+            <span>Our Brands</span>
+          </div>
           <div className="about-card-container">
             <div className="about-card-wrap">
               <div className="about-card">
-                <div className="about-card-image">
+                <a className="about-card-image" href="https://printnology.net/">
                   <Image src={prinlogy} alt="prinlogy" />
-                </div>
-                <div className="card-shadow"></div>
+                </a>
               </div>
-              <div className="about-card">
+              <a className="about-card">
                 <div className="about-card-image">
                   <Image src={signtext} alt="signtext" />
                 </div>
-                <div className="card-shadow"></div>
-              </div>
-              <div className="about-card">
+              </a>
+              <a className="about-card" href="https://michigancustomsigns.com/">
                 <div className="about-card-image">
                   <Image src={michigan} alt="michigan" />
                 </div>
-                <div className="card-shadow"></div>
-              </div>
-              <div className="about-card">
+              </a>
+              <a className="about-card" href="https://screenworks.graphics/">
                 <div className="about-card-image">
                   <Image src={sw} alt="sw" />
                 </div>
-                <div className="card-shadow"></div>
-              </div>
+              </a>
               <div className="about-card">
                 <div className="about-card-image">
                   <Image src={kgs} alt="kgs" />
                 </div>
-                <div className="card-shadow"></div>
               </div>
               <div className="about-card">
                 <div className="about-card-image">
                   <Image src={onesource} alt="onesource" />
                 </div>
-                <div className="card-shadow"></div>
               </div>
             </div>
           </div>

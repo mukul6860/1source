@@ -125,13 +125,13 @@ export default function Home() {
               >
                 <a
                   className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
+                  onClick={() => router.push("/digitalmarketing")}
                 >
                   Digital marketing
                 </a>
                 <a
                   className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
+                  onClick={() => router.push("/commercialprinting")}
                 >
                   Commercial printing
                 </a>
