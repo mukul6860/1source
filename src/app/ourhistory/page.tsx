@@ -201,8 +201,8 @@ export default function page() {
             <div className="ourhistory-banner-tag">Who We Are</div>
             <div className="underline"></div>
             <div className="ourhistory-banner-description">
-              Discover the canvas of innovation at bo-mar, where each project is
-              a masterpiece blending functionality with artistic flair. Here,
+              Discover the canvas of innovation at, where each project is a
+              masterpiece blending functionality with artistic flair. Here,
               you’ll see how our dedication to detail and design transforms
               visions into tangible, awe-inspiring realities.
             </div>

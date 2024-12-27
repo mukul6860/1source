@@ -742,7 +742,6 @@
           font-size: var(--heading2);
           display: flex;
           align-items: center;
-          gap: 10px;
           cursor: pointer;
           z-index: 9;
           span {
@@ -756,8 +755,6 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            background-color: black;
-
             img {
               height: 100%;
               width: 100%;
@@ -2348,7 +2345,6 @@
           font-size: var(--heading2);
           display: flex;
           align-items: center;
-          gap: 10px;
           cursor: pointer;
           z-index: 9;
           span {
@@ -2362,7 +2358,6 @@
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            background-color: black;
 
             img {
               height: 100%;

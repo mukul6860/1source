@@ -135,10 +135,7 @@ export default function Home() {
                 >
                   Commercial printing
                 </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
+                <a className="btn" onClick={() => router.push("/largeformat")}>
                   Large format printing
                 </a>
                 <a className="btn" onClick={() => router.push("/Interiorsign")}>

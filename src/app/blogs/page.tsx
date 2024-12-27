@@ -229,8 +229,8 @@ export default function page() {
             <div className="blog-banner-tag">Success Stories And Blog's</div>
             <div className="underline"></div>
             <div className="blog-banner-description">
-              Discover the canvas of innovation at bo-mar, where each project is
-              a masterpiece blending functionality with artistic flair. Here,
+              Discover the canvas of innovation at, where each project is a
+              masterpiece blending functionality with artistic flair. Here,
               you’ll see how our dedication to detail and design transforms
               visions into tangible, awe-inspiring realities.
             </div>

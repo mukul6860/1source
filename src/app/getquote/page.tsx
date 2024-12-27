@@ -224,10 +224,10 @@ export default function page() {
             <div className="getquote-banner-tag">Send Request for Quote</div>
             <div className="underline"></div>
             <div className="getquote-banner-description">
-              Embark on a visual journey with bo-mar Industries’ project map,
-              where each pin drops you into a world of innovative engineering
-              and artistic fabrication. Discover how our nationwide footprint
-              has left lasting impressions, one project at a time.
+              Embark on a visual journey with Industries’ project map, where
+              each pin drops you into a world of innovative engineering and
+              artistic fabrication. Discover how our nationwide footprint has
+              left lasting impressions, one project at a time.
             </div>
           </div>
         </div>

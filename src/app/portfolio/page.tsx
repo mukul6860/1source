@@ -201,8 +201,8 @@ export default function page() {
             <div className="portfolio-banner-tag">Our Work in Action</div>
             <div className="underline"></div>
             <div className="portfolio-banner-description">
-              Discover the canvas of innovation at bo-mar, where each project is
-              a masterpiece blending functionality with artistic flair. Here,
+              Discover the canvas of innovation at, where each project is a
+              masterpiece blending functionality with artistic flair. Here,
               you’ll see how our dedication to detail and design transforms
               visions into tangible, awe-inspiring realities.
             </div>
