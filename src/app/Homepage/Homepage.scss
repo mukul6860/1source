@@ -258,9 +258,7 @@
             font-weight: 600;
             color: white;
           }
-          .hero-card-tag ::before {
-            content: "\e91b";
-          }
+
           .hero-card-content {
             font-size: var(--content);
             color: white;
@@ -303,7 +301,6 @@
       font-size: var(--heading2);
       display: flex;
       align-items: center;
-      gap: 10px;
       cursor: pointer;
       z-index: 9;
       span {
@@ -318,7 +315,6 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        background-color: black;
 
         img {
           height: 100%;
@@ -795,7 +791,6 @@
       font-size: var(--heading2);
       display: flex;
       align-items: center;
-      gap: 10px;
       span {
         border-bottom: 2px solid black;
       }
@@ -814,7 +809,6 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        background-color: black;
 
         img {
           height: 100%;
@@ -1882,6 +1876,36 @@
           background-color: black;
           width: 35%;
           border-top: 5px solid var(--primaryColor);
+          transition: all 0.5s;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          gap: 20px;
+          padding: 2.5%;
+          .hero-card-image {
+            height: 50px;
+            width: 50px;
+            padding: 2.5%;
+            svg {
+              height: 100%;
+              width: 100%;
+            }
+            img {
+              height: 100%;
+              width: 100%;
+            }
+          }
+          .hero-card-tag {
+            font-size: var(--content);
+            font-weight: 600;
+            color: white;
+          }
+
+          .hero-card-content {
+            font-size: var(--content);
+            color: white;
+          }
         }
       }
     }
@@ -1917,11 +1941,11 @@
       font-size: var(--heading2);
       display: flex;
       align-items: center;
-      gap: 10px;
       cursor: pointer;
       z-index: 9;
       span {
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid black;
+        color: black;
       }
       .ourbrand-icon {
         height: 50px;
@@ -1931,7 +1955,6 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        background-color: black;
 
         img {
           height: 100%;
@@ -2408,7 +2431,6 @@
       font-size: var(--heading2);
       display: flex;
       align-items: center;
-      gap: 10px;
       span {
         border-bottom: 2px solid black;
       }
@@ -2427,8 +2449,6 @@
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        background-color: black;
-
         img {
           height: 100%;
           width: 100%;

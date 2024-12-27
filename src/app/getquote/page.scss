@@ -67,6 +67,8 @@
           padding: 0 2.5%;
           input {
             width: 100%;
+            background-color: white;
+            color: black;
           }
 
           label {
@@ -80,9 +82,10 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 16px;
-            background-color: black;
+            background-color: white;
+            color: black;
             &:focus {
-              border-color: #007bff;
+              border-color: var(--primaryColor);
               outline: none;
             }
           }
@@ -198,6 +201,8 @@
           padding: 0 2.5%;
           input {
             width: 100%;
+            background-color: white;
+            color: black;
           }
 
           label {
@@ -211,9 +216,8 @@
             border: 1px solid #ccc;
             border-radius: 4px;
             font-size: 16px;
-            background-color: black;
-            color: white;
-
+            background-color: white;
+            color: black;
             &:focus {
               border-color: brown;
               outline: none;

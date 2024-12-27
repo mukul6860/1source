@@ -7,7 +7,7 @@ import prinlogy from "../../../public/Assets/logos/printology.jpg";
 import sw from "../../../public/Assets/logos/screenwork.jpg";
 import signtext from "../../../public/Assets/logos/signtext.jpg";
 import onesource from "../../../public/Assets/1source1.jpg";
-import icon from "../../../public/Assets/watermark.png";
+import icon from "../../../public/Assets/rwatermark.png";
 
 function AboutusContainer() {
   return (

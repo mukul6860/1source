@@ -12,21 +12,20 @@ function Serviceareas() {
         <div className="serviceareas-sections"></div>
         <div className="serviceareas-sections">
           <div className="serviceareas-content-container">
-            <div className="serviceareas-tag">
-              We are Provide Service Across the Country
-            </div>
+            <div className="serviceareas-tag">Why choose 1Source?</div>
             <div className="serviceareas-first-border"></div>
             <div className="serviceareas-content">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industrys standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              At 1Source, we are committed to providing unparalleled quality and
+              service in every project we undertake. With over three decades of
+              experience, we bring expert craftsmanship and innovative solutions
+              to the digital, print, and sign industries. Our diverse portfolio
+              of six specialized brands ensures that we can meet the unique
+              needs of every client, delivering customized results that exceed
+              expectations. Whether you're looking for cutting-edge signage,
+              vibrant print solutions, or digital excellence, 1Source stands as
+              your trusted partner for all your creative and business needs.
+              Choose us for our dedication to precision, creativity, and
+              superior customer satisfaction.
             </div>
             <a className="serviceareas-btn" href="/map">
               <div className="icon">
