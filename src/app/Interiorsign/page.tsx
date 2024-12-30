@@ -1,5 +1,6 @@
 "use client";
 import Footer from "../footer/footer";
+import React, { useState } from "react";
 import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -59,6 +60,20 @@ function GrMail() {
 }
 export default function page() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
+
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const ProjectDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+  const servicetDropdown = () => {
+    setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
+  };
 
   return (
     <>
@@ -83,48 +98,48 @@ export default function page() {
                 <Image src={logo1} alt="Company Logo" />
               </a>
             </div>
-
-            <div className="nav-menu-container">
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/ourhistory")}
+            <div
+              id="nav-icon4"
+              className={isOpen ? "open" : ""}
+              onClick={toggleClass}
             >
-              History
-            </div> */}
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
               <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
               </div>
-              {/* <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Virtual Consultation Booking
-              </div> */}
 
               <div className="dropdown">
-                <div className="nav-menu dropdown">
+                <div className="nav-menu dropdown" onClick={servicetDropdown}>
                   Our services
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${
+                    isSeriviceDropdownOpen ? "open" : ""
+                  }`}
+                >
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/digitalmarketing")}
                   >
                     Digital marketing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/commercialprinting")}
                   >
                     Commercial printing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/largeformat")}
                   >
                     Large format printing
                   </a>
@@ -142,7 +157,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/permitandinstallation")}
                   >
                     Permit & installation
                   </a>
@@ -155,21 +170,20 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
+                  <a className="btn" onClick={() => router.push("/matterport")}>
                     Matterport virtual experiences
                   </a>
                 </div>
               </div>
 
-              <div className="dropdown">
-                <div className="nav-menu dropdown">
+              <div className="dropdown btn">
+                <div className="nav-menu dropdown" onClick={ProjectDropdown}>
                   Projects
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${isDropdownOpen ? "open" : ""}`}
+                >
                   <a className="btn" onClick={() => router.push("/portfolio")}>
                     Our portfolio
                   </a>
@@ -184,27 +198,30 @@ export default function page() {
               >
                 Insights & resources
               </div>
-              <a className="nav-btn" onClick={() => router.push("/getquote")}>
+              <a
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
                 Request quote
               </a>
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/contactus")}
-            >
-              Contact
-            </div> */}
             </div>
           </div>
         </div>
         <div className="product-banner-container">
           <div className="product-banner-content-container">
-            <div className="product-banner-tag">Interior Signage</div>
+            <div className="product-banner-tag">
+              Custom Interior Signs Tailored for Your Space
+            </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              Discover the canvas of innovation at, where each project is a
-              masterpiece blending functionality with artistic flair. Here,
-              you’ll see how our dedication to detail and design transforms
-              visions into tangible, awe-inspiring realities.
+              Interior signs play a vital role in shaping the ambiance and
+              functionality of your workspace. Whether you're aiming to impress
+              visitors, guide clients effortlessly, or boost employee morale,
+              the right signage makes all the difference. At The1Source, we
+              specialize in creating Custom Interior Signs that are as unique as
+              your business. From sleek designs to versatile materials, we
+              ensure that every sign reflects your brand’s identity and meets
+              your specific needs.
             </div>
           </div>
         </div>
@@ -223,13 +240,15 @@ export default function page() {
                 <div className="product-tag">Acrylic Signs</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Acrylic signs offer a variety of options to achieve the
-                  professional look you need. Whether you choose crystal clear
-                  acrylic for a traditional look, or frosted for a softer
-                  impression, or opt for color to add sleek style, shatter-proof
-                  acrylic is much stronger and more durable than glass.
-                  Customize it with etching, beveled edges, or mount it off the
-                  wall with standoffs.
+                  Acrylic signs offer the perfect blend of style and durability,
+                  making them a versatile choice for any professional setting.
+                  Choose crystal-clear acrylic for a classic, polished look,
+                  frosted acrylic for a subtle, elegant touch, or vibrant colors
+                  to infuse a modern aesthetic. Acrylic is not only
+                  shatter-proof but also significantly stronger than glass.
+                  Enhance your signage with features like etching, beveled
+                  edges, or standoff mounts for a sleek, three-dimensional
+                  appearance.
                 </div>
               </div>
             </div>
@@ -246,14 +265,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">ADA Signs</div>
+                <div className="product-tag">ADA-Compliant Signage</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Essential signs should be accessible for everyone. Ensure your
-                  signs are up to code and look good too. We’re ADA compliancy
-                  experts who know how to make the most of materials and methods
-                  to create ADA signs that complement your brand. Secure that
-                  Certificate of Occupancy with style.
+                  Accessibility and compliance go hand in hand with great
+                  design. ADA-compliant signage ensures inclusivity while
+                  reflecting your brand's professionalism. Our expertise in ADA
+                  compliance allows us to create signs that meet all legal
+                  requirements while maintaining a cohesive look with your
+                  existing décor. From tactile lettering to braille, we combine
+                  functionality with aesthetics to secure your Certificate of
+                  Occupancy in style.
                 </div>
               </div>
             </div>
@@ -270,13 +292,15 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">
-                  Wayfinding and Directory Signs
-                </div>
+                <div className="product-tag">Wayfinding Signage Solutions</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Don’t let your customers get lost. Get them from point A to
-                  point B smoothly and efficiently for a frustration free
+                  Guide your visitors with ease and precision. Wayfinding
+                  signage solutions are essential for creating a seamless
+                  experience, helping clients and customers navigate your space
+                  effortlessly. Whether it’s a large campus or a compact office,
+                  our custom-designed signs ensure clarity and efficiency,
+                  leaving a lasting positive impression.
                 </div>
               </div>
             </div>
@@ -296,20 +320,13 @@ export default function page() {
                 <div className="product-tag">Lobby Signs</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  The Moment you step from the elevator, you’d be amazed at the
-                  extent to which an office would be in the lobby area. For
-                  someone who aims to become an entrepreneur in Michigan, you’d
-                  understand how significant it is to gain and retain the trust
-                  of all of your customers. Absolutely, every single such
-                  opportunity assists either to hold or in many respects to lose
-                  that trust. That is the reason whenever someone designs an
-                  office lobby it’s very important that impresses the client
-                  because of the standing of the company. That is why sometimes
-                  poorly crafted reception desk signs tend to leave a sour
-                  taste. In order to increase the level of trust in your
-                  organization, pretend it is a good idea to advocate investing
-                  in accentuated signs that accompany up the respectability of
-                  the company.
+                  Your lobby sets the tone for your brand. From the moment
+                  someone steps off the elevator, a well-designed lobby sign can
+                  instill trust and confidence in your business. Don’t let
+                  poorly crafted signage detract from your company’s image.
+                  Instead, invest in premium, visually striking lobby signs that
+                  elevate your brand’s reputation and make a memorable first
+                  impression.
                 </div>
               </div>
             </div>
@@ -329,13 +346,12 @@ export default function page() {
                 <div className="product-tag">Mission Statement</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Have you ever thought of designing and/or painting a mission
-                  statement wall for your organization but you are unsure of
-                  what steps to take? Most of the well established business
-                  brands appreciate the need of having a mission statement since
-                  that is what’s going to help them win the client trust. A
-                  positive confirmation and zeal to get the job done excellently
-                  also helps to enhance the employees.
+                  Showcase your organization’s core values with a beautifully
+                  designed mission statement wall. A visually engaging mission
+                  statement not only communicates your goals to clients but also
+                  inspires employees by reinforcing the purpose of their work.
+                  We can help you create a design that’s both impactful and
+                  visually cohesive with your workspace.
                 </div>
               </div>
             </div>
@@ -352,17 +368,16 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Vinyl Signs</div>
+                <div className="product-tag">Vinyl Signs and Wall Graphics</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  These multi-purpose signs can be used both indoors and
-                  outdoors on any kind of surface. As to your preferred designs,
-                  you will have to say that the sky is the limit. Business
-                  owners have to select the right sign partner in order to
-                  utilize the benefits of vinyl signs to their maximum
-                  potential. Michigan Custom Signs is one such vinyl sign shop
-                  in Michigan that has been in the industry for long and has the
-                  expertise to deliver the best quality of vinyl signs.
+                  Versatile and cost-effective, vinyl signs are perfect for a
+                  wide range of applications, indoors or outdoors. Whether you
+                  need custom graphics for windows, walls, or vehicles, vinyl
+                  signs can be tailored to meet your unique requirements. With
+                  endless design possibilities, our wall graphics and décor
+                  solutions help businesses make a bold statement and stand out
+                  from the competition.
                 </div>
               </div>
             </div>
@@ -382,11 +397,12 @@ export default function page() {
                 <div className="product-tag">Wall Decals</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Wall graphics and decals are commonly seen in offices and
-                  specialty stores in Michigan but companies across different
-                  industries have started using wall decals for business.
-                  They’ve become popular for businesses with glass conferences
-                  rooms to give them an etched glass look
+                  Transform your space with custom wall decals. From office
+                  interiors to retail stores, wall decals offer an easy and
+                  stylish way to personalize your environment. Popular for
+                  adding privacy to glass conference rooms or creating branded
+                  designs, these decals are a modern and adaptable solution for
+                  businesses looking to make an impact.
                 </div>
               </div>
             </div>
@@ -406,15 +422,12 @@ export default function page() {
                 <div className="product-tag">Wall Murals</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  It’s tough to spend time in an office or a house that is
-                  devoid of any appeal due to the same dull, blank, and drab
-                  walls. One must make an effort to attract people who enter
-                  their premises with the right kind of space. Even in many
-                  situations where it seems more suitable, the paint barely
-                  boosts the energy of the room or building. Fortunately,
-                  printing technology allows us to take advantage of targeted
-                  marketing visuals that traditionally have been considered
-                  boring: the walls!
+                  Dull walls can drain the energy of a space. Revitalize your
+                  office or commercial area with vibrant wall murals. Custom
+                  murals bring life and personality to any setting, transforming
+                  ordinary walls into engaging marketing tools or artful
+                  expressions of your brand’s identity. Let your walls tell a
+                  story that captivates and inspires.
                 </div>
               </div>
             </div>
@@ -434,18 +447,49 @@ export default function page() {
                 <div className="product-tag">Wall Wraps</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Wall Wraps With customized wall graphics, you can create
-                  endless branding possibilities in your office or some store.
-                  Wall wraps can also give employees and even the visitors a
-                  modern feel. Custom wall wraps are quite ideal for individuals
-                  who wish to enhance the appearance of their rooms. Office
-                  vinyl wall wraps are the best marketing solution as they are
-                  easy to apply, not pricey, and fully customizable.
+                  Turn any wall into a stunning visual masterpiece with custom
+                  wall wraps. Perfect for offices, retail spaces, or homes, wall
+                  wraps offer endless branding opportunities while adding a
+                  modern, stylish touch. Affordable, customizable, and easy to
+                  install, they’re an ideal solution for anyone looking to
+                  elevate their interior design while making a bold statement.
                 </div>
               </div>
             </div>
           </div>
           {/* row end */}
+          {/* row start */}
+          <div className="product-row">
+            <div className="product-sub-container">
+              <div className="product-image-container">
+                <div className="product-image-wrap">
+                  <Image src={productimage} alt="product image" />
+                </div>
+              </div>
+            </div>
+            <div className="product-sub-container">
+              <div className="product-content-container">
+                <div className="product-tag">
+                  Elevate Your Space with The1Source
+                </div>
+                <div className="underline"></div>
+                <div className="product-content">
+                  At The1Source, we’re committed to helping businesses in
+                  Michigan stand out with innovative and impactful interior
+                  signage. Whether you’re revamping an office, outfitting a
+                  retail space, or creating a welcoming environment for clients
+                  and employees, our custom solutions ensure your space leaves a
+                  lasting impression.
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* row end */}
+          <div className="content">
+            Contact us today to explore the best Interior Signage in Michigan,
+            including Custom Interior Signs in Novi, MI, and discover how we can
+            bring your vision to life.
+          </div>
         </div>
         <Footer />
       </div>

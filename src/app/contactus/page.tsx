@@ -110,7 +110,20 @@ export default function page() {
     setFile(event.target.files[0]);
   };
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
 
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const ProjectDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+  const servicetDropdown = () => {
+    setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
+  };
   return (
     <>
       <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
@@ -123,7 +136,9 @@ export default function page() {
             <GrMail />
             info@the1source.com
           </div>
-          <div className="content-container">26600 Heyn Dr, Novi, MI 48374</div>
+          <div className="content-container none">
+            26600 Heyn Dr, Novi, MI 48374
+          </div>
         </div>
         <div className="header-container">
           <div className="nav-container">
@@ -132,48 +147,48 @@ export default function page() {
                 <Image src={logo1} alt="Company Logo" />
               </a>
             </div>
-
-            <div className="nav-menu-container">
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/ourhistory")}
+            <div
+              id="nav-icon4"
+              className={isOpen ? "open" : ""}
+              onClick={toggleClass}
             >
-              History
-            </div> */}
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
               <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
               </div>
-              {/* <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Virtual Consultation Booking
-              </div> */}
 
               <div className="dropdown">
-                <div className="nav-menu dropdown">
+                <div className="nav-menu dropdown" onClick={servicetDropdown}>
                   Our services
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${
+                    isSeriviceDropdownOpen ? "open" : ""
+                  }`}
+                >
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/digitalmarketing")}
                   >
                     Digital marketing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/commercialprinting")}
                   >
                     Commercial printing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/largeformat")}
                   >
                     Large format printing
                   </a>
@@ -191,7 +206,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/permitandinstallation")}
                   >
                     Permit & installation
                   </a>
@@ -204,21 +219,20 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
+                  <a className="btn" onClick={() => router.push("/matterport")}>
                     Matterport virtual experiences
                   </a>
                 </div>
               </div>
 
-              <div className="dropdown">
-                <div className="nav-menu dropdown">
+              <div className="dropdown btn">
+                <div className="nav-menu dropdown" onClick={ProjectDropdown}>
                   Projects
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${isDropdownOpen ? "open" : ""}`}
+                >
                   <a className="btn" onClick={() => router.push("/portfolio")}>
                     Our portfolio
                   </a>
@@ -233,15 +247,12 @@ export default function page() {
               >
                 Insights & resources
               </div>
-              <a className="nav-btn" onClick={() => router.push("/getquote")}>
+              <a
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
                 Request quote
               </a>
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/contactus")}
-            >
-              Contact
-            </div> */}
             </div>
           </div>
         </div>

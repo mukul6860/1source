@@ -44,12 +44,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: black;
     padding: 2.5%;
-    gap: 20px;
+    gap: 50px;
     .ourhistory-image-container {
       width: 50%;
-      height: 100vh;
       display: flex;
       align-items: start;
       justify-content: center;
@@ -67,7 +67,12 @@
       }
     }
     .ourhistory-content-container {
-      width: 50%;
+      width: 100%;
+      display: flex;
+      align-items: start;
+      gap: 20px;
+      justify-content: center;
+      flex-direction: column;
       .ourhistory-tag {
         font-size: var(--heading1);
       }

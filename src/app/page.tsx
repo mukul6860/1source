@@ -146,7 +146,7 @@ export default function Home() {
                 </a>
                 <a
                   className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
+                  onClick={() => router.push("/permitandinstallation")}
                 >
                   Permit & installation
                 </a>
@@ -159,10 +159,7 @@ export default function Home() {
                 >
                   1Code experience
                 </a>
-                <a
-                  className="btn"
-                  onClick={() => router.push("/1codeexperiance")}
-                >
+                <a className="btn" onClick={() => router.push("/matterport")}>
                   Matterport virtual experiences
                 </a>
               </div>

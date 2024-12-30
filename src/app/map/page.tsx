@@ -1,5 +1,6 @@
 "use client";
 import Footer from "../footer/footer";
+import React, { useState } from "react";
 import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -59,6 +60,20 @@ function GrMail() {
 }
 export default function page() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
+
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const ProjectDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+  const servicetDropdown = () => {
+    setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
+  };
 
   return (
     <>
@@ -83,48 +98,48 @@ export default function page() {
                 <Image src={logo1} alt="Company Logo" />
               </a>
             </div>
-
-            <div className="nav-menu-container">
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/ourhistory")}
+            <div
+              id="nav-icon4"
+              className={isOpen ? "open" : ""}
+              onClick={toggleClass}
             >
-              History
-            </div> */}
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
               <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
               </div>
-              {/* <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Virtual Consultation Booking
-              </div> */}
 
               <div className="dropdown">
-                <div className="nav-menu dropdown">
+                <div className="nav-menu dropdown" onClick={servicetDropdown}>
                   Our services
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${
+                    isSeriviceDropdownOpen ? "open" : ""
+                  }`}
+                >
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/digitalmarketing")}
                   >
                     Digital marketing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/commercialprinting")}
                   >
                     Commercial printing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/largeformat")}
                   >
                     Large format printing
                   </a>
@@ -142,7 +157,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/permitandinstallation")}
                   >
                     Permit & installation
                   </a>
@@ -155,21 +170,20 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
+                  <a className="btn" onClick={() => router.push("/matterport")}>
                     Matterport virtual experiences
                   </a>
                 </div>
               </div>
 
-              <div className="dropdown">
-                <div className="nav-menu dropdown">
+              <div className="dropdown btn">
+                <div className="nav-menu dropdown" onClick={ProjectDropdown}>
                   Projects
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${isDropdownOpen ? "open" : ""}`}
+                >
                   <a className="btn" onClick={() => router.push("/portfolio")}>
                     Our portfolio
                   </a>
@@ -184,15 +198,12 @@ export default function page() {
               >
                 Insights & resources
               </div>
-              <a className="nav-btn" onClick={() => router.push("/getquote")}>
+              <a
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
                 Request quote
               </a>
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/contactus")}
-            >
-              Contact
-            </div> */}
             </div>
           </div>
         </div>
@@ -201,10 +212,10 @@ export default function page() {
             <div className="map-banner-tag">Project Map</div>
             <div className="underline"></div>
             <div className="map-banner-description">
-              Embark on a visual journey with Industries’ project map, where
-              each pin drops you into a world of innovative engineering and
-              artistic fabrication. Discover how our nationwide footprint has
-              left lasting impressions, one project at a time.
+              Take a virtual tour of 1Source projects across Michigan. Each pin
+              represents a unique blend of cutting-edge engineering and
+              exceptional craftsmanship. See how we’ve made our mark,
+              transforming ideas into reality, one project at a time.
             </div>
           </div>
         </div>

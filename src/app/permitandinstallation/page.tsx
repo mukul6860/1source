@@ -74,7 +74,6 @@ export default function page() {
   const servicetDropdown = () => {
     setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
   };
-
   return (
     <>
       <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
@@ -210,17 +209,17 @@ export default function page() {
         <div className="product-banner-container">
           <div className="product-banner-content-container">
             <div className="product-banner-tag">
-              Custom Exterior Signs Tailored to Your Business
+              Professional Sign Installation and Permit Services in Michigan
             </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              Exterior signage is more than just a marker for your business;
-              it’s a powerful communication tool that conveys your brand
-              identity, attracts customers, and enhances visibility. At
-              The1Source, we specialize in crafting Custom Exterior Signs that
-              stand out while reflecting the essence of your brand. From bold
-              designs to durable materials, our solutions are tailored to meet
-              the unique needs of businesses across Michigan.
+              End-to-end Signage Permit Services & Professional Sign
+              Installation in Michigan and Novi by The1Source Whether it’s
+              dealing with complex permit processes or ensuring proper
+              installation, we take care of every detail in the process of
+              realising your signage vision. Staying within the local
+              guidelines, we ensure your signs are not only eye-catching, but
+              also delivered safely and securely to your business.
             </div>
           </div>
         </div>
@@ -237,18 +236,34 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Channel Letter Signs: Illuminated Signage Solutions
+                  Navigating the Signage Permit Process
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Make your business impossible to miss with our striking
-                  channel letter signs. These three-dimensional, illuminated
-                  letters are perfect for enhancing visibility day and night.
-                  Whether mounted directly to your building or placed on a
-                  raceway for added versatility, channel letters are a timeless
-                  option for showcasing your brand in a polished, professional
-                  manner. Our Illuminated Signage Solutions ensure your business
-                  shines brightly, even after dark.
+                  Obtaining the necessary permits for signage can be a
+                  challenging and time-consuming task. That’s where we come in.
+                  Our signage permit services include:
+                  <ul>
+                    <li>
+                      Permit Application Assistance: We gather all required
+                      documentation, including site plans, design
+                      specifications, and zoning details, to streamline the
+                      application process.
+                    </li>
+                    <li>
+                      Compliance with Local Regulations: Every city and county
+                      has specific guidelines for signage, and we ensure your
+                      signage meets all criteria to avoid costly delays or
+                      fines.
+                    </li>
+                    <li>
+                      Timely Approvals: Our team’s experience with local
+                      authorities helps expedite the approval process, ensuring
+                      your project stays on schedule.
+                    </li>
+                  </ul>
+                  With The1Source, you can focus on your business while we take
+                  care of the paperwork and compliance.
                 </div>
               </div>
             </div>
@@ -266,16 +281,24 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Door Signs: Welcoming and Informative
+                  Ensuring Compliance for Long-Term Success
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Your business entrance is your first impression. With custom
-                  door signs, you can provide essential information, enhance
-                  branding, and guide visitors effortlessly. Whether you need
-                  directional signs, business hours, or logo displays, our door
-                  signage solutions combine style and function to leave a
-                  lasting impact.
+                  Signage compliance is more than just obtaining permits—it’s
+                  about ensuring your signage meets safety and durability
+                  standards for long-term use. Our team meticulously reviews
+                  every aspect of your signage, including materials, placement,
+                  and visibility, to ensure compliance with:
+                  <ul>
+                    <li>Local zoning laws</li>
+                    <li>Building codes</li>
+                    <li>ADA (Americans with Disabilities Act) requirements</li>
+                    <li>Environmental regulations</li>
+                  </ul>
+                  We stay updated with the latest rules and standards, giving
+                  you peace of mind that your signage will not only look great
+                  but also stand the test of time.
                 </div>
               </div>
             </div>
@@ -293,16 +316,38 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Hanging Signs: Functional and Eye-Catching
+                  Professional Sign Installation You Can Trust
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Perfect for businesses looking to maximize visibility in
-                  crowded areas, hanging signs add a classic touch to your
-                  exterior design. Whether suspended indoors or outdoors, these
-                  signs are highly versatile and can be customized in various
-                  materials, shapes, and finishes to match your brand
-                  aesthetics.
+                  A great sign deserves a flawless installation. At The1Source,
+                  our professional sign installation services ensure your
+                  signage is installed securely and positioned for maximum
+                  impact. Our team of skilled technicians uses advanced tools
+                  and techniques to handle everything from small indoor signs to
+                  large outdoor displays. <br /> Key features of our
+                  installation services include:
+                  <ul>
+                    <li>
+                      Site Assessment: We evaluate your location to determine
+                      the best placement for visibility and durability.
+                    </li>
+                    <li>
+                      Secure Mounting: From wall-mounted signs to freestanding
+                      structures, we use high-quality materials and hardware to
+                      ensure your signage withstands environmental elements.
+                    </li>
+                    <li>
+                      Electrical Sign Installation: For illuminated signs, our
+                      experts handle electrical connections safely and
+                      efficiently.
+                    </li>
+                    <li>
+                      Post-Installation Inspection: After installation, we
+                      conduct thorough inspections to ensure everything meets
+                      quality and safety standards.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -320,16 +365,24 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Metal Signs: Durable and Sophisticated
+                  Comprehensive Signage Solutions in Michigan
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  For a sleek, long-lasting option, metal signs are the perfect
-                  choice. Known for their durability and elegant appearance,
-                  metal signs are ideal for showcasing your business name, logo,
-                  or key information. With options ranging from brushed aluminum
-                  to weatherproof steel, we deliver signage that’s as resilient
-                  as it is visually appealing.
+                  At The1Source, we’re proud to be a trusted provider of signage
+                  permits and installation in Michigan. Whether you’re opening a
+                  new business, updating your brand, or expanding your
+                  operations, we offer customized solutions tailored to your
+                  needs. Businesses in <br /> Novi, MI, and surrounding areas
+                  rely on us for:
+                  <ul>
+                    <li>Signage Design and Fabrication</li>
+                    <li>Permit Acquisition and Compliance</li>
+                    <li>Professional Installation and Maintenance</li>
+                  </ul>
+                  We prioritize quality, compliance, and customer satisfaction
+                  in every project, ensuring your signage serves as a powerful
+                  marketing tool for years to come.
                 </div>
               </div>
             </div>
@@ -347,181 +400,39 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Monument and Pylon Signs: Make a Bold Statement
+                  Why Choose The1Source for Your Signage Needs?
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Nothing captures attention like a well-crafted monument sign
-                  or a towering pylon sign. Perfect for making a statement at
-                  entrances, these ground-level or elevated signs are designed
-                  to impress. Whether you opt for classic stone, modern acrylic,
-                  or a combination of materials, these signs ensure visibility
-                  and communicate sophistication. With Monument and Pylon Signs,
-                  your business will leave a lasting impression.
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* row end */}
-          {/* row start */}
-          <div className="product-row">
-            <div className="product-sub-container">
-              <div className="product-image-container">
-                <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
-                </div>
-              </div>
-            </div>
-            <div className="product-sub-container">
-              <div className="product-content-container">
-                <div className="product-tag">
-                  Window Graphics: Turn Glass into Opportunity
-                </div>
-                <div className="underline"></div>
-                <div className="product-content">
-                  Transform your storefront into a marketing canvas with vibrant
-                  window graphics. Whether you want to showcase promotions, add
-                  privacy, or reinforce your brand, our custom graphics are
-                  designed to make an impact. Choose from full-coverage wraps,
-                  decals, or perforated vinyl for a look that’s both functional
-                  and stylish.
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* row end */}
-          {/* row start */}
-          <div className="product-row">
-            <div className="product-sub-container">
-              <div className="product-image-container">
-                <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
-                </div>
-              </div>
-            </div>
-            <div className="product-sub-container">
-              <div className="product-content-container">
-                <div className="product-tag">
-                  Parking Signs: Clear and Convenient Navigation
-                </div>
-                <div className="underline"></div>
-                <div className="product-content">
-                  Ensure a seamless experience for your customers with clear and
-                  professional parking signs. From reserved spaces to
-                  directional signs, we offer a variety of designs that improve
-                  functionality and reflect your business’s commitment to
-                  customer care.
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* row end */}
-          {/* row start */}
-          <div className="product-row">
-            <div className="product-sub-container">
-              <div className="product-image-container">
-                <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
-                </div>
-              </div>
-            </div>
-            <div className="product-sub-container">
-              <div className="product-content-container">
-                <div className="product-tag">
-                  Real Estate Signs: Professional and Persuasive
-                </div>
-                <div className="underline"></div>
-                <div className="product-content">
-                  Capture attention in competitive markets with expertly
-                  designed real estate signs. Whether it’s “For Sale,” “Open
-                  House,” or custom branding, we create durable and attractive
-                  signs that help properties stand out and generate leads.
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* row end */}
-          {/* row start */}
-          <div className="product-row">
-            <div className="product-sub-container">
-              <div className="product-image-container">
-                <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
-                </div>
-              </div>
-            </div>
-            <div className="product-sub-container">
-              <div className="product-content-container">
-                <div className="product-tag">
-                  School and Institutional Signs: Inspire and Inform
-                </div>
-                <div className="underline"></div>
-                <div className="product-content">
-                  Educational institutions need signage that informs while
-                  enhancing the campus atmosphere. From entryway signs to
-                  digital displays, we design custom school signs that reflect
-                  pride and professionalism while serving functional purposes.
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* row end */}
-          {/* row start */}
-          <div className="product-row">
-            <div className="product-sub-container">
-              <div className="product-image-container">
-                <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
-                </div>
-              </div>
-            </div>
-            <div className="product-sub-container">
-              <div className="product-content-container">
-                <div className="product-tag">
-                  Golf Tournament and Event Signs: Showcase Your Brand
-                </div>
-                <div className="underline"></div>
-                <div className="product-content">
-                  Planning a golf tournament or a corporate event? Our custom
-                  event signs add a professional touch to your branding efforts.
-                  From sponsor banners to directional signage, we ensure your
-                  event is visually cohesive and memorable.
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* row end */}
-          {/* row start */}
-          <div className="product-row">
-            <div className="product-sub-container">
-              <div className="product-image-container">
-                <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
-                </div>
-              </div>
-            </div>
-            <div className="product-sub-container">
-              <div className="product-content-container">
-                <div className="product-tag">
-                  Why Choose The1Source for Your Exterior Signage in Michigan?
-                </div>
-                <div className="underline"></div>
-                <div className="product-content">
-                  At The1Source, we understand that your signage is a reflection
-                  of your brand. That’s why we use premium materials,
-                  cutting-edge design techniques, and expert craftsmanship to
-                  deliver signage that exceeds expectations. Whether you’re a
-                  small business or a large corporation, we have the expertise
-                  to bring your vision to life.
+                  <ul>
+                    <li>
+                      Local Expertise: We understand the specific regulations
+                      and requirements for signage in Michigan.
+                    </li>
+                    <li>
+                      End-to-End Services: From permits to installation, we
+                      manage the entire process, saving you time and effort.
+                    </li>
+                    <li>
+                      Attention to Detail: Every project is handled with
+                      precision, ensuring your signage reflects your brand’s
+                      professionalism and vision.
+                    </li>
+                    <li>
+                      Timely Delivery: We work efficiently to meet deadlines
+                      without compromising on quality.
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
           {/* row end */}
           <div className="content">
-            Contact us today to discover how our Outdoor Sign Solutions in Novi,
-            MI, and beyond, can elevate your business. Let’s create something
-            remarkable together with our custom Exterior Signage in Michigan!
+            Get started with The1Source today! Contact us for reliable signage
+            permits and installation in Michigan, and let us help your business
+            make a bold statement with professional, compliant, and expertly
+            installed signage.
           </div>
         </div>
         <Footer />

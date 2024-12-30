@@ -53,7 +53,7 @@
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 
       .product-sub-container {
-        width: 50%;
+        width: 100%;
         display: flex;
         align-items: start;
         justify-content: center;
@@ -96,6 +96,10 @@
       }
     }
   }
+
+  .product-row:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
   .content {
     font-size: var(--content);
     color: black;
@@ -106,9 +110,6 @@
     padding: 2.5%;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  .product-row:nth-child(odd) {
-    flex-direction: row-reverse;
   }
 }
 @media screen and (max-width: 780px) {

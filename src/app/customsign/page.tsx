@@ -1,5 +1,6 @@
 "use client";
 import Footer from "../footer/footer";
+import React, { useState } from "react";
 import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -59,7 +60,20 @@ function GrMail() {
 }
 export default function page() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
 
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const ProjectDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+  const servicetDropdown = () => {
+    setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
+  };
   return (
     <>
       <div style={{ position: "relative", overflow: "auto", height: "100vh" }}>
@@ -83,48 +97,48 @@ export default function page() {
                 <Image src={logo1} alt="Company Logo" />
               </a>
             </div>
-
-            <div className="nav-menu-container">
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/ourhistory")}
+            <div
+              id="nav-icon4"
+              className={isOpen ? "open" : ""}
+              onClick={toggleClass}
             >
-              History
-            </div> */}
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
               <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
               </div>
-              {/* <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Virtual Consultation Booking
-              </div> */}
 
               <div className="dropdown">
-                <div className="nav-menu dropdown">
+                <div className="nav-menu dropdown" onClick={servicetDropdown}>
                   Our services
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${
+                    isSeriviceDropdownOpen ? "open" : ""
+                  }`}
+                >
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/digitalmarketing")}
                   >
                     Digital marketing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/commercialprinting")}
                   >
                     Commercial printing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/largeformat")}
                   >
                     Large format printing
                   </a>
@@ -142,7 +156,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/permitandinstallation")}
                   >
                     Permit & installation
                   </a>
@@ -155,21 +169,20 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
+                  <a className="btn" onClick={() => router.push("/matterport")}>
                     Matterport virtual experiences
                   </a>
                 </div>
               </div>
 
-              <div className="dropdown">
-                <div className="nav-menu dropdown">
+              <div className="dropdown btn">
+                <div className="nav-menu dropdown" onClick={ProjectDropdown}>
                   Projects
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${isDropdownOpen ? "open" : ""}`}
+                >
                   <a className="btn" onClick={() => router.push("/portfolio")}>
                     Our portfolio
                   </a>
@@ -184,27 +197,29 @@ export default function page() {
               >
                 Insights & resources
               </div>
-              <a className="nav-btn" onClick={() => router.push("/getquote")}>
+              <a
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
                 Request quote
               </a>
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/contactus")}
-            >
-              Contact
-            </div> */}
             </div>
           </div>
         </div>
         <div className="product-banner-container">
           <div className="product-banner-content-container">
-            <div className="product-banner-tag">Custom Signage</div>
+            <div className="product-banner-tag">
+              Custom Signage Solutions: Crafting Your Brand’s Visual Identity
+            </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              Discover the canvas of innovation at, where each project is a
-              masterpiece blending functionality with artistic flair. Here,
-              you’ll see how our dedication to detail and design transforms
-              visions into tangible, awe-inspiring realities.
+              The1Source is a seasoned provider of tailored signage with an
+              ideal balance of technology, fashion, and utility. Our signs are
+              not some powering marketing designer alone—but they serve as a
+              great marketing tool as well that will help you gain recognition
+              in your business. Dedicated to making your vision come to life in
+              attention-grabbing detail. Superior custom Signs in Novi,
+              Michigan, Custom Signs, in your region.x
             </div>
           </div>
         </div>
@@ -220,17 +235,18 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Banners</div>
+                <div className="product-tag">
+                  Custom Banners: Your Message, Loud and Clear
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  If you are looking for a quick and easy way to promote your
-                  products and services, vinyl banners are the perfect
-                  eye-catching and efficient way to get your message across. At
-                  Michigan Custom Signs, we will help you push your brand
-                  forward. Our experienced team is available to discuss your
-                  banner needs. Whether you need a banner for outdoor or indoor
-                  use, Michigan Custom Signs is capable of delivering your
-                  demands.
+                  Looking for a quick, cost-effective way to promote your
+                  business? Custom vinyl banners offer an impactful way to
+                  display your message, whether you're promoting a sale, event,
+                  or your brand. The1Source delivers high-quality vinyl banners
+                  tailored to your needs, designed for both indoor and outdoor
+                  use. Let our team help you capture attention with custom
+                  banners that get your message noticed.
                 </div>
               </div>
             </div>
@@ -247,17 +263,18 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Acrylic Sneeze Guards</div>
+                <div className="product-tag">
+                  Acrylic Sneeze Guards: Safety Meets Style
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Because of the global pandemic, people across the globe are
-                  coming up with different ways to stay protected. Not only
-                  that, there are plenty of efforts to slow down and reduce the
-                  spread of the virus. As the world strives to continue with
-                  everyday activities, businesses have resumed operations.
-                  Health and safety guidelines have been put in place. This is
-                  to ensure the safety of both customers and employees. Part of
-                  this is installing acrylic sneeze guards and desk shields.
+                  In today's health-conscious world, acrylic sneeze guards have
+                  become essential for ensuring the safety of employees and
+                  customers. At The1Source, we provide custom acrylic sneeze
+                  guards that are not only effective in reducing the spread of
+                  germs but also blend seamlessly into your business
+                  environment. These protective shields are ideal for offices,
+                  retail stores, and public spaces where safety is a priority.
                 </div>
               </div>
             </div>
@@ -274,17 +291,19 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Banners</div>
+                <div className="product-tag">
+                  Custom Blade Signs: Enhance Your Visibility
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  If you are looking for a quick and easy way to promote your
-                  products and services, vinyl banners are the perfect
-                  eye-catching and efficient way to get your message across. At
-                  Michigan Custom Signs, we will help you push your brand
-                  forward. Our experienced team is available to discuss your
-                  banner needs. Whether you need a banner for outdoor or indoor
-                  use, Michigan Custom Signs is capable of delivering your
-                  demands.
+                  Blade signs are an excellent choice for businesses looking to
+                  capture the attention of passersby. These vertical signs
+                  project outward from your building, making them visible from a
+                  distance. Whether for outdoor use or interior guidance, our
+                  custom blade signs are designed to fit your brand and provide
+                  clear directions. Available in various shapes, sizes, and
+                  finishes, these signs are an ideal solution for high-traffic
+                  areas.
                 </div>
               </div>
             </div>
@@ -301,20 +320,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Blade Signs</div>
+                <div className="product-tag">
+                  Custom Building Signs: Make a Lasting First Impression
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Blade signs are very popular, especially in strip malls or
-                  areas in Michigan where foot traffic is high. So, what is a
-                  blade sign? Vertical blade signs protrude from the building
-                  and have a frame of sorts connecting it. There are many
-                  different uses of blade signs, and there are many types of
-                  blade signs, including different shapes. There are illuminated
-                  blade signs, interior blade signs, and outdoor blade signs
-                  that provide directions and information. This helps increase
-                  the amount of visibility from the outside of the building, but
-                  these signs are used inside to direct people to certain
-                  destinations within the building.
+                  Your building’s signage is the first thing customers see when
+                  they visit. Make a memorable first impression with custom
+                  building signs from The1Source. Whether you need a classic
+                  look or a modern design, we offer a variety of materials and
+                  styles to ensure your signage represents your brand’s
+                  professionalism and makes it easy for customers to find you.
                 </div>
               </div>
             </div>
@@ -331,15 +347,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Building Signs</div>
+                <div className="product-tag">
+                  Custom Business Signs: Defining Your Brand’s Presence
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Few things are more important for a business than knowing that
-                  customers can find their offices or retail location.
-                  Commercial building signs matter more than all other forms of
-                  signage for many businesses. They are often the first type of
-                  signage considered by new companies. Custom building signs
-                  serve many functions for a business.
+                  Your business signage speaks volumes about your brand. At
+                  The1Source, we help you choose the perfect signs that reflect
+                  your brand identity while attracting customers. From lighted
+                  business signs to durable outdoor displays, we offer a full
+                  range of custom business signs to ensure your business stands
+                  out in a competitive marketplace.
                 </div>
               </div>
             </div>
@@ -356,16 +374,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Business Signs</div>
+                <div className="product-tag">
+                  Custom Decals: Flexible, Bold Branding Solutions
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  If you have an existing business or are considering starting
-                  one, it isn’t uncommon to wonder what is a business sign and
-                  what it can do for you. You may be familiar with the standard
-                  exterior business signs and lighted business signs, but so
-                  many more types of signage exist. Each one of them serves a
-                  specialized purpose in elevating your brand and bringing in
-                  more business.
+                  Decals are a versatile signage option that can be used in many
+                  ways—from storefront windows to vehicle wraps. Whether you're
+                  looking for custom vinyl decals for branding, promotion, or
+                  direction, The1Source has you covered. We create decals in a
+                  variety of shapes and sizes, ensuring that they fit your needs
+                  and enhance your brand visibility
                 </div>
               </div>
             </div>
@@ -382,16 +401,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Decals</div>
+                <div className="product-tag">
+                  Custom Van Wraps: Take Your Brand on the Road
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Looking for unique and adaptable sign options that can help
-                  your brand or message stand out? Custom decals could be just
-                  what you’re looking for. Michigan businesses, restaurants, and
-                  retail stores are taking advantage of this advertising option
-                  and adding vinyl and custom decals to better reach their
-                  customers, which are available in a variety of sizes, shapes,
-                  and quantities.
+                  Maximize your marketing reach with custom van wraps that turn
+                  your vehicle into a moving billboard. Whether you're driving
+                  across town or around the state, a van wrap helps increase
+                  brand exposure without the ongoing costs of traditional
+                  advertising. Let The1Source create a stunning design that
+                  promotes your business while you drive.
                 </div>
               </div>
             </div>
@@ -408,16 +428,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Custom Van Wraps</div>
+                <div className="product-tag">
+                  Floor Graphics: Advertising That’s Underfoot
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  When it comes to efficient advertising and brand-building in
-                  Michigan, you just cannot beat van wraps. You can use
-                  billboards, print media, and other paid forms of advertising,
-                  but those are often expensive. You also pay daily, weekly, or
-                  monthly to get your name out in front of potential customers.
-                  Then you have to pay again and again without knowing if your
-                  marketing is having any impact.
+                  Floor graphics are a unique way to grab attention and promote
+                  your business. Custom floor decals are ideal for creating
+                  directional signage, highlighting promotions, or adding a fun,
+                  creative element to your space. Floor graphics are a
+                  cost-effective solution that delivers high visibility and
+                  engages your customers in an unexpected way.
                 </div>
               </div>
             </div>
@@ -434,16 +455,18 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Floor Graphics</div>
+                <div className="product-tag">
+                  Directional Signs: Easy Navigation, Happy Customers
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Compelling advertising is essential for the success of your
-                  business. Today, traditional signage faces a lot of
-                  competition and sometimes gets lost among more modern,
-                  eye-catching signage options. Floor graphics advertising
-                  offers a cost-effective and visible solution. By using
-                  customized floor graphics, decals, and floor stickers, this
-                  type of advertising can be attention-grabbing and memorable.
+                  Directional signs are essential for helping customers navigate
+                  your space efficiently. Whether you're directing people to
+                  different departments in a large building or guiding visitors
+                  to your front door, custom directional signage ensures a
+                  smooth experience. Invest in quality wayfinding signage from
+                  The1Source to keep your customers informed and your space
+                  organized.
                 </div>
               </div>
             </div>
@@ -460,19 +483,17 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Directional Signs</div>
+                <div className="product-tag">
+                  Office Signs or Door Signs: Professional and Personalized
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  As the name implies, directional wayfinding signs help people
-                  find their way to your business establishment and navigate
-                  your spaces with ease. A well-planned and professionally
-                  designed signage system allows customers and visitors to enjoy
-                  their experience within your business environment. Inadequate
-                  signs or the lack thereof, on the other hand, may cause
-                  confusion and result in unpleasant feelings of uncertainty,
-                  leaving people lost or inconvenienced. Don’t allow customers
-                  to associate your brand with unpleasant feelings. Invest in a
-                  signage program that supports your success.
+                  Make a great impression with custom office signs that reflect
+                  your brand’s professionalism and attention to detail. Whether
+                  you need a simple door sign or a comprehensive office signage
+                  system, The1Source designs functional and elegant signs that
+                  communicate your business’s values and create a welcoming
+                  atmosphere for clients and staff alike.
                 </div>
               </div>
             </div>
@@ -516,18 +537,18 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Social Distancing Signage</div>
+                <div className="product-tag">
+                  Social Distancing Signage: Promoting Safety and Compliance
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  In light of the global pandemic, social distancing has become
-                  the new norm. It is one of the CDC’s rules for health and
-                  safety. As such, businesses in Michigan have taken it upon
-                  themselves to remind the public about these protocols.
-                  Michigan Custom Signs is committed to helping businesses
-                  promote CDC guidelines within their space. This is done
-                  through social distancing signage. We offer high-quality
-                  COVID-19 social distancing signs and decals for any type of
-                  business.
+                  In today’s environment, social distancing is key to
+                  maintaining a safe space for employees and customers.
+                  The1Source offers high-quality social distancing signs and
+                  decals to help your business adhere to health guidelines. From
+                  floor markings to protective shields, our custom signage
+                  ensures you can maintain safety while delivering excellent
+                  service.
                 </div>
               </div>
             </div>
@@ -544,23 +565,28 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Window Film</div>
+                <div className="product-tag">
+                  Window Film: Enhance Privacy and Aesthetics
+                </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Is your office space surrounded by a lot of glass? These
-                  window films for offices can be used to create a great space
-                  with a sophisticated and professional appearance. Sign
-                  solutions are always worth investing in when looking for ways
-                  to make your business stand out. Michigan window filming from
-                  Michigan Custom Signs will protect your windows and your
-                  business. We provide high-quality window films and tints for
-                  your commercial needs. Give us a call today if you’re looking
-                  for the best window film near me.
+                  For offices surrounded by glass, custom window film provides
+                  an excellent solution to enhance privacy and improve the
+                  aesthetic of your space. Whether you're looking to add a
+                  professional tint or a decorative design, The1Source offers
+                  high-quality window film that enhances the look of your
+                  business while providing practical benefits like UV protection
+                  and heat reduction.
                 </div>
               </div>
             </div>
           </div>
           {/* row end */}
+          <div className="content">
+            With custom signage solutions in Novi, Michigan that will have your
+            business making an impression, at The1Source, we can help. Schedule
+            a consultation before each new project.
+          </div>
         </div>
         <Footer />
       </div>

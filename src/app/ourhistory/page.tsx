@@ -1,5 +1,6 @@
 "use client";
 import Footer from "../footer/footer";
+import React, { useState } from "react";
 import logo1 from "../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
@@ -59,6 +60,20 @@ function GrMail() {
 }
 export default function page() {
   const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
+
+  const toggleClass = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const ProjectDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
+  const servicetDropdown = () => {
+    setIsSeriviceDropdownOpen(!isSeriviceDropdownOpen);
+  };
 
   return (
     <>
@@ -83,48 +98,48 @@ export default function page() {
                 <Image src={logo1} alt="Company Logo" />
               </a>
             </div>
-
-            <div className="nav-menu-container">
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/ourhistory")}
+            <div
+              id="nav-icon4"
+              className={isOpen ? "open" : ""}
+              onClick={toggleClass}
             >
-              History
-            </div> */}
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
               <div
                 className="nav-menu btn"
                 onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
               </div>
-              {/* <div
-                className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
-              >
-                Virtual Consultation Booking
-              </div> */}
 
               <div className="dropdown">
-                <div className="nav-menu dropdown">
+                <div className="nav-menu dropdown" onClick={servicetDropdown}>
                   Our services
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${
+                    isSeriviceDropdownOpen ? "open" : ""
+                  }`}
+                >
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/digitalmarketing")}
                   >
                     Digital marketing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/commercialprinting")}
                   >
                     Commercial printing
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/largeformat")}
                   >
                     Large format printing
                   </a>
@@ -142,7 +157,7 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/permitandinstallation")}
                   >
                     Permit & installation
                   </a>
@@ -155,21 +170,20 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a
-                    className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
-                  >
+                  <a className="btn" onClick={() => router.push("/matterport")}>
                     Matterport virtual experiences
                   </a>
                 </div>
               </div>
 
-              <div className="dropdown">
-                <div className="nav-menu dropdown">
+              <div className="dropdown btn">
+                <div className="nav-menu dropdown" onClick={ProjectDropdown}>
                   Projects
                   <BiChevronDown />
                 </div>
-                <div className="dropdown-content">
+                <div
+                  className={`dropdown-content ${isDropdownOpen ? "open" : ""}`}
+                >
                   <a className="btn" onClick={() => router.push("/portfolio")}>
                     Our portfolio
                   </a>
@@ -184,15 +198,12 @@ export default function page() {
               >
                 Insights & resources
               </div>
-              <a className="nav-btn" onClick={() => router.push("/getquote")}>
+              <a
+                className="nav-btn btn"
+                onClick={() => router.push("/getquote")}
+              >
                 Request quote
               </a>
-              {/* <div
-              className="nav-menu btn"
-              onClick={() => router.push("/contactus")}
-            >
-              Contact
-            </div> */}
             </div>
           </div>
         </div>
@@ -201,45 +212,78 @@ export default function page() {
             <div className="ourhistory-banner-tag">Who We Are</div>
             <div className="underline"></div>
             <div className="ourhistory-banner-description">
-              Discover the canvas of innovation at, where each project is a
-              masterpiece blending functionality with artistic flair. Here,
-              you’ll see how our dedication to detail and design transforms
-              visions into tangible, awe-inspiring realities.
+              At 1Source, creativity and innovation come together to transform
+              into something tangible for each idea. Quality of work and
+              determination in every project we take is a signature of 1 Source.
+              It elevates them beyond the range of just signs, prints, or
+              digital solutions. We create experiences, not just brand them.
             </div>
           </div>
         </div>
         <div className="ourhistory-main-container">
           <div className="ourhistory-content-container">
-            <div className="ourhistory-tag">Our History</div>
+            <div className="ourhistory-tag">Our Beginnings</div>
             <div className="underline"></div>
             <div className="ourhistory-content">
-              Founded in 1995 It’s true, we’ve always been ambitious. We started
-              as a small venture with a big idea. to revolutionize the printing
-              industry! At first, our product offering was modest: we had a
-              couple of printers, a screen press, and a handful of like-minded
-              hard workers. But we knew, even then, that we would need to grow
-              to achieve our shared vision. So we rolled our sleeves up even
-              higher and we worked, driven by our passion for innovation and
-              excellence. Expanding Services After years of 24-hour press runs,
-              loads of elbow grease (and no small amount of printer grease
-              too!), countless impromptu problem-solving huddles, and
-              caffeine-fueled late-night strategy sessions, we finally found
-              ourselves in a position to partner up with another sign company
-              and broaden our service offerings. That move proved to be a
-              resounding success, so we did it again, and then again. And in
-              2010, we embraced the digital age by adding digital marketing and
-              large-format digital printing to our portfolio. This strategic
-              expansion not only enhanced our capabilities but also allowed us
-              to better serve our diverse clientele. Industry Leader Today, our
-              family of companies has banded together under the 1Source name.
-              Together, we stand at the forefront of printing technology. Our
-              unwavering commitment to delivering outstanding print, sign, and
-              digital solutions is the cornerstone of our success. We
-              continuously invest in the latest advancements, ensuring that we
-              consistently deliver exceptional results that exceed our clients’
-              expectations. At 1Source, we don’t just print; we craft
-              excellence. Join us on this journey as we continue to push the
-              boundaries of what’s possible.
+              Founded in 1995, 1Source began as a small but ambitious team
+              determined to redefine the printing industry. Armed with a handful
+              of machines, a few bold ideas, and an unshakable work ethic, we
+              set out on a mission to deliver excellence. What started with a
+              modest lineup of printing services has since grown into a legacy
+              of innovation and success, thanks to the unwavering dedication of
+              our team.
+            </div>
+            <div className="ourhistory-tag">Expanding Horizons</div>
+            <div className="underline"></div>
+            <div className="ourhistory-content">
+              Our journey has been defined by growth and adaptation. As demand
+              for our services grew, so did our offerings. Through long nights,
+              countless brainstorming sessions, and a relentless drive to excel,
+              we expanded beyond traditional printing. Partnering with other
+              companies allowed us to diversify, and by 2010, we embraced the
+              digital revolution. Adding digital marketing and large-format
+              digital printing to our repertoire was a game-changing decision,
+              enabling us to cater to an even broader clientele and their
+              evolving needs.
+            </div>
+            <div className="ourhistory-tag">Leaders in the Industry</div>
+            <div className="underline"></div>
+            <div className="ourhistory-content">
+              Today, 1Source stands as a trusted leader in the world of print,
+              signage, and digital solutions. Our expertise spans a wide array
+              of industries, and our dedication to innovation ensures we stay
+              ahead of the curve. We continually invest in cutting-edge
+              technology and refine our processes to deliver exceptional
+              results. From custom signage to digital campaigns, we pride
+              ourselves on providing solutions that resonate with our clients
+              and their audiences.
+            </div>
+            <div className="ourhistory-tag">Awards and Recognition</div>
+            <div className="underline"></div>
+            <div className="ourhistory-content">
+              Our commitment to excellence has not gone unnoticed. Over the
+              years, 1Source has earned numerous accolades for our work,
+              including:
+              <ul>
+                <li>Gold Award for Large Format Printing</li>
+                <li>Silver Award for ADA Signage</li>
+                <li>Silver Award for Digital Printing</li>
+                <li>Bronze Award for Printer’s Self-Advertising</li>
+                These awards are a testament to the hard work, creativity, and
+                dedication of our talented team.
+              </ul>
+            </div>
+            <div className="ourhistory-tag">Why 1Source?</div>
+            <div className="underline"></div>
+            <div className="ourhistory-content">
+              At 1Source, we don’t just fulfill orders—we build partnerships.
+              Our team collaborates closely with every client to ensure their
+              vision comes to life with precision and artistry. Whether it’s
+              creating eye-catching signage, developing a digital marketing
+              campaign, or delivering large-format printing solutions, we strive
+              to exceed expectations every step of the way. <br />
+              Join us on our journey to create, innovate, and inspire. At
+              1Source, your vision is our mission.
             </div>
           </div>
           <div className="ourhistory-image-container">
