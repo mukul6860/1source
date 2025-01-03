@@ -3,7 +3,7 @@ import Image from "next/image";
 import "./Homepage.scss";
 import img1 from "../../../public/Assets/products/digital.png";
 import img2 from "../../../public/Assets/products/print.png";
-import img3 from "../../../public/Assets/products/sign.jpg";
+import img3 from "../../../public/Assets/products/1simage2.png";
 
 function Ourservicecontainer() {
   return (
@@ -23,11 +23,11 @@ function Ourservicecontainer() {
                 managed.
               </div>
               <ul>
-                <li>Content Development</li>
-                <li>Social Media</li>
-                <li>Ads and Banner Ads</li>
+                <li>Logo Design</li>
                 <li>Website Design & Development</li>
-                <li>SEO and Search Promotion</li>
+                <li>SEO & Google Ads</li>
+                <li>Social Media Posts</li>
+                <li>Email Campaigns</li>
               </ul>
             </div>
           </div>
@@ -42,11 +42,11 @@ function Ourservicecontainer() {
                 your brand.
               </div>
               <ul>
-                <li> Brochures & Flyers</li>
-                <li>Postcards & Direct Mail Fulfillment</li>
-                <li>Stickers & Promotional Items</li>
-                <li>Uniforms & Apparel</li>
-                <li>Posters & Banners</li>
+                <li>Signage & Banners</li>
+                <li>Wall & Surface Graphics</li>
+                <li>Vehicle & Outdoor Graphics</li>
+                <li>Custom & Interactive Prints</li>
+                <li>Premium & Specialty Prints</li>
               </ul>
             </div>
           </div>
@@ -60,11 +60,11 @@ function Ourservicecontainer() {
                 Oversized signage and advertising for maximum impact.
               </div>
               <ul>
-                <li>Outdoor Identity Signage</li>
-                <li>Indoor Messaging & Decor</li>
-                <li>Wayfinding & ADA Signs</li>
-                <li>Event and Promotional Signs</li>
-                <li>Display signs & systems</li>
+                <li>Dimensional & Architectural Signage</li>
+                <li>Wayfinding & Informational Signage</li>
+                <li>Custom Decorative & Feature Signage</li>
+                <li>Environmental & Graphics</li>
+                <li>Recognition & Custom Signage</li>
               </ul>
             </div>
           </div>

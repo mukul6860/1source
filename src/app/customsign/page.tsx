@@ -6,7 +6,19 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import productimage from "../../../public/Assets/download.jpg";
+import custom1 from "../../../public/Assets/ourservice/custom/Custom Banners Your Message, Loud and Clear.png";
+import custom2 from "../../../public/Assets/ourservice/custom/Acrylic Sneeze Guards Safety Meets Style.png";
+import custom3 from "../../../public/Assets/ourservice/custom/Custom Blade Signs Enhance Your Visibilit.png";
+import custom4 from "../../../public/Assets/ourservice/custom/Custom Building Signs Make a Lasting First Impression.png";
+import custom5 from "../../../public/Assets/ourservice/custom/Custom Business Signs Defining Your Brand’s Presence.png";
+import custom6 from "../../../public/Assets/ourservice/custom/Custom Decals Flexible, Bold Branding Solutions.png";
+import custom7 from "../../../public/Assets/ourservice/custom/Custom Van Wraps Take Your Brand on the Road.png";
+import custom8 from "../../../public/Assets/ourservice/custom/Floor Graphics Advertising That’s Underfoot.png";
+import custom9 from "../../../public/Assets/ourservice/custom/Directional Signs Easy Navigation, Happy Customers.png";
+import custom10 from "../../../public/Assets/ourservice/custom/Office Signs or Door Signs Professional and Personalized.png";
+import custom11 from "../../../public/Assets/ourservice/custom/Office Signs or Door Signs.png";
+import custom12 from "../../../public/Assets/ourservice/custom/Social Distancing Signage Promoting Safety and Compliance.png";
+import custom13 from "../../../public/Assets/ourservice/custom/Window Film Enhance Privacy and Aesthetics.png";
 
 function BiChevronDown() {
   return (
@@ -229,7 +241,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom1} alt="product image" />
                 </div>
               </div>
             </div>
@@ -257,7 +269,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom2} alt="product image" />
                 </div>
               </div>
             </div>
@@ -285,7 +297,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom3} alt="product image" />
                 </div>
               </div>
             </div>
@@ -314,7 +326,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom4} alt="product image" />
                 </div>
               </div>
             </div>
@@ -341,7 +353,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom5} alt="product image" />
                 </div>
               </div>
             </div>
@@ -368,7 +380,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom6} alt="product image" />
                 </div>
               </div>
             </div>
@@ -395,7 +407,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom7} alt="product image" />
                 </div>
               </div>
             </div>
@@ -422,7 +434,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom8} alt="product image" />
                 </div>
               </div>
             </div>
@@ -449,7 +461,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom9} alt="product image" />
                 </div>
               </div>
             </div>
@@ -477,7 +489,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom10} alt="product image" />
                 </div>
               </div>
             </div>
@@ -504,7 +516,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom11} alt="product image" />
                 </div>
               </div>
             </div>
@@ -531,7 +543,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom12} alt="product image" />
                 </div>
               </div>
             </div>
@@ -559,7 +571,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={custom13} alt="product image" />
                 </div>
               </div>
             </div>

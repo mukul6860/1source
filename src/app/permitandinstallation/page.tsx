@@ -6,7 +6,11 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import productimage from "../../../public/Assets/download.jpg";
+import permiit1 from "../../../public/Assets/ourservice/permiit/Navigating the Signage Permit Process.png";
+import permiit2 from "../../../public/Assets/ourservice/permiit/Ensuring Compliance for Long-Term Success.png";
+import permiit3 from "../../../public/Assets/ourservice/permiit/Professional Sign Installation You Can Trust.png";
+import permiit4 from "../../../public/Assets/ourservice/permiit/Comprehensive Signage Solutions in Michigan.png";
+import permiit5 from "../../../public/Assets/ourservice/permiit/Why Choose The1Source for Your Signage Needs.png";
 
 function BiChevronDown() {
   return (
@@ -229,7 +233,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={permiit1} alt="product image" />
                 </div>
               </div>
             </div>
@@ -274,7 +278,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={permiit2} alt="product image" />
                 </div>
               </div>
             </div>
@@ -309,7 +313,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={permiit3} alt="product image" />
                 </div>
               </div>
             </div>
@@ -358,7 +362,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={permiit4} alt="product image" />
                 </div>
               </div>
             </div>
@@ -393,7 +397,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={permiit5} alt="product image" />
                 </div>
               </div>
             </div>

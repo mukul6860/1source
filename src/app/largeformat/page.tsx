@@ -6,7 +6,11 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import productimage from "../../../public/Assets/download.jpg";
+import largefrmat1 from "../../../public/Assets/ourservice/largefrmat/Custom Banner Printing.png";
+import largefrmat2 from "../../../public/Assets/ourservice/largefrmat/Trade Show Display Printing Your Booth, Your Brand.png";
+import largefrmat3 from "../../../public/Assets/ourservice/largefrmat/Poster Printing Solutions Powerful Visuals for Every Occasion.png";
+import largefrmat4 from "../../../public/Assets/ourservice/largefrmat/Large Format Printing in Michigan Vibrancy and Durability Combined.png";
+import largefrmat5 from "../../../public/Assets/ourservice/largefrmat/Custom Banners and Posters in Novi, MI Personalized to Your Brand.png";
 
 function BiChevronDown() {
   return (
@@ -233,7 +237,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={largefrmat1} alt="product image" />
                 </div>
               </div>
             </div>
@@ -262,7 +266,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={largefrmat2} alt="product image" />
                 </div>
               </div>
             </div>
@@ -292,7 +296,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={largefrmat3} alt="product image" />
                 </div>
               </div>
             </div>
@@ -321,7 +325,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={largefrmat4} alt="product image" />
                 </div>
               </div>
             </div>
@@ -352,7 +356,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={largefrmat5} alt="product image" />
                 </div>
               </div>
             </div>

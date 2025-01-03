@@ -6,7 +6,11 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import productimage from "../../../public/Assets/download.jpg";
+import digitalmarketing1 from "../../../public/Assets/ourservice/digitalmarketing/Content Development.png";
+import digitalmarketing2 from "../../../public/Assets/ourservice/digitalmarketing/Social Media Management.png";
+import digitalmarketing3 from "../../../public/Assets/ourservice/digitalmarketing/Online Advertising.png";
+import digitalmarketing4 from "../../../public/Assets/ourservice/digitalmarketing/Website Design & Development.png";
+import digitalmarketing5 from "../../../public/Assets/ourservice/digitalmarketing/SEO and SEM Solutions.png";
 
 function BiChevronDown() {
   return (
@@ -231,7 +235,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={digitalmarketing1} alt="product image" />
                 </div>
               </div>
             </div>
@@ -258,7 +262,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={digitalmarketing2} alt="product image" />
                 </div>
               </div>
             </div>
@@ -285,7 +289,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={digitalmarketing3} alt="product image" />
                 </div>
               </div>
             </div>
@@ -311,7 +315,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={digitalmarketing4} alt="product image" />
                 </div>
               </div>
             </div>
@@ -337,7 +341,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={digitalmarketing5} alt="product image" />
                 </div>
               </div>
             </div>

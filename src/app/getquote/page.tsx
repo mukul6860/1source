@@ -58,29 +58,6 @@ function GrMail() {
   );
 }
 export default function page() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [company, setCompany] = useState("");
-  const [number, setNumber] = useState("");
-  const [description, setDescription] = useState("");
-  const [file, setFile] = useState(null);
-  const handleSubmit = (event: any) => {
-    event.preventDefault();
-    console.log("Form submitted with data:", {
-      firstName,
-      lastName,
-      email,
-      company,
-      number,
-      description,
-      file,
-    });
-  };
-
-  const handleFileChange = (event: any) => {
-    setFile(event.target.files[0]);
-  };
   const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -243,100 +220,6 @@ export default function page() {
         </div>
         <div className="space"></div>
         <iframe src="/index.html"></iframe>
-        {/* <div className="getquote-main-container">
-          <div className="getquote-sub-container">
-            <form onSubmit={handleSubmit} className="form">
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="firstName">Fist Name</label>
-                <input
-                  type="text"
-                  id="firstName"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="lastName">Last Name</label>
-                <input
-                  type="text"
-                  id="lastName"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">E-mail</label>
-                <input
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="company">Company</label>
-                <input
-                  type="text"
-                  id="company"
-                  value={company}
-                  onChange={(e) => setCompany(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="number">Phone Number</label>
-                <input
-                  type="tel"
-                  id="number"
-                  value={number}
-                  onChange={(e) => setNumber(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="description">Description</label>
-                <textarea
-                  id="description"
-                  value={description}
-                  onChange={(e) => setDescription(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="file">Upload File</label>
-                <input
-                  type="file"
-                  id="file"
-                  onChange={handleFileChange}
-                  className="form-control"
-                />
-              </div>
-              <div className="button-group">
-                <button
-                  type="button"
-                  onClick={() => {
-                    setFirstName("");
-                    setLastName("");
-                    setEmail("");
-                    setCompany("");
-                    setNumber("");
-                    setDescription("");
-                    setFile(null);
-                  }}
-                  className="reset-button"
-                >
-                  Reset
-                </button>
-                <button type="submit" className="submit-button">
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div> */}
 
         <Footer />
       </div>

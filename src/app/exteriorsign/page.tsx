@@ -6,7 +6,17 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import productimage from "../../../public/Assets/download.jpg";
+import exteriorsigns1 from "../../../public/Assets/ourservice/exteriorsigns/Channel Letter Signs Illuminated Signage Solutions.png";
+import exteriorsigns2 from "../../../public/Assets/ourservice/exteriorsigns/Door Signs Welcoming and Informative.png";
+import exteriorsigns3 from "../../../public/Assets/ourservice/exteriorsigns/Hanging Signs Functional and Eye Catching.png";
+import exteriorsigns4 from "../../../public/Assets/ourservice/exteriorsigns/Metal Signs Durable and Sophisticated.png";
+import exteriorsigns5 from "../../../public/Assets/ourservice/exteriorsigns/Monument and Pylon Signs Make a Bold Statement.png";
+import exteriorsigns6 from "../../../public/Assets/ourservice/exteriorsigns/Window Graphics Turn Glass into Opportunit.png";
+import exteriorsigns7 from "../../../public/Assets/ourservice/exteriorsigns/Parking Signs Clear and Convenient Navigation.png";
+import exteriorsigns8 from "../../../public/Assets/ourservice/exteriorsigns/Real Estate Signs Professional and Persuasive.png";
+import exteriorsigns9 from "../../../public/Assets/ourservice/exteriorsigns/School and Institutional Signs Inspire and Inform.png";
+import exteriorsigns10 from "../../../public/Assets/ourservice/exteriorsigns/Golf Tournament and Event Signs Showcase Your Brand.png";
+import exteriorsigns11 from "../../../public/Assets/ourservice/exteriorsigns/Why Choose The1Source for Your Exterior Signage in Michigan.png";
 
 function BiChevronDown() {
   return (
@@ -230,7 +240,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns1} alt="product image" />
                 </div>
               </div>
             </div>
@@ -259,7 +269,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns2} alt="product image" />
                 </div>
               </div>
             </div>
@@ -286,7 +296,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns3} alt="product image" />
                 </div>
               </div>
             </div>
@@ -313,7 +323,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns4} alt="product image" />
                 </div>
               </div>
             </div>
@@ -340,7 +350,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns5} alt="product image" />
                 </div>
               </div>
             </div>
@@ -368,7 +378,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns6} alt="product image" />
                 </div>
               </div>
             </div>
@@ -395,7 +405,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns7} alt="product image" />
                 </div>
               </div>
             </div>
@@ -421,7 +431,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns8} alt="product image" />
                 </div>
               </div>
             </div>
@@ -446,7 +456,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns9} alt="product image" />
                 </div>
               </div>
             </div>
@@ -471,7 +481,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns10} alt="product image" />
                 </div>
               </div>
             </div>
@@ -496,7 +506,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={exteriorsigns11} alt="product image" />
                 </div>
               </div>
             </div>

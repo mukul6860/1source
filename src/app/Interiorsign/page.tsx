@@ -6,7 +6,16 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import productimage from "../../../public/Assets/download.jpg";
+import interiorsigns1 from "../../../public/Assets/ourservice/interiorsigns/Acrylic Signs.png";
+import interiorsigns2 from "../../../public/Assets/ourservice/interiorsigns/ADA-Compliant Signage.png";
+import interiorsigns3 from "../../../public/Assets/ourservice/interiorsigns/Wayfinding Signage Solutions.png";
+import interiorsigns4 from "../../../public/Assets/ourservice/interiorsigns/Lobby Signs.png";
+import interiorsigns5 from "../../../public/Assets/ourservice/interiorsigns/Mission Statement.png";
+import interiorsigns6 from "../../../public/Assets/ourservice/interiorsigns/Vinyl Signs and Wall Graphics.png";
+import interiorsigns7 from "../../../public/Assets/ourservice/interiorsigns/Wall Decals.png";
+import interiorsigns8 from "../../../public/Assets/ourservice/interiorsigns/Wall Murals.png";
+import interiorsigns9 from "../../../public/Assets/ourservice/interiorsigns/Wall Wraps.png";
+import interiorsigns10 from "../../../public/Assets/ourservice/interiorsigns/Elevate Your Space with The1Source.png";
 
 function BiChevronDown() {
   return (
@@ -231,7 +240,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns1} alt="product image" />
                 </div>
               </div>
             </div>
@@ -259,7 +268,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns2} alt="product image" />
                 </div>
               </div>
             </div>
@@ -286,7 +295,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns3} alt="product image" />
                 </div>
               </div>
             </div>
@@ -311,7 +320,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns4} alt="product image" />
                 </div>
               </div>
             </div>
@@ -337,7 +346,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns5} alt="product image" />
                 </div>
               </div>
             </div>
@@ -362,7 +371,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns6} alt="product image" />
                 </div>
               </div>
             </div>
@@ -388,7 +397,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns7} alt="product image" />
                 </div>
               </div>
             </div>
@@ -413,7 +422,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns8} alt="product image" />
                 </div>
               </div>
             </div>
@@ -438,7 +447,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns9} alt="product image" />
                 </div>
               </div>
             </div>
@@ -463,7 +472,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-image-container">
                 <div className="product-image-wrap">
-                  <Image src={productimage} alt="product image" />
+                  <Image src={interiorsigns10} alt="product image" />
                 </div>
               </div>
             </div>
