@@ -123,3 +123,63 @@
     display: none;
   }
 }
+@media (min-width: 1300px) and (max-width: 2590px) {
+  .underdev-main-container {
+    height: 800px;
+    width: 100%;
+    padding: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    .underdev-image-container {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      .underdev-image-wrap {
+        height: 400px;
+        width: 400px;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .underdev-sub-container {
+      height: 50%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: column;
+      gap: 50px;
+      .underdev-tag-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .underdev-tag {
+          font-size: var(--heading1);
+          color: black;
+        }
+        .underdev-subtag {
+          font-size: var(--heading2);
+          color: black;
+        }
+        .underdev-content {
+          font-size: var(--content);
+        }
+      }
+      .underdev-btn {
+        padding: 10px;
+        background-color: var(--primaryColor);
+        border-radius: 10px;
+        cursor: pointer;
+      }
+    }
+  }
+}

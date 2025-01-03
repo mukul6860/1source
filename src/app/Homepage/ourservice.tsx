@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import "./Homepage.scss";
-import img1 from "../../../public/Assets/products/digital.jpg";
-import img2 from "../../../public/Assets/products/print.jpg";
+import img1 from "../../../public/Assets/products/digital.png";
+import img2 from "../../../public/Assets/products/print.png";
 import img3 from "../../../public/Assets/products/sign.jpg";
 
 function Ourservicecontainer() {

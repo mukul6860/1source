@@ -159,3 +159,82 @@
     display: none;
   }
 }
+@media (min-width: 1300px) and (max-width: 2590px) {
+  .map-banner-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url(../../../public/Assets/page/mappage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-attachment: fixed;
+    ::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .map-banner-content-container {
+      width: 100%;
+      height: 100%;
+      padding: 2.5% 20%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 99;
+      .map-banner-tag {
+        font-size: var(--heading1);
+      }
+      .map-banner-description {
+        font-size: var(--content);
+      }
+    }
+  }
+  .map-container {
+    height: 100vh;
+    width: 100%;
+    padding: 2.5% 20%;
+    position: relative;
+    .hide-label {
+      height: 100px;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: white;
+    }
+  }
+  .morework-tag-container {
+    width: 100%;
+    padding: 2.5% 20%;
+    .morework-tag {
+      font-size: var(--heading1);
+      color: black;
+    }
+  }
+  .morework-card-container {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 2.5% 20%;
+    .morework-card {
+      height: 300px;
+      background-color: black;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

@@ -478,31 +478,31 @@
     width: 100%;
   }
   .bg1 {
-    background-image: url(../../../public/Assets/products/interiorsignage.jpg);
+    background-image: url(../../../public/Assets/products/interiorsignage.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg2 {
-    background-image: url(../../../public/Assets/products/exteriorsignage.jpg);
+    background-image: url(../../../public/Assets/products/exteriorsignage.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg3 {
-    background-image: url(../../../public/Assets/products/vehiclewrap.jpg);
+    background-image: url(../../../public/Assets/products/vehiclewrap.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg4 {
-    background-image: url(../../../public/Assets/products/customesign.jpg);
+    background-image: url(../../../public/Assets/products/customesign.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg5 {
-    background-image: url(../../../public/Assets/products/dimentionalletter.jpg);
+    background-image: url(../../../public/Assets/products/dimentionalletter.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
@@ -514,7 +514,7 @@
     background-size: cover;
   }
   .bg7 {
-    background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.jpg);
+    background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
@@ -781,6 +781,7 @@
   }
   // serviceareas end
   // testimonials start
+
   .testimonial-main-container {
     width: 100%;
     height: 500px;
@@ -1560,7 +1561,7 @@
 // project details end
 
 // mobile view header
-@media screen and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 780px) {
   .header-main-container {
     height: 120px;
     width: 100%;
@@ -1607,6 +1608,7 @@
 
     .border-right-left {
       border-left: 1px solid brown;
+      border-right: none !important;
     }
   }
   .scrolled {
@@ -1820,7 +1822,7 @@
   }
   .hero-container {
     width: 100%;
-    height: 130vh;
+    height: 150vh;
   }
   .heroBanner {
     position: relative;
@@ -1838,6 +1840,7 @@
       background-color: rgba(0, 0, 0, 0.42);
       color: white;
       z-index: 1;
+      padding: 0;
       .hero-content-container {
         width: 100%;
         height: 50%;
@@ -1870,14 +1873,15 @@
 
       .hero-card-container {
         width: 100%;
-        height: 25%;
+        height: 30%;
         display: flex;
         align-items: end;
         justify-content: center;
+        padding: 0;
         .hero-card {
           height: 100%;
           background-color: black;
-          width: 35%;
+          width: calc(100% / 3);
           border-top: 5px solid var(--primaryColor);
           transition: all 0.5s;
           display: flex;
@@ -2190,31 +2194,31 @@
     width: 100%;
   }
   .bg1 {
-    background-image: url(../../../public/Assets/products/interiorsignage.jpg);
+    background-image: url(../../../public/Assets/products/interiorsignage.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg2 {
-    background-image: url(../../../public/Assets/products/exteriorsignage.jpg);
+    background-image: url(../../../public/Assets/products/exteriorsignage.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg3 {
-    background-image: url(../../../public/Assets/products/vehiclewrap.jpg);
+    background-image: url(../../../public/Assets/products/vehiclewrap.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg4 {
-    background-image: url(../../../public/Assets/products/customesign.jpg);
+    background-image: url(../../../public/Assets/products/customesign.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg5 {
-    background-image: url(../../../public/Assets/products/dimentionalletter.jpg);
+    background-image: url(../../../public/Assets/products/dimentionalletter.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
@@ -2226,7 +2230,7 @@
     background-size: cover;
   }
   .bg7 {
-    background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.jpg);
+    background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
@@ -2427,9 +2431,7 @@
   .testimonial-main-container {
     width: 100%;
     height: 500px;
-    // display: flex;
-    // align-items: end;
-    // justify-content: center;
+
     position: relative;
     .Customer-Review-btn {
       font-size: var(--heading2);
@@ -2441,7 +2443,7 @@
       cursor: pointer;
       z-index: 9;
       position: absolute;
-      top: -15%;
+      top: -40%;
       right: 20%;
       color: black;
 
@@ -3678,31 +3680,31 @@
     width: 100%;
   }
   .bg1 {
-    background-image: url(../../../public/Assets/products/interiorsignage.jpg);
+    background-image: url(../../../public/Assets/products/interiorsignage.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg2 {
-    background-image: url(../../../public/Assets/products/exteriorsignage.jpg);
+    background-image: url(../../../public/Assets/products/exteriorsignage.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg3 {
-    background-image: url(../../../public/Assets/products/vehiclewrap.jpg);
+    background-image: url(../../../public/Assets/products/vehiclewrap.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg4 {
-    background-image: url(../../../public/Assets/products/customesign.jpg);
+    background-image: url(../../../public/Assets/products/customesign.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
   }
   .bg5 {
-    background-image: url(../../../public/Assets/products/dimentionalletter.jpg);
+    background-image: url(../../../public/Assets/products/dimentionalletter.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
@@ -3714,7 +3716,7 @@
     background-size: cover;
   }
   .bg7 {
-    background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.jpg);
+    background-image: url(../../../public/Assets/products/tradeshowdisplaysandbooths.png);
     background-position: center;
     filter: grayscale(100%);
     background-size: cover;
@@ -4648,7 +4650,7 @@
   .project-details-container {
     height: auto;
     width: 100%;
-    padding: 2.5%;
+    padding: 2.5% 20%;
     display: flex;
     // align-items: center;
     justify-content: space-evenly;

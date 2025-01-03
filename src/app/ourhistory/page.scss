@@ -22,7 +22,7 @@
       z-index: -1;
     }
     .ourhistory-banner-content-container {
-      width: 50%;
+      width: 100%;
       height: 100%;
       padding: 2.5%;
       display: flex;
@@ -44,7 +44,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     background-color: black;
     padding: 2.5%;
     gap: 50px;
@@ -139,7 +139,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding: 5%;
     gap: 50px;
     .ourhistory-image-container {
@@ -168,6 +168,101 @@
       .ourhistory-content {
         font-size: var(--content);
         text-align: justify;
+      }
+    }
+  }
+  .image-wraper::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: var(--primaryColor);
+    z-index: -1;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 2590px) {
+  .ourhistory-banner-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url(../../../public/Assets/download.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-attachment: fixed;
+    ::after {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .ourhistory-banner-content-container {
+      width: 100%;
+      height: 100%;
+      padding: 2.5% 20%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 99;
+      .ourhistory-banner-tag {
+        font-size: var(--heading1);
+      }
+      .ourhistory-banner-description {
+        font-size: var(--content);
+      }
+    }
+  }
+  .ourhistory-main-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: black;
+    padding: 2.5% 20%;
+    gap: 50px;
+    .ourhistory-image-container {
+      width: 50%;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+
+      .image-wraper {
+        height: 300px;
+        width: 400px;
+        position: relative;
+        z-index: 99;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+    }
+    .ourhistory-content-container {
+      width: 100%;
+      display: flex;
+      align-items: start;
+      gap: 20px;
+      justify-content: center;
+      flex-direction: column;
+      .ourhistory-tag {
+        font-size: var(--heading1);
+      }
+      .ourhistory-content {
+        font-size: var(--content);
       }
     }
   }
