@@ -8,7 +8,7 @@ import "../Homepage/Homepage.scss";
 import dimage from "../../../public/Assets/carddummy.webp";
 import "./page.scss";
 import Link from "next/link";
-import artvan from "../../../public/Assets/Specialty_Photos/ArtVan_Misc/IMG_E1642.jpg";
+import artvan from "../../../public/Assets/Specialty_Photos/ArtVan_Misc/Art Van Canton_05.jpg";
 
 function BiChevronDown() {
   return (

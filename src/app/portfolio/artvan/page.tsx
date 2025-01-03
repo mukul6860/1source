@@ -5,7 +5,7 @@ import logo1 from "../../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import "../../Homepage/Homepage.scss";
 import Footer from "../../footer/footer";
-import projectimg1 from "../../../../public/Assets/Specialty_Photos/ArtVan_Misc/IMG_E1642.jpg";
+import projectimg1 from "../../../../public/Assets/Specialty_Photos/ArtVan_Misc/Art Van Canton_05.jpg";
 import Gallery from "../../gallery/artvangallery/page";
 
 function BiChevronDown() {
