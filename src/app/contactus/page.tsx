@@ -310,8 +310,13 @@ export default function page() {
           </div>
           <div className="devider"></div>
           <div className="contact-sub-container">
+            <div className="space"></div>
+            <div className="space"></div>
+            <div className="space"></div>
+            <div className="space"></div>
+            <iframe src="/index.html"></iframe>
             {/* form start */}
-            <form onSubmit={handleSubmit} className="form">
+            {/* <form onSubmit={handleSubmit} className="form">
               <div className={`form-group fiftywidth`}>
                 <label htmlFor="firstName">Fist Name</label>
                 <input
@@ -400,7 +405,7 @@ export default function page() {
                   Reset
                 </button>
               </div>
-            </form>
+            </form> */}
             {/* form end */}
           </div>
         </div>

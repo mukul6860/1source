@@ -8,6 +8,7 @@ import "../Homepage/Homepage.scss";
 import dimage from "../../../public/Assets/carddummy.webp";
 import "./page.scss";
 import Link from "next/link";
+import artvan from "../../../public/Assets/Specialty_Photos/ArtVan_Misc/IMG_E1642.jpg";
 
 function BiChevronDown() {
   return (
@@ -220,12 +221,12 @@ export default function page() {
           </div>
         </div>
         <div className="portfolio-card-wraper">
-          <Link className="portfolio-cards" href="/portfolio/firstproject">
+          <Link className="portfolio-cards" href="/portfolio/artvan">
             <div className="portfolio-card-content-wraper">
-              <div className="portfolio-cards-tag">first project</div>
+              <div className="portfolio-cards-tag">Art Van</div>
               <div className="portfolio-card-content">content</div>
             </div>
-            <Image src={dimage} alt="" />
+            <Image src={artvan} alt="" />
           </Link>
           <Link className="portfolio-cards" href="/portfolio/firstproject">
             <div className="portfolio-card-content-wraper">

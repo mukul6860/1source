@@ -12,7 +12,7 @@ import icon from "../../../public/Assets/rwatermark.png";
 function AboutusContainer() {
   return (
     <div>
-      <div className="about-container">
+      <div className="about-container responsive">
         <div className="about-image-container">
           <video autoPlay muted loop className="heroVideo">
             <source src="/Assets/aboutvideo.mp4" type="video/mp4" />

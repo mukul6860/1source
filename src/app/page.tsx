@@ -114,7 +114,7 @@ export default function Home() {
             </div>
 
             <div className="dropdown">
-              <div className="nav-menu dropdown" onClick={servicetDropdown}>
+              <div className="nav-menu dropdown btn" onClick={servicetDropdown}>
                 Our services
                 <BiChevronDown />
               </div>
