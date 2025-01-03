@@ -13,14 +13,14 @@ const images = [
   "/Assets/Specialty_Photos/ArtVan_Misc/Art Van Polaris_05.jpg",
   "/Assets/Specialty_Photos/ArtVan_Misc/Downers GroveInterior Image_Urban Gallery and Lifestyle Environment.jpg",
   "/Assets/Specialty_Photos/ArtVan_Misc/Harwood Heights_03.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1811.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1955.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1958.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1959.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_2257.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_2271.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_2278.jpg",
-  "/Assets/Specialty_Photos/ArtVan_Misc/IMG_E1641.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1811.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1955.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1958.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_1959.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_2257.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_2271.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_2278.jpg",
+  // "/Assets/Specialty_Photos/ArtVan_Misc/IMG_E1641.jpg",
 ];
 
 const Gallery: React.FC = () => {
