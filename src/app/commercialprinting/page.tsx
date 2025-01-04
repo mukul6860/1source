@@ -112,12 +112,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -174,7 +174,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -250,7 +253,8 @@ export default function page() {
                 <div className="product-content">
                   Capture attention with professionally designed brochures and
                   flyers. Whether you need vibrant marketing materials or
-                  detailed product guides, our brochure and flyer printing
+                  detailed product guides, our
+                  <b> brochure and flyer printing </b>
                   services ensure every piece communicates your brand message
                   effectively. From sleek, modern designs to classic formats, we
                   cater to various styles, helping you make an impact on your
@@ -277,13 +281,13 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Your business card is often your first introduction, and we
-                  ensure it leaves a lasting impression. Our business card
-                  printing services offer a variety of premium options,
-                  including custom finishes, embossing, and foil stamping, to
-                  make your cards as unique as your business. We make business
-                  strategies easy with a variety of templates, low cost, and
-                  quick turnaround in a stiff competition Muslim networking
-                  style.
+                  ensure it leaves a lasting impression. Our
+                  <b> business card printing services </b> offer a variety of
+                  premium options, including custom finishes, embossing, and
+                  foil stamping, to make your cards as unique as your business.
+                  We make business strategies easy with a variety of templates,
+                  low cost, and quick turnaround in a stiff competition Muslim
+                  networking style.
                 </div>
               </div>
             </div>
@@ -308,10 +312,10 @@ export default function page() {
                 <div className="product-content">
                   From large-scale offset printing for bulk orders to digital
                   printing for smaller, customizable runs, we offer tailored
-                  offset and digital printing solutions that prioritize both
-                  quality and efficiency. Our advanced technology ensures sharp,
-                  vibrant colors and durable finishes, making your printed
-                  materials stand out in every setting.
+                  <b> offset and digital printing solutions </b> that prioritize
+                  both quality and efficiency. Our advanced technology ensures
+                  sharp, vibrant colors and durable finishes, making your
+                  printed materials stand out in every setting.
                 </div>
               </div>
             </div>
@@ -333,13 +337,13 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At The1Source, we specialize in creating personalized
+                  At <b> The1Source, </b> we specialize in creating personalized
                   solutions for businesses. Whether you need postcards,
                   catalogs, posters, or any other printed collateral, our
-                  commercial printing services in Michigan are designed to meet
-                  your exact specifications. We collaborate with you throughout
-                  the process, ensuring every detail—from paper type to color
-                  scheme—is aligned with your brand identity.
+                  <b> commercial printing services in Michigan </b> are designed
+                  to meet your exact specifications. We collaborate with you
+                  throughout the process, ensuring every detail—from paper type
+                  to color scheme—is aligned with your brand identity.
                 </div>
               </div>
             </div>
@@ -359,13 +363,13 @@ export default function page() {
                 <div className="product-tag">Why Choose The1Source?</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  1.Fast Turnaround: We understand tight deadlines and deliver
-                  high-quality results quickly. <br /> 2.Cost-Effective
-                  Solutions: Our competitive pricing ensures you get premium
-                  printing services without breaking the bank. <br /> 3.Local
-                  Expertise: As a trusted provider of business printing
-                  solutions in Novi, MI, we bring years of experience to every
-                  project.
+                  1.<b> Fast Turnaround </b>: We understand tight deadlines and
+                  deliver high-quality results quickly. <br /> 2.
+                  <b>Cost-Effective Solutions </b>: Our competitive pricing
+                  ensures you get premium printing services without breaking the
+                  bank. <br /> 3.<b> Local Expertise </b>: As a trusted provider
+                  of <b> business printing solutions in Novi, MI, </b> we bring
+                  years of experience to every project.
                 </div>
               </div>
             </div>
@@ -373,8 +377,8 @@ export default function page() {
           {/* row end */}
           <div className="content">
             Elevate your brand with professional printing services tailored to
-            your business needs. Contact The1Source today to learn how we can
-            bring your vision to life with our custom printing solutions!
+            your business needs. <b> Contact The1Source today </b> to learn how
+            we can bring your vision to life with our custom printing solutions!
           </div>
         </div>
         <Footer />

@@ -106,12 +106,12 @@ export default function Home() {
             <span></span>
           </div>
           <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-            <div
+            <a
+              href="https://spaces.hightail.com/uplink/1source"
               className="nav-menu btn"
-              onClick={() => router.push("/1codeexperiance")}
             >
               Upload center
-            </div>
+            </a>
 
             <div className="dropdown">
               <div className="nav-menu dropdown btn" onClick={servicetDropdown}>

@@ -111,12 +111,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -173,7 +173,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -246,28 +249,28 @@ export default function page() {
                 <div className="product-content">
                   Obtaining the necessary permits for signage can be a
                   challenging and time-consuming task. That’s where we come in.
-                  Our signage permit services include:
+                  Our <b> signage permit services </b> include:
                   <ul>
                     <li>
-                      Permit Application Assistance: We gather all required
-                      documentation, including site plans, design
+                      <b> Permit Application Assistance</b> : We gather all
+                      required documentation, including site plans, design
                       specifications, and zoning details, to streamline the
                       application process.
                     </li>
                     <li>
-                      Compliance with Local Regulations: Every city and county
-                      has specific guidelines for signage, and we ensure your
-                      signage meets all criteria to avoid costly delays or
+                      <b> Compliance with Local Regulations </b>: Every city and
+                      county has specific guidelines for signage, and we ensure
+                      your signage meets all criteria to avoid costly delays or
                       fines.
                     </li>
                     <li>
-                      Timely Approvals: Our team’s experience with local
+                      <b>Timely Approvals </b>: Our team’s experience with local
                       authorities helps expedite the approval process, ensuring
                       your project stays on schedule.
                     </li>
                   </ul>
-                  With The1Source, you can focus on your business while we take
-                  care of the paperwork and compliance.
+                  With <b> The1Source,</b> you can focus on your business while
+                  we take care of the paperwork and compliance.
                 </div>
               </div>
             </div>
@@ -333,22 +336,24 @@ export default function page() {
                   installation services include:
                   <ul>
                     <li>
-                      Site Assessment: We evaluate your location to determine
-                      the best placement for visibility and durability.
+                      <b> Site Assessment </b>: We evaluate your location to
+                      determine the best placement for visibility and
+                      durability.
                     </li>
                     <li>
-                      Secure Mounting: From wall-mounted signs to freestanding
-                      structures, we use high-quality materials and hardware to
-                      ensure your signage withstands environmental elements.
+                      <b> Secure Mounting </b>: From wall-mounted signs to
+                      freestanding structures, we use high-quality materials and
+                      hardware to ensure your signage withstands environmental
+                      elements.
                     </li>
                     <li>
-                      Electrical Sign Installation: For illuminated signs, our
-                      experts handle electrical connections safely and
-                      efficiently.
+                      <b> Electrical Sign Installation </b>: For illuminated
+                      signs, our experts handle electrical connections safely
+                      and efficiently.
                     </li>
                     <li>
-                      Post-Installation Inspection: After installation, we
-                      conduct thorough inspections to ensure everything meets
+                      <b> Post-Installation Inspection </b>: After installation,
+                      we conduct thorough inspections to ensure everything meets
                       quality and safety standards.
                     </li>
                   </ul>
@@ -373,16 +378,22 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At The1Source, we’re proud to be a trusted provider of signage
-                  permits and installation in Michigan. Whether you’re opening a
-                  new business, updating your brand, or expanding your
-                  operations, we offer customized solutions tailored to your
-                  needs. Businesses in <br /> Novi, MI, and surrounding areas
-                  rely on us for:
+                  At <b> The1Source,</b> we’re proud to be a trusted provider of
+                  <b> signage permits and installation in Michigan.</b> Whether
+                  you’re opening a new business, updating your brand, or
+                  expanding your operations, we offer customized solutions
+                  tailored to your needs. Businesses in <br /> Novi, MI, and
+                  surrounding areas rely on us for:
                   <ul>
-                    <li>Signage Design and Fabrication</li>
-                    <li>Permit Acquisition and Compliance</li>
-                    <li>Professional Installation and Maintenance</li>
+                    <li>
+                      <b> Signage Design and Fabrication </b>
+                    </li>
+                    <li>
+                      <b> Permit Acquisition and Compliance </b>
+                    </li>
+                    <li>
+                      <b> Professional Installation and Maintenance </b>
+                    </li>
                   </ul>
                   We prioritize quality, compliance, and customer satisfaction
                   in every project, ensuring your signage serves as a powerful
@@ -410,21 +421,22 @@ export default function page() {
                 <div className="product-content">
                   <ul>
                     <li>
-                      Local Expertise: We understand the specific regulations
-                      and requirements for signage in Michigan.
+                      <b> Local Expertise </b>: We understand the specific
+                      regulations and requirements for signage in Michigan.
                     </li>
                     <li>
-                      End-to-End Services: From permits to installation, we
-                      manage the entire process, saving you time and effort.
+                      <b> End-to-End Services </b>: From permits to
+                      installation, we manage the entire process, saving you
+                      time and effort.
                     </li>
                     <li>
-                      Attention to Detail: Every project is handled with
-                      precision, ensuring your signage reflects your brand’s
-                      professionalism and vision.
+                      <b> Attention to Detail </b>: Every project is handled
+                      with precision, ensuring your signage reflects your
+                      brand’s professionalism and vision.
                     </li>
                     <li>
-                      Timely Delivery: We work efficiently to meet deadlines
-                      without compromising on quality.
+                      <b> Timely Delivery </b>: We work efficiently to meet
+                      deadlines without compromising on quality.
                     </li>
                   </ul>
                 </div>
@@ -433,10 +445,10 @@ export default function page() {
           </div>
           {/* row end */}
           <div className="content">
-            Get started with The1Source today! Contact us for reliable signage
-            permits and installation in Michigan, and let us help your business
-            make a bold statement with professional, compliant, and expertly
-            installed signage.
+            Get started with <b> The1Source </b> today! Contact us for reliable
+            <b> signage permits and installation in Michigan,</b> and let us
+            help your business make a bold statement with professional,
+            compliant, and expertly installed signage.
           </div>
         </div>
         <Footer />

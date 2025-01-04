@@ -107,12 +107,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -169,7 +169,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>

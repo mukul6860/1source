@@ -108,12 +108,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -170,7 +170,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -214,13 +217,14 @@ export default function page() {
             </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              Welcome to a new era of immersive experiences with our Matterport
-              Virtual Tours and 3D Virtual Experience Services, designed to
-              redefine how you present your spaces. At The1Source, we specialize
-              in creating interactive and engaging virtual tours for real
-              estate, retail, and commercial spaces. With cutting-edge
-              technology, we bring your properties to life, offering clients an
-              innovative way to explore and engage with your environment.
+              Welcome to a new era of immersive experiences with our
+              <b> Matterport Virtual Tours </b> and
+              <b> 3D Virtual Experience Services,</b> designed to redefine how
+              you present your spaces. At The1Source, we specialize in creating
+              interactive and engaging virtual tours for real estate, retail,
+              and commercial spaces. With cutting-edge technology, we bring your
+              properties to life, offering clients an innovative way to explore
+              and engage with your environment.
             </div>
           </div>
         </div>
@@ -241,23 +245,24 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Our Matterport Virtual Experiences in Michigan use advanced 3D
-                  technology to capture spaces with stunning clarity and
-                  precision. With Matterport, you can give your audience a fully
-                  interactive, 360-degree walkthrough of your property,
+                  Our <b> Matterport Virtual Experiences in Michigan</b> use
+                  advanced 3D technology to capture spaces with stunning clarity
+                  and precision. With Matterport, you can give your audience a
+                  fully interactive, 360-degree walkthrough of your property,
                   enhancing visibility and boosting interest.
                   <ul>
                     <li>
-                      Realistic Detailing: High-resolution visuals and dynamic
-                      rendering ensure every corner is vividly captured.
+                      <b> Realistic Detailing</b>: High-resolution visuals and
+                      dynamic rendering ensure every corner is vividly captured.
                     </li>
                     <li>
-                      User-Friendly Navigation: Viewers can easily navigate
-                      through spaces using simple, intuitive controls.
+                      <b>User-Friendly Navigation</b>: Viewers can easily
+                      navigate through spaces using simple, intuitive controls.
                     </li>
                     <li>
-                      Versatile Applications: Ideal for real estate listings,
-                      retail environments, commercial spaces, and more.
+                      <b>Versatile Applications</b>: Ideal for real estate
+                      listings, retail environments, commercial spaces, and
+                      more.
                     </li>
                   </ul>
                 </div>
@@ -282,21 +287,21 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   In today’s competitive real estate market, standing out is
-                  essential. Our real estate virtual tours allow potential
-                  buyers to experience properties remotely, saving time while
-                  generating genuine interest.
+                  essential. Our<b> real estate virtual tours</b> allow
+                  potential buyers to experience properties remotely, saving
+                  time while generating genuine interest.
                   <ul>
                     <li>
-                      Highlight Features: Showcase floor plans, layouts, and key
-                      amenities.
+                      <b> Highlight Features</b>: Showcase floor plans, layouts,
+                      and key amenities.
                     </li>
                     <li>
-                      Expand Your Reach: Attract out-of-town buyers or clients
-                      unable to visit in person.
+                      <b>Expand Your Reach</b>: Attract out-of-town buyers or
+                      clients unable to visit in person.
                     </li>
                     <li>
-                      Boost Engagement: Provide a deeper connection to the
-                      property, encouraging faster decisions.
+                      <b> Boost Engagement</b>: Provide a deeper connection to
+                      the property, encouraging faster decisions.
                     </li>
                   </ul>
                 </div>
@@ -320,23 +325,24 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  For retail and commercial spaces, our 3D virtual tours in
-                  Novi, MI, help you showcase your environment like never
-                  before. From product displays to layout designs, virtualtours
-                  are an innovative way to captivate your audience.
+                  For retail and commercial spaces, our
+                  <b> 3D virtual tours in Novi, MI,</b> help you showcase your
+                  environment like never before. From product displays to layout
+                  designs, virtualtours are an innovative way to captivate your
+                  audience.
                   <ul>
                     <li>
-                      Retail Stores: Highlight product arrangements and ambiance
-                      to entice shoppers.
+                      <b> Retail Stores</b>: Highlight product arrangements and
+                      ambiance to entice shoppers.
                     </li>
                     <li>
-                      Commercial Facilities: Showcase office layouts,
+                      <b>Commercial Facilities</b>: Showcase office layouts,
                       warehouses, or event venues to potential clients or
                       partners.
                     </li>
                     <li>
-                      Custom Branding: Tailor tours with your logo and unique
-                      branding elements to create a memorable experience.
+                      <b>Custom Branding</b>: Tailor tours with your logo and
+                      unique branding elements to create a memorable experience.
                     </li>
                   </ul>
                 </div>
@@ -362,20 +368,22 @@ export default function page() {
                 <div className="product-content">
                   <ul>
                     <li>
-                      State-of-the-Art Technology: Our Matterport Virtual Tours
-                      ensure flawless capture and presentation.
+                      <b>State-of-the-Art Technology</b>: Our
+                      <b> Matterport Virtual Tours</b> ensure flawless capture
+                      and presentation.
                     </li>
                     <li>
-                      Local Expertise: With a strong presence in Michigan, we
-                      understand your business needs.
+                      <b>Local Expertise</b>: With a strong presence in
+                      Michigan, we understand your business needs.
                     </li>
                     <li>
-                      Tailored Solutions: Each tour is customized to meet the
-                      goals of your space and audience.
+                      <b> Tailored Solutions</b>: Each tour is customized to
+                      meet the goals of your space and audience.
                     </li>
                     <li>
-                      Comprehensive Services: From planning to delivery, we
-                      handle every step of the process with precision and care.
+                      <b> Comprehensive Services</b>: From planning to delivery,
+                      we handle every step of the process with precision and
+                      care.
                     </li>
                   </ul>
                 </div>
@@ -400,9 +408,9 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Whether you’re looking to sell a home, attract tenants to a
-                  commercial property, or showcase a retail space, our 3D
-                  Virtual Experience Services are designed to elevate your
-                  offerings. At The1Source, we’re committed to helping
+                  commercial property, or showcase a retail space, our
+                  <b> 3D Virtual Experience Services</b> are designed to elevate
+                  your offerings. At The1Source, we’re committed to helping
                   businesses in Novi and beyond leverage technology to captivate
                   their audiences and achieve their goals.
                 </div>

@@ -112,12 +112,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -174,7 +174,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -221,11 +224,12 @@ export default function page() {
             <div className="product-banner-description">
               As the world becomes more digitalized, one cannot afford not to
               have an online presence in the current business world. At
-              The1Source, we offer innovative digital marketing services that
-              empower businesses in Michigan, Novi, and beyond to thrive in the
-              online world. Whether you’re looking to enhance your search engine
-              visibility, captivate your audience, or drive measurable results,
-              we’ve got you covered.
+              <b> The1Source</b>, we offer innovative
+              <b> digital marketing services </b>
+              that empower businesses in Michigan, Novi, and beyond to thrive in
+              the online world. Whether you’re looking to enhance your search
+              engine visibility, captivate your audience, or drive measurable
+              results, we’ve got you covered.
             </div>
           </div>
         </div>
@@ -247,7 +251,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Your brand has a story, and we know how to tell it. With our
-                  comprehensive content marketing strategies, we create
+                  comprehensive <b> content marketing strategies </b>, we create
                   high-quality blogs, articles, case studies, and more to engage
                   your audience and establish your authority. Each piece is
                   tailored to your industry and audience, ensuring your message
@@ -274,11 +278,12 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Social media is more than just posts; it’s about connection.
-                  At The1Source, we provide end-to-end social media management
-                  services in Michigan to help your brand grow its community.
-                  From creating engaging content calendars to analyzing metrics,
-                  we ensure every interaction strengthens your online reputation
-                  and drives meaningful engagement.
+                  At <b> The1Source </b>, we provide end-to-end
+                  <b> social media management services in Michigan </b> to help
+                  your brand grow its community. From creating engaging content
+                  calendars to analyzing metrics, we ensure every interaction
+                  strengthens your online reputation and drives meaningful
+                  engagement.
                 </div>
               </div>
             </div>
@@ -300,11 +305,11 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Make your mark with impactful advertising. Our online
-                  advertising solutions include expertly crafted banner ads,
-                  display ads, and PPC campaigns that catch the eye and convert
-                  clicks into customers. With a focus on ROI, we optimize every
-                  campaign to meet your unique goals.
+                  Make your mark with impactful advertising. Our
+                  <b> online advertising solutions </b> include expertly crafted
+                  banner ads, display ads, and PPC campaigns that catch the eye
+                  and convert clicks into customers. With a focus on ROI, we
+                  optimize every campaign to meet your unique goals.
                 </div>
               </div>
             </div>
@@ -327,10 +332,11 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Your website is often the first interaction customers have
-                  with your business. At The1Source, we specialize in website
-                  design and development that combines aesthetic appeal with
-                  functionality. Our responsive, user-friendly designs ensure
-                  visitors stay engaged and convert into loyal customers.
+                  with your business. At <b> The1Source</b>, we specialize in
+                  <b> website design and development </b> that combines
+                  aesthetic appeal with functionality. Our responsive,
+                  user-friendly designs ensure visitors stay engaged and convert
+                  into loyal customers.
                 </div>
               </div>
             </div>
@@ -353,23 +359,23 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Standing out on search engines isn’t just about being
-                  found—it’s about being found by the right people. With our SEO
-                  services in Novi, MI, we provide cutting-edge SEO and SEM
-                  solutions that enhance your rankings, increase organic
-                  traffic, and generate qualified leads. Our proven strategies
-                  include keyword optimization, link building, and on-page
-                  enhancements tailored to your business goals.
+                  found—it’s about being found by the right people. With our
+                  <b> SEO services in Novi, MI, </b> we provide cutting-edge
+                  <b> SEO and SEM solutions </b> that enhance your rankings,
+                  increase organic traffic, and generate qualified leads. Our
+                  proven strategies include keyword optimization, link building,
+                  and on-page enhancements tailored to your business goals.
                 </div>
               </div>
             </div>
           </div>
           {/* row end */}
           <div className="content">
-            At The1Source, we’re passionate about delivering measurable results
-            and helping your business grow. Explore how our digital marketing
-            services in Michigan can transform your online presence. <br />
-            Contact us today to get started on your journey toward digital
-            success!
+            At <b> The1Source, </b> we’re passionate about delivering measurable
+            results and helping your business grow. Explore how our
+            <b> digital marketing services in Michigan </b> can transform your
+            online presence. <b>Contact us today </b> to get started on your
+            journey toward digital success!
           </div>
         </div>
         <Footer />

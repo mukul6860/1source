@@ -108,12 +108,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -170,7 +170,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -265,10 +268,18 @@ export default function page() {
               years, 1Source has earned numerous accolades for our work,
               including:
               <ul>
-                <li>Gold Award for Large Format Printing</li>
-                <li>Silver Award for ADA Signage</li>
-                <li>Silver Award for Digital Printing</li>
-                <li>Bronze Award for Printer’s Self-Advertising</li>
+                <li>
+                  <b> Gold Award </b> for Large Format Printing
+                </li>
+                <li>
+                  <b> Silver Award </b> for ADA Signage
+                </li>
+                <li>
+                  <b> Silver Award </b> for Digital Printing
+                </li>
+                <li>
+                  <b> Bronze Award </b> for Printer’s Self-Advertising
+                </li>
                 These awards are a testament to the hard work, creativity, and
                 dedication of our talented team.
               </ul>

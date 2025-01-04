@@ -112,12 +112,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -174,7 +174,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -250,12 +253,13 @@ export default function page() {
                 <div className="product-content">
                   Custom banners are a powerful tool for any business looking to
                   stand out. Whether you need banners for a special event,
-                  outdoor advertising, or retail promotions, our custom banner
-                  printing ensures your message is visible and impactful. We
-                  offer a range of options, from lightweight vinyl banners to
-                  durable, weather-resistant materials that hold up to the
-                  elements. With vibrant colors and custom designs, your banners
-                  will make a lasting impression.
+                  outdoor advertising, or retail promotions, our
+                  <b> custom banner printing </b> ensures your message is
+                  visible and impactful. We offer a range of options, from
+                  lightweight vinyl banners to durable, weather-resistant
+                  materials that hold up to the elements. With vibrant colors
+                  and custom designs, your banners will make a lasting
+                  impression.
                 </div>
               </div>
             </div>
@@ -279,13 +283,13 @@ export default function page() {
                 <div className="product-content">
                   Trade shows are a fantastic opportunity to showcase your
                   business, and your display should reflect your brand’s
-                  professionalism and creativity. Our trade show display
-                  printing services help you create a memorable experience for
-                  attendees. From large format graphics to pop-up displays, we
-                  provide high-quality, customizable solutions that ensure your
-                  booth stands out. Our printing technology produces sharp,
-                  high-definition images, making your branding materials pop
-                  with clarity and detail.
+                  professionalism and creativity. Our
+                  <b> trade show display printing</b> services help you create a
+                  memorable experience for attendees. From large format graphics
+                  to pop-up displays, we provide high-quality, customizable
+                  solutions that ensure your booth stands out. Our printing
+                  technology produces sharp, high-definition images, making your
+                  branding materials pop with clarity and detail.
                 </div>
               </div>
             </div>
@@ -309,7 +313,8 @@ export default function page() {
                 <div className="product-content">
                   Posters are an excellent way to communicate your message in a
                   bold and eye-catching manner. Whether it’s for marketing,
-                  events, or in-store promotions, our poster printing solutions
+                  events, or in-store promotions, our
+                  <b> poster printing solutions </b>
                   are designed to bring your ideas to life. With a variety of
                   finishes and paper options, we work with you to create posters
                   that perfectly match your vision. Whether you need small runs
@@ -337,15 +342,15 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  When it comes to large format printing in Michigan, quality
-                  and durability are essential. At The1Source, we use the latest
-                  printing technology to ensure your materials are not only
-                  visually stunning but also built to last. Our large format
-                  solutions include posters, banners, signs, and more, all
-                  printed with rich, vibrant colors that catch the eye. Whether
-                  you need indoor or outdoor materials, our prints are designed
-                  to withstand the elements while maintaining their visual
-                  integrity.
+                  When it comes to <b> large format printing in Michigan,</b>
+                  quality and durability are essential. At <b> The1Source,</b>
+                  we use the latest printing technology to ensure your materials
+                  are not only visually stunning but also built to last. Our
+                  large format solutions include posters, banners, signs, and
+                  more, all printed with rich, vibrant colors that catch the
+                  eye. Whether you need indoor or outdoor materials, our prints
+                  are designed to withstand the elements while maintaining their
+                  visual integrity.
                 </div>
               </div>
             </div>
@@ -368,12 +373,13 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At The1Source, we understand that every business is unique.
-                  That’s why we offer custom banners and posters in Novi, MI,
-                  tailored to your specific needs. Whether you’re looking for an
-                  oversized poster to promote your next event or a custom banner
-                  for a grand opening, we ensure that your materials reflect
-                  your brand’s personality and message. We work closely with you
+                  At <b> The1Source,</b> we understand that every business is
+                  unique. That’s why we offer
+                  <b> custom banners and posters in Novi, MI, </b> tailored to
+                  your specific needs. Whether you’re looking for an oversized
+                  poster to promote your next event or a custom banner for a
+                  grand opening, we ensure that your materials reflect your
+                  brand’s personality and message. We work closely with you
                   throughout the design and production process to ensure your
                   custom print materials exceed expectations.
                 </div>
@@ -383,10 +389,10 @@ export default function page() {
           {/* row end */}
           <div className="content">
             Ready to create eye-catching prints that elevate your business?
-            Contact The1Source today for your large format printing services and
-            get started on your next project. Let’s bring your brand to life
-            with vibrant, durable, and custom-printed materials that make a
-            lasting impression.
+            <b> Contact The1Source </b> today for your
+            <b> large format printing services </b> and get started on your next
+            project. Let’s bring your brand to life with vibrant, durable, and
+            custom-printed materials that make a lasting impression.
           </div>
         </div>
         <Footer />

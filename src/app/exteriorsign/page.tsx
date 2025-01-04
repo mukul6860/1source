@@ -118,12 +118,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -180,7 +180,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -227,10 +230,11 @@ export default function page() {
               Exterior signage is more than just a marker for your business;
               it’s a powerful communication tool that conveys your brand
               identity, attracts customers, and enhances visibility. At
-              The1Source, we specialize in crafting Custom Exterior Signs that
-              stand out while reflecting the essence of your brand. From bold
-              designs to durable materials, our solutions are tailored to meet
-              the unique needs of businesses across Michigan.
+              The1Source, we specialize in crafting
+              <b> Custom Exterior Signs </b> that stand out while reflecting the
+              essence of your brand. From bold designs to durable materials, our
+              solutions are tailored to meet the unique needs of businesses
+              across Michigan.
             </div>
           </div>
         </div>
@@ -252,12 +256,13 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Make your business impossible to miss with our striking
-                  channel letter signs. These three-dimensional, illuminated
-                  letters are perfect for enhancing visibility day and night.
-                  Whether mounted directly to your building or placed on a
-                  raceway for added versatility, channel letters are a timeless
-                  option for showcasing your brand in a polished, professional
-                  manner. Our Illuminated Signage Solutions ensure your business
+                  <b> channel letter signs</b>. These three-dimensional,
+                  illuminated letters are perfect for enhancing visibility day
+                  and night. Whether mounted directly to your building or placed
+                  on a raceway for added versatility, channel letters are a
+                  timeless option for showcasing your brand in a polished,
+                  professional manner. Our
+                  <b> Illuminated Signage Solutions </b> ensure your business
                   shines brightly, even after dark.
                 </div>
               </div>
@@ -281,10 +286,10 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Your business entrance is your first impression. With custom
-                  door signs, you can provide essential information, enhance
-                  branding, and guide visitors effortlessly. Whether you need
-                  directional signs, business hours, or logo displays, our door
-                  signage solutions combine style and function to leave a
+                  <b> door signs,</b> you can provide essential information,
+                  enhance branding, and guide visitors effortlessly. Whether you
+                  need directional signs, business hours, or logo displays, our
+                  door signage solutions combine style and function to leave a
                   lasting impact.
                 </div>
               </div>
@@ -308,10 +313,10 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Perfect for businesses looking to maximize visibility in
-                  crowded areas, hanging signs add a classic touch to your
-                  exterior design. Whether suspended indoors or outdoors, these
-                  signs are highly versatile and can be customized in various
-                  materials, shapes, and finishes to match your brand
+                  crowded areas, <b> hanging signs </b> add a classic touch to
+                  your exterior design. Whether suspended indoors or outdoors,
+                  these signs are highly versatile and can be customized in
+                  various materials, shapes, and finishes to match your brand
                   aesthetics.
                 </div>
               </div>
@@ -334,12 +339,12 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  For a sleek, long-lasting option, metal signs are the perfect
-                  choice. Known for their durability and elegant appearance,
-                  metal signs are ideal for showcasing your business name, logo,
-                  or key information. With options ranging from brushed aluminum
-                  to weatherproof steel, we deliver signage that’s as resilient
-                  as it is visually appealing.
+                  For a sleek, long-lasting option, <b> metal signs </b> are the
+                  perfect choice. Known for their durability and elegant
+                  appearance, metal signs are ideal for showcasing your business
+                  name, logo, or key information. With options ranging from
+                  brushed aluminum to weatherproof steel, we deliver signage
+                  that’s as resilient as it is visually appealing.
                 </div>
               </div>
             </div>
@@ -361,13 +366,15 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Nothing captures attention like a well-crafted monument sign
-                  or a towering pylon sign. Perfect for making a statement at
-                  entrances, these ground-level or elevated signs are designed
-                  to impress. Whether you opt for classic stone, modern acrylic,
-                  or a combination of materials, these signs ensure visibility
-                  and communicate sophistication. With Monument and Pylon Signs,
-                  your business will leave a lasting impression.
+                  Nothing captures attention like a well-crafted
+                  <b> monument sign </b>
+                  or a towering <b> pylon sign.</b> Perfect for making a
+                  statement at entrances, these ground-level or elevated signs
+                  are designed to impress. Whether you opt for classic stone,
+                  modern acrylic, or a combination of materials, these signs
+                  ensure visibility and communicate sophistication. With
+                  <b> Monument and Pylon Signs,</b> your business will leave a
+                  lasting impression.
                 </div>
               </div>
             </div>
@@ -390,11 +397,11 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Transform your storefront into a marketing canvas with vibrant
-                  window graphics. Whether you want to showcase promotions, add
-                  privacy, or reinforce your brand, our custom graphics are
-                  designed to make an impact. Choose from full-coverage wraps,
-                  decals, or perforated vinyl for a look that’s both functional
-                  and stylish.
+                  <b> window graphics.</b> Whether you want to showcase
+                  promotions, add privacy, or reinforce your brand, our custom
+                  graphics are designed to make an impact. Choose from
+                  full-coverage wraps, decals, or perforated vinyl for a look
+                  that’s both functional and stylish.
                 </div>
               </div>
             </div>
@@ -417,7 +424,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Ensure a seamless experience for your customers with clear and
-                  professional parking signs. From reserved spaces to
+                  professional <b>parking signs.</b> From reserved spaces to
                   directional signs, we offer a variety of designs that improve
                   functionality and reflect your business’s commitment to
                   customer care.
@@ -443,9 +450,10 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Capture attention in competitive markets with expertly
-                  designed real estate signs. Whether it’s “For Sale,” “Open
-                  House,” or custom branding, we create durable and attractive
-                  signs that help properties stand out and generate leads.
+                  designed <b> real estate signs.</b> Whether it’s “For Sale,”
+                  “Open House,” or custom branding, we create durable and
+                  attractive signs that help properties stand out and generate
+                  leads.
                 </div>
               </div>
             </div>
@@ -469,8 +477,9 @@ export default function page() {
                 <div className="product-content">
                   Educational institutions need signage that informs while
                   enhancing the campus atmosphere. From entryway signs to
-                  digital displays, we design custom school signs that reflect
-                  pride and professionalism while serving functional purposes.
+                  digital displays, we design custom <b> school signs</b> that
+                  reflect pride and professionalism while serving functional
+                  purposes.
                 </div>
               </div>
             </div>
@@ -493,9 +502,9 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Planning a golf tournament or a corporate event? Our custom
-                  event signs add a professional touch to your branding efforts.
-                  From sponsor banners to directional signage, we ensure your
-                  event is visually cohesive and memorable.
+                  <b> event signs </b> add a professional touch to your branding
+                  efforts. From sponsor banners to directional signage, we
+                  ensure your event is visually cohesive and memorable.
                 </div>
               </div>
             </div>
@@ -529,9 +538,10 @@ export default function page() {
           </div>
           {/* row end */}
           <div className="content">
-            Contact us today to discover how our Outdoor Sign Solutions in Novi,
-            MI, and beyond, can elevate your business. Let’s create something
-            remarkable together with our custom Exterior Signage in Michigan!
+            Contact us today to discover how our
+            <b> Outdoor Sign Solutions in Novi, MI,</b> and beyond, can elevate
+            your business. Let’s create something remarkable together with our
+            custom <b>Exterior Signage in Michigan!</b>
           </div>
         </div>
         <Footer />

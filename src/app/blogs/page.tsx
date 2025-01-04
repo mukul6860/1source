@@ -77,13 +77,6 @@ function FaRegEye() {
 export default function page() {
   const router = useRouter();
 
-  const [clickCounts, setClickCounts] = useState([0, 0, 0]);
-
-  const handleClick = (index: any) => {
-    const newClickCounts = [...clickCounts];
-    newClickCounts[index] += 1;
-    setClickCounts(newClickCounts);
-  };
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const [isSeriviceDropdownOpen, setIsSeriviceDropdownOpen] = useState(false);
@@ -132,12 +125,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -194,7 +187,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -245,17 +241,14 @@ export default function page() {
         </div>
         <div className="blog-card-container">
           <div className="blog-card hover">
-            <div onClick={() => handleClick(0)}>
-              {/* href="/blog/old-age-home" */}
+            <div>
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   <div className="image-tag">Printing Service</div>
-                  {/* <div className="image-description">
-                    Are Changing To Better
-                  </div> */}
+
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
@@ -265,30 +258,18 @@ export default function page() {
                   A Small Glimpse of How Old Age Homes are changing to Better
                 </div>
               </div>
-              <div className="blog-comment-view-wraper">
-                <div className="blog-comment">
-                  <div className="comment-view-logo">
-                    <FaRegEye />
-                  </div>
-                  <div className="comment-view-count">{clickCounts[0]}</div>
-                  <div className="comment-view-tag">Views</div>
-                </div>
-              </div>
             </div>
           </div>
           {/* card start */}
           <div className="blog-card hover">
-            <div onClick={() => handleClick(1)}>
-              {/* href="/blog/old-age-home" */}
+            <div>
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   <div className="image-tag">Signage Board</div>
-                  {/* <div className="image-description">
-                    Are Changing To Better
-                  </div> */}
+
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
@@ -296,15 +277,6 @@ export default function page() {
                 <div className="blog-date-depart-wrap">21st February 2023</div>
                 <div className="blog-content-tagline">
                   A Small Glimpse of How Old Age Homes are changing to Better
-                </div>
-              </div>
-              <div className="blog-comment-view-wraper">
-                <div className="blog-comment">
-                  <div className="comment-view-logo">
-                    <FaRegEye />
-                  </div>
-                  <div className="comment-view-count">{clickCounts[1]}</div>
-                  <div className="comment-view-tag">Views</div>
                 </div>
               </div>
             </div>
@@ -312,17 +284,14 @@ export default function page() {
           {/* card end */}
           {/* card start */}
           <div className="blog-card hover">
-            <div onClick={() => handleClick(2)}>
-              {/* href="/blog/old-age-home" */}
+            <div>
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   <div className="image-tag">Vehicle Wrap</div>
-                  {/* <div className="image-description">
-                    Are Changing To Better
-                  </div> */}
+
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
@@ -330,15 +299,6 @@ export default function page() {
                 <div className="blog-date-depart-wrap">21st February 2023</div>
                 <div className="blog-content-tagline">
                   A Small Glimpse of How Old Age Homes are changing to Better
-                </div>
-              </div>
-              <div className="blog-comment-view-wraper">
-                <div className="blog-comment">
-                  <div className="comment-view-logo">
-                    <FaRegEye />
-                  </div>
-                  <div className="comment-view-count">{clickCounts[2]}</div>
-                  <div className="comment-view-tag">Views</div>
                 </div>
               </div>
             </div>
@@ -346,17 +306,14 @@ export default function page() {
           {/* card end */}
           {/* card start */}
           <div className="blog-card hover">
-            <div onClick={() => handleClick(2)}>
-              {/* href="/blog/old-age-home" */}
+            <div>
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   <div className="image-tag">Vehicle Wrap</div>
-                  {/* <div className="image-description">
-                    Are Changing To Better
-                  </div> */}
+
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
@@ -364,15 +321,6 @@ export default function page() {
                 <div className="blog-date-depart-wrap">21st February 2023</div>
                 <div className="blog-content-tagline">
                   A Small Glimpse of How Old Age Homes are changing to Better
-                </div>
-              </div>
-              <div className="blog-comment-view-wraper">
-                <div className="blog-comment">
-                  <div className="comment-view-logo">
-                    <FaRegEye />
-                  </div>
-                  <div className="comment-view-count">{clickCounts[2]}</div>
-                  <div className="comment-view-tag">Views</div>
                 </div>
               </div>
             </div>
@@ -380,17 +328,14 @@ export default function page() {
           {/* card end */}
           {/* card start */}
           <div className="blog-card hover">
-            <div onClick={() => handleClick(2)}>
-              {/* href="/blog/old-age-home" */}
+            <div>
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   <div className="image-tag">Vehicle Wrap</div>
-                  {/* <div className="image-description">
-                    Are Changing To Better
-                  </div> */}
+
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
@@ -398,15 +343,6 @@ export default function page() {
                 <div className="blog-date-depart-wrap">21st February 2023</div>
                 <div className="blog-content-tagline">
                   A Small Glimpse of How Old Age Homes are changing to Better
-                </div>
-              </div>
-              <div className="blog-comment-view-wraper">
-                <div className="blog-comment">
-                  <div className="comment-view-logo">
-                    <FaRegEye />
-                  </div>
-                  <div className="comment-view-count">{clickCounts[2]}</div>
-                  <div className="comment-view-tag">Views</div>
                 </div>
               </div>
             </div>
@@ -414,17 +350,14 @@ export default function page() {
           {/* card end */}
           {/* card start */}
           <div className="blog-card hover">
-            <div onClick={() => handleClick(2)}>
-              {/* href="/blog/old-age-home" */}
+            <div>
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   <div className="image-tag">Vehicle Wrap</div>
-                  {/* <div className="image-description">
-                    Are Changing To Better
-                  </div> */}
+
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
@@ -432,15 +365,6 @@ export default function page() {
                 <div className="blog-date-depart-wrap">21st February 2023</div>
                 <div className="blog-content-tagline">
                   A Small Glimpse of How Old Age Homes are changing to Better
-                </div>
-              </div>
-              <div className="blog-comment-view-wraper">
-                <div className="blog-comment">
-                  <div className="comment-view-logo">
-                    <FaRegEye />
-                  </div>
-                  <div className="comment-view-count">{clickCounts[2]}</div>
-                  <div className="comment-view-tag">Views</div>
                 </div>
               </div>
             </div>

@@ -117,12 +117,12 @@ export default function page() {
               <span></span>
             </div>
             <div className={`nav-menu-container ${isOpen ? "open-nav" : ""}`}>
-              <div
+              <a
+                href="https://spaces.hightail.com/uplink/1source"
                 className="nav-menu btn"
-                onClick={() => router.push("/1codeexperiance")}
               >
                 Upload center
-              </div>
+              </a>
 
               <div className="dropdown">
                 <div className="nav-menu dropdown" onClick={servicetDropdown}>
@@ -179,7 +179,10 @@ export default function page() {
                   >
                     1Code experience
                   </a>
-                  <a className="btn" onClick={() => router.push("/matterport")}>
+                  <a
+                    className="btn"
+                    onClick={() => router.push("/1codeexperiance")}
+                  >
                     Matterport virtual experiences
                   </a>
                 </div>
@@ -227,10 +230,10 @@ export default function page() {
               functionality of your workspace. Whether you're aiming to impress
               visitors, guide clients effortlessly, or boost employee morale,
               the right signage makes all the difference. At The1Source, we
-              specialize in creating Custom Interior Signs that are as unique as
-              your business. From sleek designs to versatile materials, we
-              ensure that every sign reflects your brand’s identity and meets
-              your specific needs.
+              specialize in creating <b> Custom Interior Signs</b> that are as
+              unique as your business. From sleek designs to versatile
+              materials, we ensure that every sign reflects your brand’s
+              identity and meets your specific needs.
             </div>
           </div>
         </div>
@@ -278,7 +281,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Accessibility and compliance go hand in hand with great
-                  design. ADA-compliant signage ensures inclusivity while
+                  design.<b> ADA-compliant signage</b> ensures inclusivity while
                   reflecting your brand's professionalism. Our expertise in ADA
                   compliance allows us to create signs that meet all legal
                   requirements while maintaining a cohesive look with your
@@ -304,12 +307,12 @@ export default function page() {
                 <div className="product-tag">Wayfinding Signage Solutions</div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  Guide your visitors with ease and precision. Wayfinding
-                  signage solutions are essential for creating a seamless
-                  experience, helping clients and customers navigate your space
-                  effortlessly. Whether it’s a large campus or a compact office,
-                  our custom-designed signs ensure clarity and efficiency,
-                  leaving a lasting positive impression.
+                  Guide your visitors with ease and precision.
+                  <b> Wayfinding signage solutions </b> are essential for
+                  creating a seamless experience, helping clients and customers
+                  navigate your space effortlessly. Whether it’s a large campus
+                  or a compact office, our custom-designed signs ensure clarity
+                  and efficiency, leaving a lasting positive impression.
                 </div>
               </div>
             </div>
@@ -384,7 +387,8 @@ export default function page() {
                   wide range of applications, indoors or outdoors. Whether you
                   need custom graphics for windows, walls, or vehicles, vinyl
                   signs can be tailored to meet your unique requirements. With
-                  endless design possibilities, our wall graphics and décor
+                  endless design possibilities, our
+                  <b> wall graphics and decor</b>
                   solutions help businesses make a bold statement and stand out
                   from the competition.
                 </div>
@@ -495,9 +499,9 @@ export default function page() {
           </div>
           {/* row end */}
           <div className="content">
-            Contact us today to explore the best Interior Signage in Michigan,
-            including Custom Interior Signs in Novi, MI, and discover how we can
-            bring your vision to life.
+            Contact us today to explore the best <b> Interior Signage</b> in
+            Michigan, including<b> Custom Interior Signs in Novi, MI,</b> and
+            discover how we can bring your vision to life.
           </div>
         </div>
         <Footer />
