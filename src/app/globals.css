@@ -51,7 +51,12 @@ a {
   height: 50px;
   width: 100%;
 }
-
+.zsiq-hide{
+  display: flex !important;
+}
+.zsiq-float{
+  right: 30px !important;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

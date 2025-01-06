@@ -7,6 +7,7 @@ import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
 import cardimg1 from "../../../public/Assets/download.jpg";
+import Link from "next/link";
 
 function BiChevronDown() {
   return (
@@ -240,135 +241,130 @@ export default function page() {
           </div>
         </div>
         <div className="blog-card-container">
-          <div className="blog-card hover">
-            <div>
+          <Link className="blog-card hover" href="/blogs/effective">
+            <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
-                  <div className="image-tag">Printing Service</div>
-
+                  {/* <div className="image-tag">Signage Board</div> */}
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
               <div className="blog-content-container">
-                <div className="blog-date-depart-wrap">21st February 2023</div>
+                {/* <div className="blog-date-depart-wrap">21st February 2023</div> */}
                 <div className="blog-content-tagline">
-                  A Small Glimpse of How Old Age Homes are changing to Better
+                  Effective Signage Strategies for University Campuses
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* card start */}
-          <div className="blog-card hover">
-            <div>
+          <Link className="blog-card hover" href="/blogs/innovative">
+            <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
-                  <div className="image-tag">Signage Board</div>
-
+                  {/* <div className="image-tag">Signage Board</div> */}
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
               <div className="blog-content-container">
-                <div className="blog-date-depart-wrap">21st February 2023</div>
+                {/* <div className="blog-date-depart-wrap">21st February 2023</div> */}
                 <div className="blog-content-tagline">
-                  A Small Glimpse of How Old Age Homes are changing to Better
+                  Innovative Custom Signage Solutions for Businesses
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* card end */}
           {/* card start */}
-          <div className="blog-card hover">
-            <div>
+          <Link className="blog-card hover" href="/blogs/decals">
+            <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
-                  <div className="image-tag">Vehicle Wrap</div>
-
+                  {/* <div className="image-tag">Signage Board</div> */}
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
               <div className="blog-content-container">
-                <div className="blog-date-depart-wrap">21st February 2023</div>
+                {/* <div className="blog-date-depart-wrap">21st February 2023</div> */}
                 <div className="blog-content-tagline">
-                  A Small Glimpse of How Old Age Homes are changing to Better
+                  Exploring the Artistry of Decals Artistry
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* card end */}
           {/* card start */}
-          <div className="blog-card hover">
-            <div>
+          <Link className="blog-card hover" href="/blogs/monument">
+            <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
-                  <div className="image-tag">Vehicle Wrap</div>
-
+                  {/* <div className="image-tag">Signage Board</div> */}
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
               <div className="blog-content-container">
-                <div className="blog-date-depart-wrap">21st February 2023</div>
+                {/* <div className="blog-date-depart-wrap">21st February 2023</div> */}
                 <div className="blog-content-tagline">
-                  A Small Glimpse of How Old Age Homes are changing to Better
+                  The Impact of Monument Signs: Enhancing Brand Visibility
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* card end */}
           {/* card start */}
-          <div className="blog-card hover">
-            <div>
+          <Link className="blog-card hover" href="/blogs/outdoor">
+            <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
-                  <div className="image-tag">Vehicle Wrap</div>
-
+                  {/* <div className="image-tag">Signage Board</div> */}
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
               <div className="blog-content-container">
-                <div className="blog-date-depart-wrap">21st February 2023</div>
+                {/* <div className="blog-date-depart-wrap">21st February 2023</div> */}
                 <div className="blog-content-tagline">
-                  A Small Glimpse of How Old Age Homes are changing to Better
+                  Say Goodbye to Dust: Innovative Technologies in Outdoor
+                  Signage
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* card end */}
           {/* card start */}
-          <div className="blog-card hover">
-            <div>
+          <Link className="blog-card hover" href="/blogs/ada">
+            <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
                   <Image src={cardimg1} alt="" />
                 </div>
                 <div className="image-content-bg">
-                  <div className="image-tag">Vehicle Wrap</div>
-
+                  {/* <div className="image-tag">Signage Board</div> */}
                   <div className="foundation-tag">1 Source</div>
                 </div>
               </div>
               <div className="blog-content-container">
-                <div className="blog-date-depart-wrap">21st February 2023</div>
+                {/* <div className="blog-date-depart-wrap">21st February 2023</div> */}
                 <div className="blog-content-tagline">
-                  A Small Glimpse of How Old Age Homes are changing to Better
+                  Key Considerations for ADA Exit Sign Installation
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
           {/* card end */}
         </div>
         <Footer />

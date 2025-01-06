@@ -5,7 +5,6 @@ import logo1 from "../../../../public/Assets/1source.jpg";
 import { useRouter } from "next/navigation";
 import "../../Homepage/Homepage.scss";
 import Footer from "../../footer/footer";
-import projectimg1 from "../../../../public/Assets/Specialty_Photos/ArtVan_Misc/Art Van Canton_05.jpg";
 import Gallery from "../../gallery/artvangallery/page";
 
 function BiChevronDown() {
@@ -54,28 +53,6 @@ function GrMail() {
       <path
         fillRule="evenodd"
         d="M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
-      />
-    </svg>
-  );
-}
-
-function CgChevronDoubleRight() {
-  return (
-    <svg
-      stroke="brown"
-      fill="none"
-      strokeWidth={0}
-      viewBox="0 0 24 24"
-      height="1em"
-      width="1em"
-    >
-      <path
-        d="M5.63605 7.75735L7.05026 6.34314L12.7071 12L7.05029 17.6568L5.63608 16.2426L9.87869 12L5.63605 7.75735Z"
-        fill="brown"
-      />
-      <path
-        d="M12.7071 6.34314L11.2929 7.75735L15.5356 12L11.2929 16.2426L12.7072 17.6568L18.364 12L12.7071 6.34314Z"
-        fill="brown"
       />
     </svg>
   );
@@ -248,70 +225,6 @@ function page() {
               >
                 Request quote
               </a>
-            </div>
-          </div>
-        </div>
-        <div className="project-details-container">
-          <div className="project-details-wraper">
-            <div className="project-image-container">
-              <Image src={projectimg1} alt="" />
-            </div>
-            <div className="project-heading-container">
-              <div className="event-details-venue">Pune / 27 February 2023</div>
-              <div className="heading">
-                A Small Glimpse of How Old Age Homes are changing to Better
-              </div>
-              <div className="subheading">
-                Old age homes are transforming into vibrant communities where
-                seniors can thrive. With a focus on wellness, social engagement,
-                and personalized care, these facilities are redefining what it
-                means to age gracefully. Old age homes are transforming into
-                vibrant communities where seniors can thrive. With a focus on
-                wellness, social engagement, and personalized care, these
-                facilities are redefining what it means to age gracefully.
-              </div>
-            </div>
-          </div>
-          <div className="project-content-wraper">
-            <div className="project-name-container">
-              <div className="project-details-row">
-                <div className="detail-tag-container">Project Details</div>
-              </div>
-              <div className="project-details-row">
-                <div className="detail-tag">
-                  <CgChevronDoubleRight />
-                  Project Name
-                </div>
-                <div className="detail-info">First Project</div>
-              </div>
-              <div className="project-details-row">
-                <div className="detail-tag">
-                  <CgChevronDoubleRight />
-                  Project Category
-                </div>
-                <div className="detail-info">First Project</div>
-              </div>
-              <div className="project-details-row">
-                <div className="detail-tag">
-                  <CgChevronDoubleRight />
-                  Location
-                </div>
-                <div className="detail-info">First Project</div>
-              </div>
-              <div className="project-details-row">
-                <div className="detail-tag">
-                  <CgChevronDoubleRight />
-                  Owner
-                </div>
-                <div className="detail-info">First Project</div>
-              </div>
-              <div className="project-details-row">
-                <div className="detail-tag">
-                  <CgChevronDoubleRight />
-                  Contracter
-                </div>
-                <div className="detail-info">First Project</div>
-              </div>
             </div>
           </div>
         </div>

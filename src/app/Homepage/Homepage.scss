@@ -1445,7 +1445,6 @@
     opacity: 0.1;
   }
   // testimonials end
-
   // project details start
   .project-details-container {
     height: auto;
@@ -1460,15 +1459,17 @@
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
-      gap: 50px;
+      gap: 20px;
       padding: 2.5%;
       .project-image-container {
         width: 50%;
         height: 400px;
+        padding: 30px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px 10px;
+        align-self: center;
+        flex-direction: column;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         img {
@@ -1476,30 +1477,44 @@
           width: 100%;
           border-radius: 10px;
         }
-      }
-      .project-heading-container {
-        width: 100%;
-        height: 400px;
-        .heading {
-          font-size: var(--heading2);
-          color: black;
-          text-align: left;
-          padding-bottom: 5px;
-        }
-        .subheading {
+        .image-license-tag {
+          align-self: center;
           font-size: var(--content);
           line-height: 26px;
           text-align: left;
           margin-bottom: 5px;
           color: black;
         }
-        .event-details-venue {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          margin-bottom: 10px;
-          color: black;
-        }
+      }
+
+      .heading {
+        font-size: var(--heading2);
+        font-weight: 600;
+        color: black;
+        padding-bottom: 5px;
+        align-self: flex-start;
+      }
+      .subheading {
+        font-size: var(--heading2);
+        line-height: 26px;
+        margin-bottom: 5px;
+        color: black;
+        align-self: flex-start;
+      }
+      .project-content {
+        font-size: var(--content);
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 5px;
+        color: black;
+        align-self: flex-start;
+      }
+      .event-details-venue {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        color: black;
       }
     }
     .project-content-wraper {
@@ -3099,15 +3114,17 @@
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
-      gap: 50px;
+      gap: 20px;
       padding: 2.5%;
       .project-image-container {
         width: 100%;
-        height: 300px;
+        height: 450px;
+        padding: 30px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px 10px;
+        align-self: center;
+        flex-direction: column;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         img {
@@ -3115,30 +3132,44 @@
           width: 100%;
           border-radius: 10px;
         }
-      }
-      .project-heading-container {
-        width: 100%;
-        height: 500px;
-        .heading {
-          font-size: var(--heading2);
-          color: black;
-          text-align: left;
-          padding-bottom: 5px;
-        }
-        .subheading {
+        .image-license-tag {
+          align-self: center;
           font-size: var(--content);
           line-height: 26px;
+          text-align: left;
           margin-bottom: 5px;
           color: black;
-          text-align: justify;
         }
-        .event-details-venue {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          margin-bottom: 10px;
-          color: black;
-        }
+      }
+
+      .heading {
+        font-size: var(--heading2);
+        font-weight: 600;
+        color: black;
+        padding-bottom: 5px;
+        align-self: flex-start;
+      }
+      .subheading {
+        font-size: var(--heading2);
+        line-height: 26px;
+        margin-bottom: 5px;
+        color: black;
+        align-self: flex-start;
+      }
+      .project-content {
+        font-size: var(--content);
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 5px;
+        color: black;
+        align-self: flex-start;
+      }
+      .event-details-venue {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        color: black;
       }
     }
     .project-content-wraper {
@@ -4645,7 +4676,6 @@
     opacity: 0.1;
   }
   // testimonials end
-
   // project details start
   .project-details-container {
     height: auto;
@@ -4660,15 +4690,17 @@
       align-items: center;
       justify-content: space-evenly;
       flex-direction: column;
-      gap: 50px;
+      gap: 20px;
       padding: 2.5%;
       .project-image-container {
         width: 50%;
-        height: 400px;
+        height: 450px;
+        padding: 30px 10px;
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px 10px;
+        align-self: center;
+        flex-direction: column;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         img {
@@ -4676,30 +4708,44 @@
           width: 100%;
           border-radius: 10px;
         }
-      }
-      .project-heading-container {
-        width: 100%;
-        height: 400px;
-        .heading {
-          font-size: var(--heading2);
-          color: black;
-          text-align: left;
-          padding-bottom: 5px;
-        }
-        .subheading {
+        .image-license-tag {
+          align-self: center;
           font-size: var(--content);
           line-height: 26px;
           text-align: left;
           margin-bottom: 5px;
           color: black;
         }
-        .event-details-venue {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          margin-bottom: 10px;
-          color: black;
-        }
+      }
+
+      .heading {
+        font-size: var(--heading2);
+        font-weight: 600;
+        color: black;
+        padding-bottom: 5px;
+        align-self: flex-start;
+      }
+      .subheading {
+        font-size: var(--heading2);
+        line-height: 26px;
+        margin-bottom: 5px;
+        color: black;
+        align-self: flex-start;
+      }
+      .project-content {
+        font-size: var(--content);
+        line-height: 26px;
+        text-align: left;
+        margin-bottom: 5px;
+        color: black;
+        align-self: flex-start;
+      }
+      .event-details-venue {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        color: black;
       }
     }
     .project-content-wraper {

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import ZohoBot from "./ZohoBot";
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -39,7 +40,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${poppins.className}`}>
-      <body>{children}</body>
+      <body>
+        <ZohoBot />
+        {children}
+      </body>
     </html>
   );
 }

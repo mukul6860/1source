@@ -11,24 +11,20 @@ function Testimonials() {
 
   const testimContent = [
     {
-      name: "Lorem P. Ipsum",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      name: "Ryan Penny",
+      text: "Incredible!!! Called Michigan Custom Signs this morning needing 33 signs and they were able to print and have everything ready to go before 5pm!!!!! Great quality, great service and worth every penny!",
     },
     {
-      name: "Mr. Lorem Ipsum",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      name: "Donald Bleuenstein",
+      text: "Greatly helpful in design and layout of 5 signs (interior and exterior) for a new office space. Priced right, professionally installed and great communication. Thank you!",
     },
     {
-      name: "Lorem Ipsum",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      name: "Jade Vickery",
+      text: "Would give 6 stars if I could. This company was amazing to work with, very responsive, kind and genuinely willing to help. Ask for Emily, she's the best!!",
     },
     {
-      name: "Lorem De Ipsum",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
-    },
-    {
-      name: "Ms. Lorem R. Ipsum",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      name: "Ben McDaniel",
+      text: "Great customer service from start to finish!! Final products are amazing....everything just pops!! I will be a return customer!",
     },
   ];
 
