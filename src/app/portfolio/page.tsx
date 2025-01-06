@@ -216,7 +216,7 @@ export default function page() {
         </div>
         <div className="portfolio-banner-container">
           <div className="portfolio-banner-content-container">
-            <div className="portfolio-banner-tag">Our Work in Action</div>
+            <div className="portfolio-banner-tag">Our Work</div>
             <div className="underline"></div>
             <div className="portfolio-banner-description">
               Discover the canvas of innovation at, where each project is a
