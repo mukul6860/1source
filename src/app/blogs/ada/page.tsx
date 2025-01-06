@@ -7,6 +7,7 @@ import "../../Homepage/Homepage.scss";
 import Footer from "../../footer/footer";
 import ada1 from "../../../../public/Assets/Blogs/key1.png";
 import ada2 from "../../../../public/Assets/Blogs/key2.png";
+import Link from "next/link";
 
 function BiChevronDown() {
   return (
@@ -59,24 +60,17 @@ function GrMail() {
   );
 }
 
-function CgChevronDoubleRight() {
+function AiOutlineArrowLeft() {
   return (
     <svg
-      stroke="brown"
-      fill="none"
+      stroke="white "
+      fill="white "
       strokeWidth={0}
-      viewBox="0 0 24 24"
+      viewBox="0 0 1024 1024"
       height="1em"
       width="1em"
     >
-      <path
-        d="M5.63605 7.75735L7.05026 6.34314L12.7071 12L7.05029 17.6568L5.63608 16.2426L9.87869 12L5.63605 7.75735Z"
-        fill="brown"
-      />
-      <path
-        d="M12.7071 6.34314L11.2929 7.75735L15.5356 12L11.2929 16.2426L12.7072 17.6568L18.364 12L12.7071 6.34314Z"
-        fill="brown"
-      />
+      <path d="M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31.96 0 0 0 0 48.3L535.1 866c1.5 1.3 3.3 2 5.2 2h91.5c7.4 0 10.8-9.2 5.2-14L286.9 550H872c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z" />
     </svg>
   );
 }
@@ -251,6 +245,12 @@ function page() {
             </div>
           </div>
         </div>
+        <Link className="back-blog-btn-container" href="/blogs">
+          <div className="back-blog-btn">
+            <AiOutlineArrowLeft />
+          </div>
+          <div className="back-blog-text">Back</div>
+        </Link>
         <div className="project-details-container">
           <div className="project-details-wraper">
             <div className="heading">

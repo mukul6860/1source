@@ -4,8 +4,8 @@ import "../Gallery.scss";
 import Lightbox from "../Lightbox";
 
 const images = [
-  "/Assets/gallery/vinyl/vinyl1.png",
-  "/Assets/gallery/vinyl/vinyl2.png",
+  "/Assets/gallery/vinyl/vinyl1.jpg",
+  "/Assets/gallery/vinyl/vinyl2.jpg",
   "/Assets/gallery/vinyl/vinyl3.png",
   "/Assets/gallery/vinyl/vinyl4.png",
   "/Assets/gallery/vinyl/vinyl5.png",

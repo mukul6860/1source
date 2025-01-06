@@ -214,6 +214,7 @@
           border-radius: 5px;
           font-size: 1rem;
           margin: 30px 10px;
+          cursor: pointer;
         }
 
         .btn:hover {
@@ -1446,12 +1447,37 @@
   }
   // testimonials end
   // project details start
+
+  .back-blog-btn-container {
+    display: inline-flex;
+    padding: 2.5%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    .back-blog-btn {
+      height: 40px;
+      width: 40px;
+      background-color: var(--primaryColor);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      svg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .back-blog-text {
+      color: var(--primaryColor);
+      font-size: var(--content);
+      text-decoration: underline;
+    }
+  }
   .project-details-container {
     height: auto;
     width: 100%;
     padding: 2.5%;
     display: flex;
-    // align-items: center;
     justify-content: space-evenly;
     .project-details-wraper {
       width: 100%;
@@ -1878,6 +1904,7 @@
           border-radius: 40px;
           font-size: 12px;
           margin-right: 10px;
+          cursor: pointer;
         }
 
         .btn:hover {
@@ -3101,6 +3128,23 @@
   }
   // testimonials end
   // project details start
+  .back-blog-btn-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    .back-blog-btn {
+      height: 40px;
+      width: 40px;
+      background-color: var(--primaryColor);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .back-blog-text {
+      color: var(--primaryColor);
+      font-size: var(--content);
+    }
+  }
   .project-details-container {
     height: auto;
     width: 100%;
@@ -3447,6 +3491,7 @@
           border-radius: 5px;
           font-size: 1rem;
           margin: 30px 10px;
+          cursor: pointer;
         }
 
         .btn:hover {
@@ -4677,6 +4722,25 @@
   }
   // testimonials end
   // project details start
+  .back-blog-btn-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20%;
+    gap: 10px;
+    .back-blog-btn {
+      height: 40px;
+      width: 40px;
+      background-color: var(--primaryColor);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .back-blog-text {
+      color: var(--primaryColor);
+      font-size: var(--content);
+    }
+  }
   .project-details-container {
     height: auto;
     width: 100%;

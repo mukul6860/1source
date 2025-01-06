@@ -104,7 +104,7 @@ function footer() {
               </div> */}
               <a
                 className="footer-icon-box"
-                href="https://www.instagram.com/the1source/?igsh=MWVyeTlkcnRjeDg2cQ%3D%3D"
+                href="https://www.instagram.com/_the1source_/"
               >
                 <AiFillInstagram />
               </a>

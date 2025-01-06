@@ -6,8 +6,13 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import cardimg1 from "../../../public/Assets/download.jpg";
 import Link from "next/link";
+import ada1 from "../../../public/Assets/Blogs/key1.png";
+import decals4 from "../../../public/Assets/Blogs/decals4.png";
+import effective1 from "../../../public/Assets/Blogs/effective1.png";
+import innovative1 from "../../../public/Assets/Blogs/innovative1.png";
+import monument1 from "../../../public/Assets/Blogs/monument1.png";
+import outdoor1 from "../../../public/Assets/Blogs/outdoor1.png";
 
 function BiChevronDown() {
   return (
@@ -245,7 +250,7 @@ export default function page() {
             <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
-                  <Image src={cardimg1} alt="" />
+                  <Image src={effective1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   {/* <div className="image-tag">Signage Board</div> */}
@@ -265,7 +270,7 @@ export default function page() {
             <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
-                  <Image src={cardimg1} alt="" />
+                  <Image src={innovative1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   {/* <div className="image-tag">Signage Board</div> */}
@@ -286,7 +291,7 @@ export default function page() {
             <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
-                  <Image src={cardimg1} alt="" />
+                  <Image src={decals4} alt="" />
                 </div>
                 <div className="image-content-bg">
                   {/* <div className="image-tag">Signage Board</div> */}
@@ -307,7 +312,7 @@ export default function page() {
             <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
-                  <Image src={cardimg1} alt="" />
+                  <Image src={monument1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   {/* <div className="image-tag">Signage Board</div> */}
@@ -328,7 +333,7 @@ export default function page() {
             <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
-                  <Image src={cardimg1} alt="" />
+                  <Image src={outdoor1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   {/* <div className="image-tag">Signage Board</div> */}
@@ -350,7 +355,7 @@ export default function page() {
             <div className="blog-width">
               <div className="blog-image-container">
                 <div className="blog-image-wrap">
-                  <Image src={cardimg1} alt="" />
+                  <Image src={ada1} alt="" />
                 </div>
                 <div className="image-content-bg">
                   {/* <div className="image-tag">Signage Board</div> */}
