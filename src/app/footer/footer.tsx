@@ -87,6 +87,9 @@ function footer() {
             <a className="footer-pages" href="/blogs">
               Insight and resources
             </a>
+            <a className="footer-pages" href="/contactus">
+              Contact us
+            </a>
           </div>
           <div className="footer-social-logo">
             <div className="footer-social-logo-container">

@@ -8,6 +8,13 @@ import Footer from "../../footer/footer";
 import innovative1 from "../../../../public/Assets/Blogs/innovative1.png";
 import innovative2 from "../../../../public/Assets/Blogs/innovative2.png";
 import innovative3 from "../../../../public/Assets/Blogs/innovative3.png";
+import innovative4 from "../../../../public/Assets/Blogs/innovative4.jpg";
+import innovative5 from "../../../../public/Assets/Blogs/innovative5.jpg";
+import innovative6 from "../../../../public/Assets/Blogs/innovative6.jpg";
+import innovative7 from "../../../../public/Assets/Blogs/innovative7.jpg";
+import innovative8 from "../../../../public/Assets/Blogs/innovative8.png";
+import innovative9 from "../../../../public/Assets/Blogs/innovative9.jpg";
+import innovative10 from "../../../../public/Assets/Blogs/innovative10.jpg";
 
 function BiChevronDown() {
   return (
@@ -208,13 +215,13 @@ function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     1Code experience
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     Matterport virtual experiences
                   </a>
@@ -263,16 +270,25 @@ function page() {
               signage solutions. <br /> Custom signs offer unique branding
               opportunities. They can be tailored to reflect your brand's
               aesthetic and messaging, helping you stand out in a crowded
-              marketplace. <br /> Indoor or outdoor, digital or traditional,
-              custom business signs are a critical component of a comprehensive
-              marketing strategy. They not only enhance brand visibility but
-              also engage customers in a dynamic way. <br /> The design process
-              for custom signs involves a collaboration between your business
-              and signage experts. This ensures that the final product aligns
-              with your brand identity and meets your specific needs. <br /> In
-              this article, we will explore the benefits and possibilities of
-              custom signage solutions for businesses. We will also delve into
-              the latest trends and technologies shaping the signage industry.
+              marketplace.
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative4} alt="" />
+              <div className="image-license-tag">
+                by Tyler Franta (https://unsplash.com/@tfrants)
+              </div>
+            </div>
+            <div className="project-content">
+              Indoor or outdoor, digital or traditional, custom business signs
+              are a critical component of a comprehensive marketing strategy.
+              They not only enhance brand visibility but also engage customers
+              in a dynamic way. <br /> The design process for custom signs
+              involves a collaboration between your business and signage
+              experts. This ensures that the final product aligns with your
+              brand identity and meets your specific needs. <br /> In this
+              article, we will explore the benefits and possibilities of custom
+              signage solutions for businesses. We will also delve into the
+              latest trends and technologies shaping the signage industry.
               <br />
               Join us as we navigate the world of custom signage solutions and
               discover how they can elevate your brand.
@@ -287,12 +303,20 @@ function page() {
               with customers. <br /> A multitude of options exists for custom
               signs, from traditional materials to digital displays. This
               versatility allows businesses to choose solutions that best fit
-              their goals and budget. <br /> Advancements in technology and
-              design enable the creation of signs that are both innovative and
-              functional. This ensures your brand remains impactful and
-              memorable. Understanding these facets is key to leveraging signage
-              effectively. Let's explore how these solutions contribute to
-              business branding.
+              their goals and budget.
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative5} alt="" />
+              <div className="image-license-tag">
+                by Nik (https://unsplash.com/@helloimnik)
+              </div>
+            </div>
+            <div className="project-content">
+              Advancements in technology and design enable the creation of signs
+              that are both innovative and functional. This ensures your brand
+              remains impactful and memorable. Understanding these facets is key
+              to leveraging signage effectively. Let's explore how these
+              solutions contribute to business branding.
             </div>
             <div className="subheading">
               The Role of Signage in Business Branding
@@ -329,11 +353,20 @@ function page() {
               business. Each type of sign serves a unique purpose. <br /> Some
               common types include: <br /> ⦁ Dimensional Letters <br /> ⦁ LED
               Signs <br /> ⦁ Vehicle Wraps <br /> ⦁ Trade Show Displays <br /> ⦁
-              Banner Stands <br /> Businesses can choose from options tailored
-              for specific environments, enhancing both function and aesthetics.
-              Custom signs can be created using a blend of materials and styles
-              for various contexts. From sleek digital displays to vibrant
-              window graphics, there's a custom sign for every business need.
+              Banner Stands
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative6} alt="" />
+              <div className="image-license-tag">
+                by Charles Forerunner (https://unsplash.com/@charles_forerunner)
+              </div>
+            </div>
+            <div className="project-content">
+              Businesses can choose from options tailored for specific
+              environments, enhancing both function and aesthetics. Custom signs
+              can be created using a blend of materials and styles for various
+              contexts. From sleek digital displays to vibrant window graphics,
+              there's a custom sign for every business need.
             </div>
             <div className="subheading">Indoor vs. Outdoor Signage</div>
             <div className="project-content">
@@ -384,7 +417,15 @@ function page() {
               Technology has transformed signage into a powerful branding tool.
               Innovations enable businesses to create compelling visual
               experiences. These advances make signs more versatile and
-              engaging. <br />
+              engaging.
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative7} alt="" />
+              <div className="image-license-tag">
+                by Ryoji Iwata (https://unsplash.com/@ryoji__iwata)
+              </div>
+            </div>
+            <div className="project-content">
               Modern technology integrates digital elements seamlessly into
               signs. This integration allows for dynamic content that captures
               attention. Businesses can update signage quickly, keeping the
@@ -421,12 +462,20 @@ function page() {
               Eco-friendly signage is essential for sustainability-focused
               businesses. These signs utilize materials such as recycled metals
               and biodegradable plastics. Such options reduce environmental
-              impact while maintaining quality and appeal. <br /> ADA-compliant
-              signs ensure accessibility for all customers. They incorporate
-              features like braille and high contrast colors. These design
-              elements help in accommodating diverse needs. <br /> Combining
-              eco-friendly and ADA features in signage showcases social
-              responsibility. Businesses demonstrate their commitment to
+              impact while maintaining quality and appeal.{" "}
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative8} alt="" />
+              {/* <div className="image-license-tag">
+                by Ryoji Iwata (https://unsplash.com/@ryoji__iwata)
+              </div> */}
+            </div>
+            <div className="project-content">
+              ADA-compliant signs ensure accessibility for all customers. They
+              incorporate features like braille and high contrast colors. These
+              design elements help in accommodating diverse needs. <br />{" "}
+              Combining eco-friendly and ADA features in signage showcases
+              social responsibility. Businesses demonstrate their commitment to
               inclusivity and the environment. This approach enhances brand
               reputation among conscious consumers. <br />
               Choosing eco-friendly and ADA-compliant signage supports legal
@@ -506,7 +555,15 @@ function page() {
             <div className="project-content">
               Custom signage offers numerous benefits for businesses. It
               significantly boosts brand visibility and customer awareness. With
-              unique designs, businesses can differentiate themselves. <br />
+              unique designs, businesses can differentiate themselves.{" "}
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative9} alt="" />
+              <div className="image-license-tag">
+                by Adeolu Eletu (https://unsplash.com/@adeolueletu)
+              </div>
+            </div>
+            <div className="project-content">
               Tailored signs cater to specific marketing goals and aesthetics.
               This targeted approach attracts the right audience more
               effectively. Signage becomes an integral part of the marketing
@@ -539,9 +596,17 @@ function page() {
             <div className="project-content">
               Selecting the right signage partner is crucial for success. They
               should understand your brand's vision and goals. An experienced
-              partner can bring innovative ideas to the table. <br /> Research
-              is key when choosing a signage company. Look for reviews and
-              testimonials from previous clients. Their past work will speak
+              partner can bring innovative ideas to the table.
+            </div>
+            <div className="project-image-container">
+              <Image src={innovative10} alt="" />
+              <div className="image-license-tag">
+                by Nick Fewings (https://unsplash.com/@jannerboy62)
+              </div>
+            </div>
+            <div className="project-content">
+              Research is key when choosing a signage company. Look for reviews
+              and testimonials from previous clients. Their past work will speak
               volumes about their capabilities. <br /> Consider partners who
               offer a comprehensive range of services. From design to
               installation, a one-stop shop saves time and ensures consistency.

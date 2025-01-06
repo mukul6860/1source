@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import "../../Homepage/Homepage.scss";
 import Footer from "../../footer/footer";
 import effective1 from "../../../../public/Assets/Specialty_Photos/ArtVan_Misc/Art Van Canton_05.jpg";
+import outdoor1 from "../../../../public/Assets/Blogs/outdoor1.png";
 
 function BiChevronDown() {
   return (
@@ -206,13 +207,13 @@ function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     1Code experience
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     Matterport virtual experiences
                   </a>
@@ -267,6 +268,12 @@ function page() {
               conditions. <br /> In this article, we'll explore the latest in
               dust-resistant outdoor signage technologies, their benefits, and
               how they can revolutionize your outdoor marketing efforts.
+            </div>
+            <div className="project-image-container">
+              <Image src={outdoor1} alt="" />
+              {/* <div className="image-license-tag">
+                by Nick Fewings (https://unsplash.com/@jannerboy62)
+              </div> */}
             </div>
             <div className="subheading">
               The Importance of Dust Resistance in Outdoor Signage
@@ -469,12 +476,6 @@ function page() {
               conclusion, dust-resistant signage tech can be a game-changer for
               your outdoor marketing. It's an investment that can deliver
               significant returns in the long run.
-            </div>
-            <div className="project-image-container">
-              <Image src={effective1} alt="" />
-              <div className="image-license-tag">
-                by Nick Fewings (https://unsplash.com/@jannerboy62)
-              </div>
             </div>
           </div>
         </div>

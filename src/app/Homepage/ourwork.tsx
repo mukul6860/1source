@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 // import "./Homepage.scss";
 
@@ -10,32 +11,31 @@ function OurWork() {
         <div className="underline"></div>
         <div className="ourwork-scroll-wrapper">
           <div className="ourwork-card-container">
-            <div className="ourwork-card bg1">
-              <div className="ourwork-card-content">Interior signage</div>
-            </div>
-            <div className="ourwork-card bg2">
-              <div className="ourwork-card-content">Exterior signage</div>
-            </div>
-            <div className="ourwork-card bg3">
+            <Link className="ourwork-card bg1" href="/portfolio">
+              <div className="ourwork-card-content">Interior signs</div>
+            </Link>
+            <Link className="ourwork-card bg2" href="/portfolio">
+              <div className="ourwork-card-content">Exterior signs</div>
+            </Link>
+            <Link className="ourwork-card bg3" href="/portfolio">
               <div className="ourwork-card-content">Vehicle wraps</div>
-            </div>
-            <div className="ourwork-card bg4">
+            </Link>
+            <Link className="ourwork-card bg4" href="/portfolio">
               <div className="ourwork-card-content">Custom signs</div>
-            </div>
-            <div className="ourwork-card bg5">
+            </Link>
+            <Link className="ourwork-card bg5" href="/portfolio">
               <div className="ourwork-card-content">Dimensional letters</div>
-            </div>
-            <div className="ourwork-card bg6">
+            </Link>
+            <Link className="ourwork-card bg6" href="/portfolio">
               <div className="ourwork-card-content">Lit and unlit signs</div>
-            </div>
-            <div className="ourwork-card bg7">
-              <div className="ourwork-card-content">
-                Trade show displays or booths
-              </div>
-            </div>
-            <div className="ourwork-card bg8">
+            </Link>
+            <Link className="ourwork-card bg7" href="/portfolio">
+              <div className="ourwork-card-content"></div>
+              show displays or booths
+            </Link>
+            <Link className="ourwork-card bg8" href="/portfolio">
               <div className="ourwork-card-content">Services</div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>

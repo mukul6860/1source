@@ -209,13 +209,13 @@ function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     1Code experience
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     Matterport virtual experiences
                   </a>

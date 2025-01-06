@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import "../Homepage/Homepage.scss";
 import "./page.scss";
-import dimage from "../../../public/Assets/carddummy.webp";
+import dimage from "../../../public/Assets/about.png";
 
 function BiChevronDown() {
   return (
@@ -166,13 +166,13 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     1Code experience
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     Matterport virtual experiences
                   </a>

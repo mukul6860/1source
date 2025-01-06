@@ -166,13 +166,13 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     1Code experience
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     Matterport virtual experiences
                   </a>
@@ -230,8 +230,8 @@ export default function page() {
             height="100%"
           ></iframe>
         </div>
-        <div className="mobilespace"></div>
-        <div className="morework-tag-container">
+        {/* <div className="mobilespace"></div> */}
+        {/* <div className="morework-tag-container">
           <div className="morework-tag">Even More of Our Work</div>
           <div className="underline"></div>
         </div>
@@ -248,7 +248,7 @@ export default function page() {
           <div className="morework-card">
             <Image src={dimage} alt="morework" />
           </div>
-        </div>
+        </div> */}
         <Footer />
       </div>
     </>

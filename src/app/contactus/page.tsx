@@ -215,13 +215,13 @@ export default function page() {
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     1Code experience
                   </a>
                   <a
                     className="btn"
-                    onClick={() => router.push("/1codeexperiance")}
+                    onClick={() => router.push("/undercunstruction")}
                   >
                     Matterport virtual experiences
                   </a>
@@ -318,98 +318,6 @@ export default function page() {
             <div className="space"></div>
             <div className="space"></div>
             <iframe src="/index.html"></iframe>
-            {/* form start */}
-            {/* <form onSubmit={handleSubmit} className="form">
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="firstName">Fist Name</label>
-                <input
-                  type="text"
-                  id="firstName"
-                  value={firstName}
-                  onChange={(e) => setFirstName(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="lastName">Last Name</label>
-                <input
-                  type="text"
-                  id="lastName"
-                  value={lastName}
-                  onChange={(e) => setLastName(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="email">E-mail</label>
-                <input
-                  type="email"
-                  id="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="company">Company</label>
-                <input
-                  type="text"
-                  id="company"
-                  value={company}
-                  onChange={(e) => setCompany(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className={`form-group fiftywidth`}>
-                <label htmlFor="number">Phone Number</label>
-                <input
-                  type="tel"
-                  id="number"
-                  value={number}
-                  onChange={(e) => setNumber(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="description">Description</label>
-                <textarea
-                  id="description"
-                  value={description}
-                  onChange={(e) => setDescription(e.target.value)}
-                  className="form-control"
-                />
-              </div>
-              <div className="form-group">
-                <label htmlFor="file">Upload File</label>
-                <input
-                  type="file"
-                  id="file"
-                  onChange={handleFileChange}
-                  className="form-control"
-                />
-              </div>
-              <div className="button-group">
-                <button type="submit" className="submit-button">
-                  Submit
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setFirstName("");
-                    setLastName("");
-                    setEmail("");
-                    setCompany("");
-                    setNumber("");
-                    setDescription("");
-                    setFile(null);
-                  }}
-                  className="reset-button"
-                >
-                  Reset
-                </button>
-              </div>
-            </form> */}
-            {/* form end */}
           </div>
         </div>
         <Footer />

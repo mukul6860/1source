@@ -66,9 +66,9 @@ export default function Homepage() {
                 six specialized brands—providing everything you need for your
                 business, from signage to printing and digital services
               </p>
-              <a className="btn" onClick={() => router.push("/")}>
+              {/* <a className="btn" onClick={() => router.push("/")}>
                 Explore Our Services
-              </a>
+              </a> */}
               <a className="btn" onClick={() => router.push("/getquote")}>
                 Get a quote
               </a>
