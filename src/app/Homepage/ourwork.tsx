@@ -30,8 +30,9 @@ function OurWork() {
               <div className="ourwork-card-content">Lit and unlit signs</div>
             </Link>
             <Link className="ourwork-card bg7" href="/portfolio">
-              <div className="ourwork-card-content"></div>
-              show displays or booths
+              <div className="ourwork-card-content">
+                show displays or booths
+              </div>
             </Link>
             <Link className="ourwork-card bg8" href="/portfolio">
               <div className="ourwork-card-content">Services</div>
