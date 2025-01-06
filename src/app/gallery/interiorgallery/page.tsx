@@ -31,7 +31,7 @@ const Gallery: React.FC = () => {
 
   return (
     <div className="gallery-main-container">
-      <div className="gallery-tag">Project gallery</div>
+      <div className="gallery-tag">Interior signs</div>
       <div className="underline"></div>
       <div className="gallery">
         {images.map((image, index) => (

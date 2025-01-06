@@ -27,7 +27,7 @@ const Gallery: React.FC = () => {
 
   return (
     <div className="gallery-main-container">
-      <div className="gallery-tag">Project gallery</div>
+      <div className="gallery-tag">Banner's</div>
       <div className="underline"></div>
       <div className="gallery">
         {images.map((image, index) => (

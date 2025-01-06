@@ -222,7 +222,7 @@ export default function page() {
             </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              With The1Source you get large format printing services that will
+              With1Source you get large format printing services that will
               reproduce your work in such a way that will leap off the page and
               inspiration your audience. From designing eye-catching banners and
               custom posters, to creating stunning trade show displays, we have
@@ -343,7 +343,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   When it comes to <b> large format printing in Michigan,</b>
-                  quality and durability are essential. At <b> The1Source,</b>
+                  quality and durability are essential. At <b>1Source,</b>
                   we use the latest printing technology to ensure your materials
                   are not only visually stunning but also built to last. Our
                   large format solutions include posters, banners, signs, and
@@ -373,7 +373,7 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At <b> The1Source,</b> we understand that every business is
+                  At <b>1Source,</b> we understand that every business is
                   unique. That’s why we offer
                   <b> custom banners and posters in Novi, MI, </b> tailored to
                   your specific needs. Whether you’re looking for an oversized
@@ -389,7 +389,7 @@ export default function page() {
           {/* row end */}
           <div className="content">
             Ready to create eye-catching prints that elevate your business?
-            <b> Contact The1Source </b> today for your
+            <b> Contact1Source </b> today for your
             <b> large format printing services </b> and get started on your next
             project. Let’s bring your brand to life with vibrant, durable, and
             custom-printed materials that make a lasting impression.

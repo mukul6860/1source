@@ -27,7 +27,7 @@ function Serviceareas() {
               Choose us for our dedication to precision, creativity, and
               superior customer satisfaction.
             </div>
-            <a className="serviceareas-btn" href="/map">
+            <a className="serviceareas-btn" href="/portfolio">
               <div className="icon">
                 <Image src={icon} alt="service area icon" />
               </div>

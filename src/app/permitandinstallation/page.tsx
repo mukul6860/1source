@@ -221,12 +221,12 @@ export default function page() {
             <div className="underline"></div>
             <div className="product-banner-description">
               End-to-end Signage Permit Services & Professional Sign
-              Installation in Michigan and Novi by The1Source Whether it’s
-              dealing with complex permit processes or ensuring proper
-              installation, we take care of every detail in the process of
-              realising your signage vision. Staying within the local
-              guidelines, we ensure your signs are not only eye-catching, but
-              also delivered safely and securely to your business.
+              Installation in Michigan and Novi by1Source Whether it’s dealing
+              with complex permit processes or ensuring proper installation, we
+              take care of every detail in the process of realising your signage
+              vision. Staying within the local guidelines, we ensure your signs
+              are not only eye-catching, but also delivered safely and securely
+              to your business.
             </div>
           </div>
         </div>
@@ -269,8 +269,8 @@ export default function page() {
                       your project stays on schedule.
                     </li>
                   </ul>
-                  With <b> The1Source,</b> you can focus on your business while
-                  we take care of the paperwork and compliance.
+                  With <b>1Source,</b> you can focus on your business while we
+                  take care of the paperwork and compliance.
                 </div>
               </div>
             </div>
@@ -327,13 +327,13 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  A great sign deserves a flawless installation. At The1Source,
-                  our professional sign installation services ensure your
-                  signage is installed securely and positioned for maximum
-                  impact. Our team of skilled technicians uses advanced tools
-                  and techniques to handle everything from small indoor signs to
-                  large outdoor displays. <br /> Key features of our
-                  installation services include:
+                  A great sign deserves a flawless installation. At1Source, our
+                  professional sign installation services ensure your signage is
+                  installed securely and positioned for maximum impact. Our team
+                  of skilled technicians uses advanced tools and techniques to
+                  handle everything from small indoor signs to large outdoor
+                  displays. <br /> Key features of our installation services
+                  include:
                   <ul>
                     <li>
                       <b> Site Assessment </b>: We evaluate your location to
@@ -378,7 +378,7 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At <b> The1Source,</b> we’re proud to be a trusted provider of
+                  At <b>1Source,</b> we’re proud to be a trusted provider of
                   <b> signage permits and installation in Michigan.</b> Whether
                   you’re opening a new business, updating your brand, or
                   expanding your operations, we offer customized solutions
@@ -415,7 +415,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Why Choose The1Source for Your Signage Needs?
+                  Why Choose1Source for Your Signage Needs?
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
@@ -445,7 +445,7 @@ export default function page() {
           </div>
           {/* row end */}
           <div className="content">
-            Get started with <b> The1Source </b> today! Contact us for reliable
+            Get started with <b>1Source </b> today! Contact us for reliable
             <b> signage permits and installation in Michigan,</b> and let us
             help your business make a bold statement with professional,
             compliant, and expertly installed signage.

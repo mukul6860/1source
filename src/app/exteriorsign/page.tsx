@@ -229,8 +229,8 @@ export default function page() {
             <div className="product-banner-description">
               Exterior signage is more than just a marker for your business;
               it’s a powerful communication tool that conveys your brand
-              identity, attracts customers, and enhances visibility. At
-              The1Source, we specialize in crafting
+              identity, attracts customers, and enhances visibility. At 1Source,
+              we specialize in crafting
               <b> Custom Exterior Signs </b> that stand out while reflecting the
               essence of your brand. From bold designs to durable materials, our
               solutions are tailored to meet the unique needs of businesses
@@ -522,16 +522,16 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Why Choose The1Source for Your Exterior Signage in Michigan?
+                  Why Choose1Source for Your Exterior Signage in Michigan?
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At The1Source, we understand that your signage is a reflection
-                  of your brand. That’s why we use premium materials,
-                  cutting-edge design techniques, and expert craftsmanship to
-                  deliver signage that exceeds expectations. Whether you’re a
-                  small business or a large corporation, we have the expertise
-                  to bring your vision to life.
+                  At1Source, we understand that your signage is a reflection of
+                  your brand. That’s why we use premium materials, cutting-edge
+                  design techniques, and expert craftsmanship to deliver signage
+                  that exceeds expectations. Whether you’re a small business or
+                  a large corporation, we have the expertise to bring your
+                  vision to life.
                 </div>
               </div>
             </div>

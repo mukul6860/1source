@@ -222,15 +222,15 @@ export default function page() {
             </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              The1Source – Your Printing Partner for Quality Printed Materials
-              At The1Source, we believe that high-quality printed materials
-              leave a lasting impression. From advertising your business to
-              attracting prospective customers to advertising your solutions,
-              our business printing services are specifically designed to help
-              you with your needs. As a top provider of printing services in
-              Michigan, our services encompass all aspects of creative printing
-              ranging from UV printing, high volume printing, large format,
-              event and wedding printing, and many more.
+              1Source – Your Printing Partner for Quality Printed Materials At
+              1Source, we believe that high-quality printed materials leave a
+              lasting impression. From advertising your business to attracting
+              prospective customers to advertising your solutions, our business
+              printing services are specifically designed to help you with your
+              needs. As a top provider of printing services in Michigan, our
+              services encompass all aspects of creative printing ranging from
+              UV printing, high volume printing, large format, event and wedding
+              printing, and many more.
             </div>
           </div>
         </div>
@@ -337,7 +337,7 @@ export default function page() {
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At <b> The1Source, </b> we specialize in creating personalized
+                  At <b>1Source, </b> we specialize in creating personalized
                   solutions for businesses. Whether you need postcards,
                   catalogs, posters, or any other printed collateral, our
                   <b> commercial printing services in Michigan </b> are designed
@@ -360,7 +360,7 @@ export default function page() {
             </div>
             <div className="product-sub-container">
               <div className="product-content-container">
-                <div className="product-tag">Why Choose The1Source?</div>
+                <div className="product-tag">Why Choose 1Source?</div>
                 <div className="underline"></div>
                 <div className="product-content">
                   1.<b> Fast Turnaround </b>: We understand tight deadlines and
@@ -377,8 +377,8 @@ export default function page() {
           {/* row end */}
           <div className="content">
             Elevate your brand with professional printing services tailored to
-            your business needs. <b> Contact The1Source today </b> to learn how
-            we can bring your vision to life with our custom printing solutions!
+            your business needs. <b> Contact1Source today </b> to learn how we
+            can bring your vision to life with our custom printing solutions!
           </div>
         </div>
         <Footer />

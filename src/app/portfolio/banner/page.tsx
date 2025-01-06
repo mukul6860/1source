@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import "../../Homepage/Homepage.scss";
 import Footer from "../../footer/footer";
 import Gallery from "../../gallery/bannergallery/page";
+import Link from "next/link";
 
 function BiChevronDown() {
   return (
@@ -54,6 +55,20 @@ function GrMail() {
         fillRule="evenodd"
         d="M23,20 L23,6 L12,15 L1,6 L1,20 L23,20 Z M12,12 L22,4 L2,4 L12,12 Z"
       />
+    </svg>
+  );
+}
+function AiOutlineArrowLeft() {
+  return (
+    <svg
+      stroke="white "
+      fill="white "
+      strokeWidth={0}
+      viewBox="0 0 1024 1024"
+      height="1em"
+      width="1em"
+    >
+      <path d="M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31.96 0 0 0 0 48.3L535.1 866c1.5 1.3 3.3 2 5.2 2h91.5c7.4 0 10.8-9.2 5.2-14L286.9 550H872c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z" />
     </svg>
   );
 }
@@ -228,6 +243,13 @@ function page() {
             </div>
           </div>
         </div>
+
+        <Link className="back-blog-btn-container" href="/portfolio">
+          <div className="back-blog-btn">
+            <AiOutlineArrowLeft />
+          </div>
+          <div className="back-blog-text">Back</div>
+        </Link>
         <Gallery />
         <Footer />
       </div>

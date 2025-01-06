@@ -220,7 +220,7 @@ export default function page() {
               Welcome to a new era of immersive experiences with our
               <b> Matterport Virtual Tours </b> and
               <b> 3D Virtual Experience Services,</b> designed to redefine how
-              you present your spaces. At The1Source, we specialize in creating
+              you present your spaces. At1Source, we specialize in creating
               interactive and engaging virtual tours for real estate, retail,
               and commercial spaces. With cutting-edge technology, we bring your
               properties to life, offering clients an innovative way to explore
@@ -362,7 +362,7 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Why Choose The1Source for 3D Virtual Tours?
+                  Why Choose1Source for 3D Virtual Tours?
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
@@ -410,7 +410,7 @@ export default function page() {
                   Whether you’re looking to sell a home, attract tenants to a
                   commercial property, or showcase a retail space, our
                   <b> 3D Virtual Experience Services</b> are designed to elevate
-                  your offerings. At The1Source, we’re committed to helping
+                  your offerings. At1Source, we’re committed to helping
                   businesses in Novi and beyond leverage technology to captivate
                   their audiences and achieve their goals.
                 </div>

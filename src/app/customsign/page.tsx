@@ -228,11 +228,11 @@ export default function page() {
             </div>
             <div className="underline"></div>
             <div className="product-banner-description">
-              The1Source is a seasoned provider of tailored signage with an
-              ideal balance of technology, fashion, and utility. Our signs are
-              not some powering marketing designer alone—but they serve as a
-              great marketing tool as well that will help you gain recognition
-              in your business. Dedicated to making your vision come to life in
+              1Source is a seasoned provider of tailored signage with an ideal
+              balance of technology, fashion, and utility. Our signs are not
+              some powering marketing designer alone—but they serve as a great
+              marketing tool as well that will help you gain recognition in your
+              business. Dedicated to making your vision come to life in
               attention-grabbing detail. Superior custom Signs in Novi,
               Michigan, Custom Signs, in your region.x
             </div>
@@ -258,7 +258,7 @@ export default function page() {
                   Looking for a quick, cost-effective way to promote your
                   business? Custom vinyl banners offer an impactful way to
                   display your message, whether you're promoting a sale, event,
-                  or your brand. The1Source delivers high-quality vinyl banners
+                  or your brand.1Source delivers high-quality vinyl banners
                   tailored to your needs, designed for both indoor and outdoor
                   use. Let our team help you capture attention with custom
                   banners that get your message noticed.
@@ -285,11 +285,11 @@ export default function page() {
                 <div className="product-content">
                   In today's health-conscious world, acrylic sneeze guards have
                   become essential for ensuring the safety of employees and
-                  customers. At The1Source, we provide custom acrylic sneeze
-                  guards that are not only effective in reducing the spread of
-                  germs but also blend seamlessly into your business
-                  environment. These protective shields are ideal for offices,
-                  retail stores, and public spaces where safety is a priority.
+                  customers. At1Source, we provide custom acrylic sneeze guards
+                  that are not only effective in reducing the spread of germs
+                  but also blend seamlessly into your business environment.
+                  These protective shields are ideal for offices, retail stores,
+                  and public spaces where safety is a priority.
                 </div>
               </div>
             </div>
@@ -342,10 +342,10 @@ export default function page() {
                 <div className="product-content">
                   Your building’s signage is the first thing customers see when
                   they visit. Make a memorable first impression with custom
-                  building signs from The1Source. Whether you need a classic
-                  look or a modern design, we offer a variety of materials and
-                  styles to ensure your signage represents your brand’s
-                  professionalism and makes it easy for customers to find you.
+                  building signs from 1Source. Whether you need a classic look
+                  or a modern design, we offer a variety of materials and styles
+                  to ensure your signage represents your brand’s professionalism
+                  and makes it easy for customers to find you.
                 </div>
               </div>
             </div>
@@ -368,7 +368,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Your business signage speaks volumes about your brand. At
-                  The1Source, we help you choose the perfect signs that reflect
+                  1Source, we help you choose the perfect signs that reflect
                   your brand identity while attracting customers. From lighted
                   business signs to durable outdoor displays, we offer a full
                   range of custom business signs to ensure your business stands
@@ -397,7 +397,7 @@ export default function page() {
                   Decals are a versatile signage option that can be used in many
                   ways—from storefront windows to vehicle wraps. Whether you're
                   looking for custom vinyl decals for branding, promotion, or
-                  direction, The1Source has you covered. We create decals in a
+                  direction,1Source has you covered. We create decals in a
                   variety of shapes and sizes, ensuring that they fit your needs
                   and enhance your brand visibility
                 </div>
@@ -425,8 +425,8 @@ export default function page() {
                   your vehicle into a moving billboard. Whether you're driving
                   across town or around the state, a van wrap helps increase
                   brand exposure without the ongoing costs of traditional
-                  advertising. Let The1Source create a stunning design that
-                  promotes your business while you drive.
+                  advertising. Let1Source create a stunning design that promotes
+                  your business while you drive.
                 </div>
               </div>
             </div>
@@ -480,7 +480,7 @@ export default function page() {
                   different departments in a large building or guiding visitors
                   to your front door, custom directional signage ensures a
                   smooth experience. Invest in quality wayfinding signage from
-                  The1Source to keep your customers informed and your space
+                  1Source to keep your customers informed and your space
                   organized.
                 </div>
               </div>
@@ -506,7 +506,7 @@ export default function page() {
                   Make a great impression with custom office signs that reflect
                   your brand’s professionalism and attention to detail. Whether
                   you need a simple door sign or a comprehensive office signage
-                  system, The1Source designs functional and elegant signs that
+                  system,1Source designs functional and elegant signs that
                   communicate your business’s values and create a welcoming
                   atmosphere for clients and staff alike.
                 </div>
@@ -558,12 +558,11 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   In today’s environment, social distancing is key to
-                  maintaining a safe space for employees and customers.
-                  The1Source offers high-quality social distancing signs and
-                  decals to help your business adhere to health guidelines. From
-                  floor markings to protective shields, our custom signage
-                  ensures you can maintain safety while delivering excellent
-                  service.
+                  maintaining a safe space for employees and customers. 1Source
+                  offers high-quality social distancing signs and decals to help
+                  your business adhere to health guidelines. From floor markings
+                  to protective shields, our custom signage ensures you can
+                  maintain safety while delivering excellent service.
                 </div>
               </div>
             </div>
@@ -588,7 +587,7 @@ export default function page() {
                   For offices surrounded by glass, custom window film provides
                   an excellent solution to enhance privacy and improve the
                   aesthetic of your space. Whether you're looking to add a
-                  professional tint or a decorative design, The1Source offers
+                  professional tint or a decorative design,1Source offers
                   high-quality window film that enhances the look of your
                   business while providing practical benefits like UV protection
                   and heat reduction.
@@ -599,8 +598,8 @@ export default function page() {
           {/* row end */}
           <div className="content">
             With custom signage solutions in Novi, Michigan that will have your
-            business making an impression, at The1Source, we can help. Schedule
-            a consultation before each new project.
+            business making an impression, at1Source, we can help. Schedule a
+            consultation before each new project.
           </div>
         </div>
         <Footer />

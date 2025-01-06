@@ -229,7 +229,7 @@ export default function page() {
               Interior signs play a vital role in shaping the ambiance and
               functionality of your workspace. Whether you're aiming to impress
               visitors, guide clients effortlessly, or boost employee morale,
-              the right signage makes all the difference. At The1Source, we
+              the right signage makes all the difference. At1Source, we
               specialize in creating <b> Custom Interior Signs</b> that are as
               unique as your business. From sleek designs to versatile
               materials, we ensure that every sign reflects your brand’s
@@ -483,16 +483,16 @@ export default function page() {
             <div className="product-sub-container">
               <div className="product-content-container">
                 <div className="product-tag">
-                  Elevate Your Space with The1Source
+                  Elevate Your Space with 1Source
                 </div>
                 <div className="underline"></div>
                 <div className="product-content">
-                  At The1Source, we’re committed to helping businesses in
-                  Michigan stand out with innovative and impactful interior
-                  signage. Whether you’re revamping an office, outfitting a
-                  retail space, or creating a welcoming environment for clients
-                  and employees, our custom solutions ensure your space leaves a
-                  lasting impression.
+                  At1Source, we’re committed to helping businesses in Michigan
+                  stand out with innovative and impactful interior signage.
+                  Whether you’re revamping an office, outfitting a retail space,
+                  or creating a welcoming environment for clients and employees,
+                  our custom solutions ensure your space leaves a lasting
+                  impression.
                 </div>
               </div>
             </div>

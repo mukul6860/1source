@@ -224,7 +224,7 @@ export default function page() {
             <div className="product-banner-description">
               As the world becomes more digitalized, one cannot afford not to
               have an online presence in the current business world. At
-              <b> The1Source</b>, we offer innovative
+              <b> 1Source</b>, we offer innovative
               <b> digital marketing services </b>
               that empower businesses in Michigan, Novi, and beyond to thrive in
               the online world. Whether you’re looking to enhance your search
@@ -278,7 +278,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Social media is more than just posts; it’s about connection.
-                  At <b> The1Source </b>, we provide end-to-end
+                  At <b>1Source </b>, we provide end-to-end
                   <b> social media management services in Michigan </b> to help
                   your brand grow its community. From creating engaging content
                   calendars to analyzing metrics, we ensure every interaction
@@ -332,7 +332,7 @@ export default function page() {
                 <div className="underline"></div>
                 <div className="product-content">
                   Your website is often the first interaction customers have
-                  with your business. At <b> The1Source</b>, we specialize in
+                  with your business. At <b> 1Source</b>, we specialize in
                   <b> website design and development </b> that combines
                   aesthetic appeal with functionality. Our responsive,
                   user-friendly designs ensure visitors stay engaged and convert
@@ -371,7 +371,7 @@ export default function page() {
           </div>
           {/* row end */}
           <div className="content">
-            At <b> The1Source, </b> we’re passionate about delivering measurable
+            At <b>1Source, </b> we’re passionate about delivering measurable
             results and helping your business grow. Explore how our
             <b> digital marketing services in Michigan </b> can transform your
             online presence. <b>Contact us today </b> to get started on your
