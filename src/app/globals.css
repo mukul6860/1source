@@ -52,7 +52,7 @@ a {
   width: 100%;
 }
 .zsiq-hide{
-  display: flex !important;
+  /* display: flex !important; */
 }
 .zsiq-float{
   right: 30px !important;
