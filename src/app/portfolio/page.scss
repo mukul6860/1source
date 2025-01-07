@@ -78,7 +78,7 @@
     height: 100%;
   }
 }
-@media screen and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 780px) {
   .portfolio-banner-container {
     position: relative;
     height: 400px;
@@ -155,7 +155,7 @@
     }
   }
 }
-@media (min-width: 1300px) and (max-width: 2590px) {
+@media (min-width: 1707px) and (max-width: 2590px) {
   .portfolio-banner-container {
     position: relative;
     height: 400px;

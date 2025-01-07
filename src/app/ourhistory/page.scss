@@ -1,4 +1,4 @@
-@media screen and (max-width: 1281px) {
+@media (min-width: 781px) and (max-width: 1706px) {
   .ourhistory-banner-container {
     position: relative;
     height: 400px;
@@ -94,7 +94,7 @@
     z-index: -1;
   }
 }
-@media screen and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 780px) {
   .ourhistory-banner-container {
     position: relative;
     height: 400px;
@@ -186,7 +186,7 @@
   }
 }
 
-@media (min-width: 1300px) and (max-width: 2590px) {
+@media (min-width: 1707px) and (max-width: 2590px) {
   .ourhistory-banner-container {
     position: relative;
     height: 400px;

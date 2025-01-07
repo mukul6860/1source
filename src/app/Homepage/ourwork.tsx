@@ -31,7 +31,7 @@ function OurWork() {
             </Link>
             <Link className="ourwork-card bg7" href="/portfolio">
               <div className="ourwork-card-content">
-                show displays or booths
+                Trade show displays or booths
               </div>
             </Link>
             <Link className="ourwork-card bg8" href="/portfolio">

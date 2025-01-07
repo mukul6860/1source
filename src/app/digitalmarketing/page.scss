@@ -1,4 +1,4 @@
-@media screen and (max-width: 1281px) {
+@media (min-width: 781px) and (max-width: 1706px) {
   .product-banner-container {
     position: relative;
     height: 400px;
@@ -109,7 +109,7 @@
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   }
 }
-@media screen and (max-width: 780px) {
+@media (min-width: 320px) and (max-width: 780px) {
   .product-banner-container {
     position: relative;
     height: 600px;
@@ -230,7 +230,7 @@
   //   flex-direction: row-reverse;
   // }
 }
-@media (min-width: 1300px) and (max-width: 2590px) {
+@media (min-width: 1707px) and (max-width: 2590px) {
   .product-banner-container {
     position: relative;
     height: 400px;

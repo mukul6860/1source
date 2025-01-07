@@ -81,13 +81,13 @@ function footer() {
             <a className="footer-pages" href="/ourhistory">
               About us
             </a>
-            <a className="footer-pages" href="/portfolio">
+            <a className="footer-pages border" href="/portfolio">
               Projects
             </a>
-            <a className="footer-pages" href="/blogs">
+            <a className="footer-pages border" href="/blogs">
               Insight and resources
             </a>
-            <a className="footer-pages" href="/contactus">
+            <a className="footer-pages border" href="/contactus">
               Contact us
             </a>
           </div>
