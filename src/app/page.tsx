@@ -125,7 +125,7 @@ export default function Home() {
               >
                 <a
                   className="btn"
-                  onClick={() => router.push("/digitalmarketing")}
+                  onClick={() => router.push("/digital-marketing")}
                 >
                   Digital marketing
                 </a>

@@ -136,7 +136,7 @@ export default function page() {
                 >
                   <a
                     className="btn"
-                    onClick={() => router.push("/digitalmarketing")}
+                    onClick={() => router.push("/digital-marketing")}
                   >
                     Digital marketing
                   </a>
